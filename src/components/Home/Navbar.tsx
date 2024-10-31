@@ -106,7 +106,7 @@ const Navbar = () => {
               className="flex items-center"
               onClick={(e) => handleScroll(e, "#home")}
             >
-              <span className="text-2xl font-bold text-marine">ATTORNA</span>
+              <span className="text-2xl font-bold text-marine uppercase">cerkezovic</span>
             </Link>
 
             {/* Desktop Navigation */}
