@@ -11,7 +11,7 @@ import StructuredData from "@/components/StructuredData";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://yourdomain.com"),
+  metadataBase: new URL("https://anwaltskanzlei.de"),
   title: {
     default: "Anwaltskanzlei Gür Law Firm",
     template: "%s | Anwaltskanzlei Gür",
@@ -42,15 +42,30 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://yourdomain.com",
+    url: "https://anwaltskanzlei.de",
     title: "Anwaltskanzlei Gür Law Firm",
     description: "Expert legal counsel in traffic and criminal law matters.",
     siteName: "Anwaltskanzlei Gür",
+    images: [
+      {
+        url: "/Anwaltskanzlei_Guer.png",
+        width: 1200,
+        height: 630,
+        alt: "Anwaltskanzlei Gür Law Firm",
+      },
+      {
+        url: "/Anwaltskanzlei_Guer.png",
+        width: 600,
+        height: 600,
+        alt: "Anwaltskanzlei Gür Law Firm",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Anwaltskanzlei Gür Law Firm",
     description: "Expert legal counsel in traffic and criminal law matters.",
+    images: ["/Anwaltskanzlei_Guer.png"],
   },
 };
 
