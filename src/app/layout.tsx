@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Home/Navbar";
 import Footer from "@/components/Home/Footer";
 import CookieConsent from "@/components/CookieConsent";
-import GoogleAnalytics from "@/components/GoogleAnalytics";
+import GoogleAnalyticsWrapper from "@/components/GoogleAnalyticsWrapper";
 import GoogleTagManager from "@/components/GoogleTagManager";
 import StructuredData from "@/components/StructuredData";
 
@@ -66,7 +66,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <GoogleTagManager />
-        <GoogleAnalytics />
+        <GoogleAnalyticsWrapper />
         <Navbar />
         <main className="pt-20">{children}</main>
         <Footer />

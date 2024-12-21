@@ -17,7 +17,6 @@ export default function GoogleAnalytics() {
         url = url + `?${searchParams.toString()}`;
       }
 
-      // Type-safe way to call gtag
       if (typeof window !== "undefined" && window.gtag) {
         window.gtag("config", GA_MEASUREMENT_ID, {
           page_path: url,
