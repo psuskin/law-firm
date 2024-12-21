@@ -68,7 +68,7 @@ const Services = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              {/* Background Image with Enhanced Overlay */}
+              {/* Background Image */}
               <div className="absolute inset-0 z-0">
                 <Image
                   src={service.image}

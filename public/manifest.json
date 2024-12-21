@@ -1,0 +1,21 @@
+{
+  "name": "Anwaltskanzlei Gür Law Firm",
+  "short_name": "Gür Law",
+  "description": "Expert legal counsel in traffic and criminal law matters",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#01274a",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

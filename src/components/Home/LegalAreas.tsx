@@ -5,11 +5,11 @@ import { motion } from "framer-motion";
 import {
   TruckIcon,
   CameraIcon,
-  ScaleIcon, // for traffic criminal law
-  UserGroupIcon, // for general criminal law
+  ScaleIcon, 
+  UserGroupIcon, 
 } from "@heroicons/react/24/outline";
 
-// Define types for our data structure
+
 type ItemWithDescription = {
   subtitle: string;
   description: string;
@@ -27,7 +27,7 @@ type LegalAreaItem = ItemWithDescription | ItemWithSubItems;
 type LegalArea = {
   id: number;
   title: string;
-  icon: any; // We'll improve this type later
+  icon: any; 
   items: LegalAreaItem[];
 };
 

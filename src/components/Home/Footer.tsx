@@ -77,8 +77,75 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section with Large Brand Name */}
-        <div className="pt-8 border-t border-marine/10">
-          <div className="flex flex-col gap-8">
+        <div className="pt-8 border-t border-marine/10 relative overflow-hidden">
+          {/* Background Decorative Elements */}
+          <div className="absolute inset-0 opacity-5">
+            {/* Paragraph Symbol Pattern */}
+            <div className="absolute top-10 right-10 text-[120px] font-serif text-marine rotate-12">
+              §
+            </div>
+            <div className="absolute bottom-20 left-20 text-[80px] font-serif text-marine -rotate-12">
+              §
+            </div>
+
+            {/* Justice Scale Icon */}
+            <motion.div
+              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 opacity-10"
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 0.1, scale: 1 }}
+              transition={{ duration: 1 }}
+            >
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                className="w-full h-full text-marine"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="1"
+                  d="M12 3L3 10h18l-9-7zM12 3v18M3 10v2a9 9 0 0018 0v-2"
+                />
+              </svg>
+            </motion.div>
+
+            {/* German Eagle Silhouette */}
+            <motion.div
+              className="absolute top-0 right-0 w-64 h-64 opacity-5"
+              initial={{ opacity: 0, y: -20 }}
+              whileInView={{ opacity: 0.05, y: 0 }}
+              transition={{ duration: 1, delay: 0.3 }}
+            >
+              <svg
+                viewBox="0 0 100 100"
+                fill="currentColor"
+                className="w-full h-full text-marine"
+              >
+                {/* Simplified German Federal Eagle silhouette */}
+                <path d="M50 20c-5 0-10 2-15 6-10 8-15 20-15 30 0 15 10 25 30 25s30-10 30-25c0-10-5-22-15-30-5-4-10-6-15-6z" />
+              </svg>
+            </motion.div>
+
+            {/* Geometric Pattern */}
+            <div className="absolute inset-0 opacity-5">
+              <div className="absolute top-0 left-0 w-full h-full">
+                <div className="w-full h-full grid grid-cols-8 gap-4">
+                  {Array.from({ length: 64 }).map((_, i) => (
+                    <motion.div
+                      key={i}
+                      className="w-full h-8 bg-marine/10"
+                      initial={{ opacity: 0, scale: 0.8 }}
+                      whileInView={{ opacity: 1, scale: 1 }}
+                      transition={{ delay: i * 0.01 }}
+                    />
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-8 relative z-10">
             {/* Large Brand Name */}
             <motion.div
               className="text-[4rem] md:text-[6rem] lg:text-[8rem] font-bold tracking-tight leading-none overflow-hidden"
@@ -87,10 +154,11 @@ const Footer = () => {
               viewport={{ once: true }}
             >
               {/* First Word with Initial Gold Letter */}
-              <div className="flex flex-wrap">
-                {"Čerkezović".split("").map((letter, index) => (
+              <div className="flex flex-wrap items-baseline">
+                {/* Split "Anwaltskanzlei" and "Gür" */}
+                {"Anwaltskanzlei".split("").map((letter, index) => (
                   <motion.span
-                    key={index}
+                    key={`first-${index}`}
                     variants={letterAnimation}
                     transition={{ delay: index * 0.05 }}
                     className={`hover:text-gold transition-colors duration-300 ${
@@ -100,14 +168,38 @@ const Footer = () => {
                     {letter}
                   </motion.span>
                 ))}
+                {/* Add space */}
+                <motion.span
+                  variants={letterAnimation}
+                  transition={{ delay: "Anwaltskanzlei".length * 0.05 }}
+                  className="w-[0.5em]"
+                >
+                  &nbsp;
+                </motion.span>
+                {/* "Gür" part */}
+                {"Gür".split("").map((letter, index) => (
+                  <motion.span
+                    key={`second-${index}`}
+                    variants={letterAnimation}
+                    transition={{
+                      delay: ("Anwaltskanzlei".length + 1 + index) * 0.05,
+                    }}
+                    className="text-marine hover:text-gold transition-colors duration-300"
+                  >
+                    {letter}
+                  </motion.span>
+                ))}
               </div>
+
               {/* Second Line */}
               <div className="flex flex-wrap">
                 {"Law Firm".split("").map((letter, index) => (
                   <motion.span
-                    key={index}
+                    key={`law-firm-${index}`}
                     variants={letterAnimation}
-                    transition={{ delay: (index + 10) * 0.05 }}
+                    transition={{
+                      delay: ("Anwaltskanzlei Gür".length + 1 + index) * 0.05,
+                    }}
                     className="text-marine hover:text-gold transition-colors duration-300"
                   >
                     {letter === " " ? "\u00A0" : letter}
@@ -147,8 +239,8 @@ const Footer = () => {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.5 }}
               >
-                © {new Date().getFullYear()} All rights reserved to Čerkezović
-                Law Firm.
+                © {new Date().getFullYear()} All rights reserved to
+                Anwaltskanzlei Gür Law Firm.
               </motion.p>
             </div>
           </div>

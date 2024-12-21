@@ -22,14 +22,14 @@ const TermsPage = () => {
               General Terms
             </h2>
             <p>
-              These terms of service outline the rules and regulations for the use of Čerkezović Law Firm&apos;s website and services.
+              These terms of service outline the rules and regulations for the use of Anwaltskanzlei Gür Law Firm&apos;s website and services.
             </p>
 
             <h2 className="text-2xl font-semibold text-marine mt-8 mb-4">
               Intellectual Property
             </h2>
             <p>
-              All content on this website, including but not limited to text, graphics, logos, images, and software, is the property of Čerkezović Law Firm and is protected by intellectual property laws.
+              All content on this website, including but not limited to text, graphics, logos, images, and software, is the property of Anwaltskanzlei Gür Law Firm and is protected by intellectual property laws.
             </p>
           </div>
         </motion.div>

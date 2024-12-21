@@ -41,7 +41,7 @@ const AboutMe = () => {
               <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
                 <Image
                   src="/lawyer-image.jpg"
-                  alt="Mirnes Čerkezović"
+                  alt="Mirnes Anwaltskanzlei_Gür"
                   fill
                   className="object-cover"
                 />
@@ -58,7 +58,7 @@ const AboutMe = () => {
                 transition={{ delay: 0.3, duration: 0.6 }}
               >
                 <h3 className="text-lg md:text-xl font-semibold text-marine whitespace-nowrap">
-                  Mirnes Čerkezović
+                  Anwaltskanzlei Gür
                 </h3>
                 <p className="text-center text-marine/70 text-sm">lawyer</p>
               </motion.div>
