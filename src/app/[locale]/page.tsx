@@ -6,8 +6,10 @@ import Advantages from "@/components/Home/Advantages";
 import AboutMe from "@/components/Home/AboutMe";
 import VideoTour from "@/components/Home/VideoTour";
 import Contact from "@/components/Home/Contact";
+import { unstable_setRequestLocale } from "next-intl/server";
 
-const Home = () => {
+const Home = ({ params: { locale } }: { params: { locale: string } }) => {
+  unstable_setRequestLocale(locale);
   return (
     <div>
       <section id="home">

@@ -5,10 +5,16 @@ import { motion } from "framer-motion";
 import ContactInfo from "./ContactInfo";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
-import { validateForm, type FormData, type ValidationErrors } from "@/utils/validateForm";
+import {
+  validateForm,
+  type FormData,
+  type ValidationErrors,
+} from "@/utils/validateForm";
 import SuccessMessage from "@/components/ui/SuccessMessage";
+import { useTranslations } from "next-intl";
 
 const Contact = () => {
+  const t = useTranslations("contact");
   const [userCountry, setUserCountry] = useState("de");
   const [isLoading, setIsLoading] = useState(true);
   const [formData, setFormData] = useState<FormData>({
@@ -35,7 +41,8 @@ const Contact = () => {
           try {
             const response = await fetch(api);
             const data = await response.json();
-            const countryCode = data.country_code || data.country || data.countryCode;
+            const countryCode =
+              data.country_code || data.country || data.countryCode;
 
             if (countryCode) {
               setUserCountry(countryCode.toLowerCase());
@@ -57,21 +64,21 @@ const Contact = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     const validationErrors = validateForm(formData);
     setErrors(validationErrors);
-    
+
     if (Object.keys(validationErrors).length > 0) return;
 
     setIsSubmitting(true);
-    
+
     try {
       console.log("Form Data:", formData);
-      await new Promise(resolve => setTimeout(resolve, 1000)); 
-      
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+
       // Show success message
       setShowSuccess(true);
-      
+
       // Reset form
       setFormData({
         firstName: "",
@@ -80,7 +87,7 @@ const Contact = () => {
         phone: "",
         message: "",
       });
-      
+
       // Hide success message after 5 seconds
       setTimeout(() => {
         setShowSuccess(false);
@@ -92,24 +99,26 @@ const Contact = () => {
     }
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
+    setFormData((prev) => ({ ...prev, [name]: value }));
     // Clear error when user starts typing
     if (errors[name as keyof FormData]) {
-      setErrors(prev => ({ ...prev, [name]: undefined }));
+      setErrors((prev) => ({ ...prev, [name]: undefined }));
     }
   };
 
   return (
     <section className="py-24 bg-marine-light">
       {/* Success Message */}
-      <SuccessMessage 
-        message="Your message has been sent successfully!"
+      <SuccessMessage
+        message={t("form.success")}
         isVisible={showSuccess}
         onClose={() => setShowSuccess(false)}
       />
-      
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -121,12 +130,9 @@ const Contact = () => {
           {/* Header */}
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-marine mb-4">
-            Make an appointment
+              {t("title")}
             </h2>
-            <p className="text-marine/70">
-              Law is a complex matter that can lead to significant problems if
-              disregarded. Allow us to assist you!
-            </p>
+            <p className="text-marine/70">{t("subtitle")}</p>
           </div>
 
           {/* Form */}
@@ -144,13 +150,15 @@ const Contact = () => {
                     name="firstName"
                     value={formData.firstName}
                     onChange={handleChange}
-                    placeholder="First name *"
+                    placeholder={t("form.firstName.placeholder")}
                     className={`w-full px-0 py-3 bg-transparent border-b-2 ${
-                      errors.firstName ? 'border-red-500' : 'border-marine/20'
+                      errors.firstName ? "border-red-500" : "border-marine/20"
                     } focus:border-marine placeholder:text-marine/40 text-marine outline-none transition-all duration-200`}
                   />
                   {errors.firstName && (
-                    <p className="mt-1 text-sm text-red-500">{errors.firstName}</p>
+                    <p className="mt-1 text-sm text-red-500">
+                      {t("form.firstName.error")}
+                    </p>
                   )}
                 </div>
                 <div>
@@ -159,13 +167,15 @@ const Contact = () => {
                     name="lastName"
                     value={formData.lastName}
                     onChange={handleChange}
-                    placeholder="Last name *"
+                    placeholder={t("form.lastName.placeholder")}
                     className={`w-full px-0 py-3 bg-transparent border-b-2 ${
-                      errors.lastName ? 'border-red-500' : 'border-marine/20'
+                      errors.lastName ? "border-red-500" : "border-marine/20"
                     } focus:border-marine placeholder:text-marine/40 text-marine outline-none transition-all duration-200`}
                   />
                   {errors.lastName && (
-                    <p className="mt-1 text-sm text-red-500">{errors.lastName}</p>
+                    <p className="mt-1 text-sm text-red-500">
+                      {t("form.lastName.error")}
+                    </p>
                   )}
                 </div>
               </div>
@@ -177,13 +187,15 @@ const Contact = () => {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder="E-mail *"
+                  placeholder={t("form.email.placeholder")}
                   className={`w-full px-0 py-3 bg-transparent border-b-2 ${
-                    errors.email ? 'border-red-500' : 'border-marine/20'
+                    errors.email ? "border-red-500" : "border-marine/20"
                   } focus:border-marine placeholder:text-marine/40 text-marine outline-none transition-all duration-200`}
                 />
                 {errors.email && (
-                  <p className="mt-1 text-sm text-red-500">{errors.email}</p>
+                  <p className="mt-1 text-sm text-red-500">
+                    {t("form.email.error")}
+                  </p>
                 )}
               </div>
 
@@ -194,11 +206,12 @@ const Contact = () => {
                     country={userCountry}
                     value={formData.phone}
                     onChange={(phone) => {
-                      setFormData(prev => ({ ...prev, phone }));
+                      setFormData((prev) => ({ ...prev, phone }));
                       if (errors.phone) {
-                        setErrors(prev => ({ ...prev, phone: undefined }));
+                        setErrors((prev) => ({ ...prev, phone: undefined }));
                       }
                     }}
+                    placeholder={t("form.phone.placeholder")}
                     containerClass="phone-input-container"
                     inputClass="phone-input"
                     buttonClass="country-dropdown"
@@ -232,7 +245,9 @@ const Contact = () => {
                   />
                 )}
                 {errors.phone && (
-                  <p className="mt-1 text-sm text-red-500">{errors.phone}</p>
+                  <p className="mt-1 text-sm text-red-500">
+                    {t("form.phone.error")}
+                  </p>
                 )}
               </div>
 
@@ -242,14 +257,16 @@ const Contact = () => {
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
-                  placeholder="Your concern (e.g. traffic accident, driving ban, compensation for pain and suffering)"
+                  placeholder={t("form.message.placeholder")}
                   rows={4}
                   className={`w-full px-0 py-3 bg-transparent border-b-2 ${
-                    errors.message ? 'border-red-500' : 'border-marine/20'
+                    errors.message ? "border-red-500" : "border-marine/20"
                   } focus:border-marine placeholder:text-marine/40 text-marine outline-none transition-all duration-200 resize-none`}
                 />
                 {errors.message && (
-                  <p className="mt-1 text-sm text-red-500">{errors.message}</p>
+                  <p className="mt-1 text-sm text-red-500">
+                    {t("form.message.error")}
+                  </p>
                 )}
               </div>
 
@@ -263,14 +280,14 @@ const Contact = () => {
               >
                 {/* Button Background with Gradient */}
                 <div className="absolute inset-0 bg-gradient-to-r from-gold via-gold to-gold opacity-90" />
-                
+
                 {/* Animated Background Layer */}
                 <motion.div
                   className="absolute inset-0 bg-white"
-                  initial={{ x: '-100%' }}
+                  initial={{ x: "-100%" }}
                   variants={{
-                    initial: { x: '-100%', opacity: 0.1 },
-                    hover: { x: '100%', opacity: 0.2 }
+                    initial: { x: "-100%", opacity: 0.1 },
+                    hover: { x: "100%", opacity: 0.2 },
                   }}
                   transition={{ duration: 0.5 }}
                 />
@@ -285,36 +302,36 @@ const Contact = () => {
                           className="w-2 h-2 rounded-full bg-marine"
                           animate={{
                             y: [0, -8, 0],
-                            scale: [1, 0.8, 1]
+                            scale: [1, 0.8, 1],
                           }}
                           transition={{
                             duration: 0.8,
                             repeat: Infinity,
-                            delay: 0
+                            delay: 0,
                           }}
                         />
                         <motion.span
                           className="w-2 h-2 rounded-full bg-marine"
                           animate={{
                             y: [0, -8, 0],
-                            scale: [1, 0.8, 1]
+                            scale: [1, 0.8, 1],
                           }}
                           transition={{
                             duration: 0.8,
                             repeat: Infinity,
-                            delay: 0.2
+                            delay: 0.2,
                           }}
                         />
                         <motion.span
                           className="w-2 h-2 rounded-full bg-marine"
                           animate={{
                             y: [0, -8, 0],
-                            scale: [1, 0.8, 1]
+                            scale: [1, 0.8, 1],
                           }}
                           transition={{
                             duration: 0.8,
                             repeat: Infinity,
-                            delay: 0.4
+                            delay: 0.4,
                           }}
                         />
                       </div>
@@ -324,20 +341,20 @@ const Contact = () => {
                     </div>
                   ) : (
                     <span className="font-semibold text-marine">
-                      SUBMIT NOW
+                      {t("form.submit")}
                     </span>
                   )}
                 </div>
 
                 {/* Animated Border */}
                 <div className="absolute inset-0 border-2 border-gold rounded-md" />
-                
+
                 {/* Shine Effect */}
                 <motion.div
                   className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0"
                   variants={{
-                    initial: { opacity: 0, x: '-100%' },
-                    hover: { opacity: 0.2, x: '100%' }
+                    initial: { opacity: 0, x: "-100%" },
+                    hover: { opacity: 0.2, x: "100%" },
                   }}
                   transition={{ duration: 0.5 }}
                 />

@@ -3,17 +3,20 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { PlayIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { useTranslations } from "next-intl";
 
 const VideoTour = () => {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
+  const t = useTranslations("videoTour");
 
   return (
     <section className="relative min-h-[90vh] w-full overflow-hidden">
       {/* Background Image */}
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1000")'
+          backgroundImage:
+            'url("https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1000")',
         }}
       >
         {/* Dark Overlay with more sophisticated gradient */}
@@ -38,22 +41,22 @@ const VideoTour = () => {
             >
               {/* Multiple Outer Rings */}
               {[...Array(3)].map((_, i) => (
-                <motion.div 
+                <motion.div
                   key={i}
                   className="absolute -inset-4 rounded-full border border-white/20"
                   animate={{
                     scale: [1, 1.5, 1],
-                    opacity: [0.5, 0, 0.5]
+                    opacity: [0.5, 0, 0.5],
                   }}
                   transition={{
                     duration: 2,
                     delay: i * 0.4,
                     repeat: Infinity,
-                    ease: "easeInOut"
+                    ease: "easeInOut",
                   }}
                 />
               ))}
-              
+
               {/* Play Button Circle */}
               <div className="relative w-24 h-24 rounded-full bg-gold/90 backdrop-blur-sm flex items-center justify-center transition-all duration-300 group-hover:bg-white">
                 <PlayIcon className="w-10 h-10 text-marine transition-colors duration-300" />
@@ -61,21 +64,21 @@ const VideoTour = () => {
             </motion.button>
 
             <div className="space-y-6">
-              <motion.h2 
+              <motion.h2
                 className="text-5xl md:text-6xl font-bold text-white"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.2 }}
               >
-                Take a Tour
+                {t("title")}
               </motion.h2>
-              <motion.p 
+              <motion.p
                 className="text-white/90 text-lg max-w-2xl mx-auto leading-relaxed"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.3 }}
               >
-                We can provide corporate governance, helping clients manage the responsibilities of running a corporation in financial field.
+                {t("description")}
               </motion.p>
             </div>
           </motion.div>
@@ -87,9 +90,9 @@ const VideoTour = () => {
         {isVideoOpen && (
           <motion.div
             className="fixed inset-0 z-50 flex items-center justify-center p-4 md:p-8"
-            initial={{ opacity: 0, backdropFilter: 'blur(0px)' }}
-            animate={{ opacity: 1, backdropFilter: 'blur(8px)' }}
-            exit={{ opacity: 0, backdropFilter: 'blur(0px)' }}
+            initial={{ opacity: 0, backdropFilter: "blur(0px)" }}
+            animate={{ opacity: 1, backdropFilter: "blur(8px)" }}
+            exit={{ opacity: 0, backdropFilter: "blur(0px)" }}
           >
             {/* Modal Backdrop */}
             <div className="absolute inset-0 bg-marine/95" />

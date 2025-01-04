@@ -4,8 +4,10 @@ import React from "react";
 import { motion } from "framer-motion";
 import Button from "@/components/ui/Button";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const Hero = () => {
+  const t = useTranslations("hero");
   const fadeUpVariant = {
     hidden: { opacity: 0, y: 20 },
     visible: {
@@ -55,37 +57,38 @@ const Hero = () => {
               className="text-marine font-medium mb-6 tracking-wider uppercase"
               variants={fadeUpVariant}
             >
-              Law Firm for Traffic and Criminal Law
+              {t("upperTitle")}
             </motion.p>
 
             <motion.h1
               className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-marine mb-8 leading-tight"
               variants={fadeUpVariant}
             >
-              Anwaltskanzlei <span className="text-gold">Gür</span>
+              {t("nameTitle1")} <span className="text-gold">{t("nameTitle2")}</span>
             </motion.h1>
 
             <motion.p
               className="text-marine/80 text-lg lg:text-xl mb-12 leading-relaxed max-w-2xl"
               variants={fadeUpVariant}
             >
-              Your competent legal counsel in matters of traffic and criminal
-              law. Professional representation with years of experience.
+              {t("subtitle")}
             </motion.p>
 
             <motion.div
               className="flex flex-wrap gap-6"
               variants={fadeUpVariant}
             >
-              <Button variant="primary" size="lg">
-                Schedule Consultation
+              <Button variant="primary" size="lg" 
+              onClick={() => handleScroll("contact")}
+              >
+                {t("scheduleConsultation")}
               </Button>
               <Button
                 variant="secondary"
                 size="lg"
                 onClick={() => handleScroll("about")}
               >
-                Learn More
+                {t("learnMore")}
               </Button>
             </motion.div>
           </motion.div>

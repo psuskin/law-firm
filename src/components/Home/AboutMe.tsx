@@ -4,8 +4,11 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { BriefcaseIcon, AcademicCapIcon } from "@heroicons/react/24/outline";
+import { useTranslations } from "next-intl";
 
 const AboutMe = () => {
+  const t = useTranslations("aboutMe");
+
   return (
     <section className="py-32 bg-gradient-to-b from-white to-marine-light/30">
       <div className="container mx-auto px-4">
@@ -18,7 +21,7 @@ const AboutMe = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-marine mb-2">
-            About me
+            {t("title")}
           </h2>
         </motion.div>
 
@@ -49,7 +52,7 @@ const AboutMe = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-marine/20 to-transparent" />
               </div>
 
-              {/* Name Tag - Adjusted for mobile */}
+              {/* Name Tag */}
               <motion.div
                 className="absolute -bottom-6 md:-bottom-8 left-1/3 lg:left-1/2 -translate-x-1/2 bg-gold px-6 md:px-8 py-3 md:py-4 rounded-full shadow-elegant"
                 initial={{ y: 20, opacity: 0 }}
@@ -58,9 +61,11 @@ const AboutMe = () => {
                 transition={{ delay: 0.3, duration: 0.6 }}
               >
                 <h3 className="text-lg md:text-xl font-semibold text-marine whitespace-nowrap">
-                  Anwaltskanzlei Gür
+                  {t("nameTag.title")}
                 </h3>
-                <p className="text-center text-marine/70 text-sm">lawyer</p>
+                <p className="text-center text-marine/70 text-sm">
+                  {t("nameTag.subtitle")}
+                </p>
               </motion.div>
             </motion.div>
 
@@ -80,19 +85,16 @@ const AboutMe = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold text-marine mb-4">
-                      Education
+                      {t("education.title")}
                     </h3>
                     <p className="text-marine/70 leading-relaxed">
-                      I completed the first state examination at the University
-                      of Hamburg and the second state examination at the
-                      Schleswig Higher Regional Court, Kiel Regional Court
-                      District.
+                      {t("education.description")}
                     </p>
                   </div>
                 </div>
               </motion.div>
 
-              {/* Experience Sections */}
+              {/* Experience Section */}
               <motion.div
                 initial={{ opacity: 0, x: 20 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -107,25 +109,23 @@ const AboutMe = () => {
                   <div className="space-y-6">
                     <div>
                       <h3 className="text-xl font-semibold text-marine mb-4">
-                        Professional Experience
+                        {t("experience.title")}
                       </h3>
                       <div className="space-y-4">
-                        {[
-                          "I focused on traffic and criminal law early on and acquired in-depth knowledge of these legal areas during my studies and legal traineeship. The carefully selected stations during my legal traineeship also contributed to this.",
-                          "My work at the Kiel public prosecutor's office during my legal traineeship also gave me an insight into the work and approach of the opposing side. This means that I can predict certain behaviors of the public prosecutor's office and enable me to prepare an effective defense.",
-                          "As part of my legal and elective internship, I completed this with a renowned criminal defense attorney and a specialist lawyer for traffic law.",
-                        ].map((text, index) => (
-                          <motion.p
-                            key={index}
-                            initial={{ opacity: 0, y: 10 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ delay: 0.3 + index * 0.1 }}
-                            className="text-marine/70 leading-relaxed"
-                          >
-                            {text}
-                          </motion.p>
-                        ))}
+                        {t
+                          .raw("experience.items")
+                          .map((text: string, index: number) => (
+                            <motion.p
+                              key={index}
+                              initial={{ opacity: 0, y: 10 }}
+                              whileInView={{ opacity: 1, y: 0 }}
+                              viewport={{ once: true }}
+                              transition={{ delay: 0.3 + index * 0.1 }}
+                              className="text-marine/70 leading-relaxed"
+                            >
+                              {text}
+                            </motion.p>
+                          ))}
                       </div>
                     </div>
                   </div>

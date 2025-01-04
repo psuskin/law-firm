@@ -1,0 +1,499 @@
+{
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "legalAreas": "Legal Areas",
+    "advantages": "Advantages",
+    "aboutMe": "About Me",
+    "contact": "Contact",
+    "freeConsultation": "FREE CONSULTATION"
+  },
+  "hero": {
+    "upperTitle": "Law Firm for Traffic and Criminal Law",
+    "nameTitle1": "Anwaltskanzlei",
+    "nameTitle2": "Gür",
+    "subtitle": "Your competent legal counsel in matters of traffic and criminal law.",
+    "description": "Professional representation with years of experience.",
+    "scheduleConsultation": "Schedule Consultation",
+    "learnMore": "Learn More"
+  },
+  "not-found": {
+    "title": "Page Not Found",
+    "description": "The page you&apos;re looking for doesn&apos;t exist or has been moved.",
+    "button": "Go to Homepage"
+  },
+  "advantages": {
+    "title": "Advantages",
+    "subtitle": "The reasons why I am the right contact for you.",
+    "items": {
+      "multilingual": {
+        "title": "Multilingual legal advice",
+        "description": "In addition to German, I also advise you in Bosnian, Serbian, Croatian and English."
+      },
+      "expertise": {
+        "title": "Technical expertise",
+        "description": "My focus is on traffic and criminal law, which allows me to develop a solution tailored to your needs."
+      },
+      "processing": {
+        "title": "Fast processing",
+        "description": "By using various digital tools, I can handle your legal matter efficiently and quickly."
+      },
+      "transparency": {
+        "title": "Cost transparency",
+        "description": "I will inform you in advance about the costs involved and, if necessary, obtain a confirmation of coverage from your legal expenses insurance in advance."
+      },
+      "assessment": {
+        "title": "Free initial assessment",
+        "description": "Use the contact form to describe your concerns to receive a free initial assessment."
+      },
+      "accessibility": {
+        "title": "High accessibility",
+        "description": "I offer a variety of contact options. You can reach me by phone or email or arrange a callback."
+      }
+    }
+  },
+  "services": {
+    "title": "Your contact in legal matters",
+    "description": "Whether it's about settling an accident, a fine or defending yourself in criminal proceedings, I'm here to help you. Select the topic that applies to you below and follow the further instructions.",
+    "items": {
+      "traffic_accident": {
+        "title": "Traffic Accident",
+        "description": "You were involved in a traffic accident and would like to claim compensation?",
+        "action": "Then fill out the accident questionnaire and I will take care of it for you.",
+        "buttonText": "Accident questionnaire"
+      },
+      "fine_notice": {
+        "title": "Fine Notice",
+        "description": "Have you received a fine and are you facing points on your license or a driving ban?",
+        "action": "Then click on the fine notice button and upload the fine notice, which we will then check for legality.",
+        "buttonText": "Fine notice"
+      },
+      "criminal_proceedings": {
+        "title": "Criminal Proceedings",
+        "description": "Are you being investigated criminally or have you been summoned by the police?",
+        "action": "Make an appointment for me to listen to your version of events, explain the next steps, and prepare an appropriate defense strategy.",
+        "buttonText": "Make an appointment"
+      }
+    }
+  },
+  "legalAreas": {
+    "title": "Legal Areas",
+    "areas": {
+      "traffic_civil_law": {
+        "title": "Traffic Civil Law",
+        "items": {
+          "accident_settlement": {
+            "title": "Accident settlement",
+            "description": "I will take over the complete communication with the opposing insurance company and the experts in order to successfully enforce your claims."
+          },
+          "damage_claims": {
+            "title": "Damage claims",
+            "description": "I enforce all relevant damage claims, including property damage, personal injury and loss of use."
+          },
+          "comprehensive_insurance": {
+            "title": "Comprehensive insurance claims",
+            "description": "In the event of comprehensive insurance claims, I represent your interests vis-à-vis your own insurance company."
+          },
+          "vehicle_purchase": {
+            "title": "Vehicle purchase",
+            "description": "If you were deceived when purchasing a vehicle or important information was withheld, I will support you in withdrawing from the contract."
+          },
+          "car_leasing": {
+            "title": "Car leasing",
+            "description": "I resolve conflicts in car leasing contracts competently and represent your interests towards the lessor."
+          },
+          "car_repairs": {
+            "title": "Car repair shops",
+            "description": "I will be at your side in legal disputes with car repair shops."
+          }
+        }
+      },
+      "fines_administrative": {
+        "title": "Fines and Administrative Proceedings",
+        "items": {
+          "fines": {
+            "title": "Fines",
+            "description": "I check the legality of fines, be it for speeding, distance violations or red light violations."
+          },
+          "points_bans": {
+            "title": "Points in Flensburg and driving bans",
+            "description": "In the case of serious violations that could lead to points in Flensburg or driving bans, I will check the likelihood of success of an appeal, especially if your driving license is essential for private or professional purposes."
+          },
+          "license_revocation": {
+            "title": "Revocation of driving license",
+            "description": "After a certain number of points, your driving license may be revoked. I will support you in this process."
+          },
+          "mpu": {
+            "title": "Medical-psychological examination (MPU)",
+            "description": "If there are doubts about your ability to drive, for example due to drug or alcohol consumption, I will help you with a possible MPU requirement."
+          },
+          "logbook": {
+            "title": "Avoiding logbook requirements",
+            "description": "I am committed to avoiding logbook requirements and to successfully representing your interests."
+          }
+        }
+      },
+      "traffic_criminal_law": {
+        "title": "Traffic Criminal Law",
+        "items": {
+          "dui": {
+            "title": "Drunkenness/drugs in traffic",
+            "description": "Expert defense in cases involving driving under the influence of alcohol or drugs."
+          },
+          "bodily_harm": {
+            "title": "Bodily harm",
+            "description": "Representation in cases of traffic accidents resulting in personal injury."
+          },
+          "negligent_homicide": {
+            "title": "Negligent homicide",
+            "description": "Sensitive and professional handling of fatal traffic accident cases."
+          },
+          "hit_and_run": {
+            "title": "Hit and run",
+            "description": "Strategic defense in cases of leaving the scene of an accident."
+          },
+          "traffic_hazard": {
+            "title": "Road traffic hazard",
+            "description": "Defense against charges of endangering road traffic safety."
+          },
+          "no_insurance": {
+            "title": "Driving without insurance",
+            "description": "Legal support in cases of uninsured driving violations."
+          },
+          "no_license": {
+            "title": "Driving without a license",
+            "description": "Defense strategies for driving without proper licensing."
+          }
+        }
+      },
+      "general_criminal_law": {
+        "title": "General Criminal Law",
+        "items": {
+          "comprehensive_advice": {
+            "title": "Comprehensive advice",
+            "description": "Whether it's about investigations, police summons, arrests or charges, I'll be at your side from the start. Together we'll develop a tailor-made defense strategy."
+          },
+          "court_representation": {
+            "title": "Representation in Court",
+            "description": "Should the case go to court, I will represent your interests with professionalism and determination. I know the legal system and work hard to present your side of the story."
+          },
+          "evidence_analysis": {
+            "title": "Evidence Analysis",
+            "description": "I carefully examine all evidence and information related to your case to identify and exploit potential weaknesses in the prosecution."
+          },
+          "early_termination": {
+            "title": "Early termination of proceedings",
+            "description": "Where possible, I will try to have the criminal proceedings against you terminated before charges are brought."
+          }
+        }
+      }
+    }
+  },
+  "aboutMe": {
+    "title": "About me",
+    "nameTag": {
+      "title": "Anwaltskanzlei Gür",
+      "subtitle": "lawyer"
+    },
+    "education": {
+      "title": "Education",
+      "description": "I completed the first state examination at the University of Hamburg and the second state examination at the Schleswig Higher Regional Court, Kiel Regional Court District."
+    },
+    "experience": {
+      "title": "Professional Experience",
+      "items": [
+        "I focused on traffic and criminal law early on and acquired in-depth knowledge of these legal areas during my studies and legal traineeship. The carefully selected stations during my legal traineeship also contributed to this.",
+        "My work at the Kiel public prosecutor's office during my legal traineeship also gave me an insight into the work and approach of the opposing side. This means that I can predict certain behaviors of the public prosecutor's office and enable me to prepare an effective defense.",
+        "As part of my legal and elective internship, I completed this with a renowned criminal defense attorney and a specialist lawyer for traffic law."
+      ]
+    }
+  },
+  "videoTour": {
+    "title": "Take a Tour",
+    "description": "We can provide corporate governance, helping clients manage the responsibilities of running a corporation in financial field."
+  },
+  "contact": {
+    "title": "Make an appointment",
+    "subtitle": "Law is a complex matter that can lead to significant problems if disregarded. Allow us to assist you!",
+    "form": {
+      "firstName": {
+        "placeholder": "First name *",
+        "error": "First name is required"
+      },
+      "lastName": {
+        "placeholder": "Last name *",
+        "error": "Last name is required"
+      },
+      "email": {
+        "placeholder": "E-mail *",
+        "error": "Please enter a valid email address"
+      },
+      "phone": {
+        "placeholder": "Phone number",
+        "error": "Please enter a valid phone number"
+      },
+      "message": {
+        "placeholder": "Your concern (e.g. traffic accident, driving ban, compensation for pain and suffering)",
+        "error": "Message is required"
+      },
+      "submit": "Send Message",
+      "success": "Your message has been sent successfully!"
+    },
+    "info": {
+      "location": {
+        "title": "Location",
+        "lines": ["Bei den Mühren 70", "20457 Hamburg"]
+      },
+      "phone": {
+        "title": "Phone",
+        "lines": ["(040) 638 622 39"]
+      },
+      "fax": {
+        "title": "Fax",
+        "lines": ["(040) 334 824 08"]
+      },
+      "email": {
+        "title": "E-mail",
+        "lines": ["info@kanzlei-cerkezovic.de"]
+      },
+      "availability": {
+        "title": "Telephone availability",
+        "lines": ["Monday–Friday", "09:00 am – 06:00 pm"]
+      }
+    }
+  },
+  "footer": {
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    },
+    "legal": {
+      "imprint": "Imprint",
+      "dataProtection": "Data Protection",
+      "terms": "Terms of Service"
+    },
+    "contact": {
+      "email": "info@kanzlei-cerkezovic.de",
+      "phone": "(040) 638 622 39"
+    },
+    "brand": {
+      "firstWord": "Anwaltskanzlei",
+      "secondWord": "Gür",
+      "subtitle": "Law Firm"
+    },
+    "copyright": "© {year} All rights reserved to Anwaltskanzlei Gür Law Firm."
+  },
+  "imprint": {
+    "title": "Imprint",
+    "legalInfo": {
+      "title": "Information according to § 5 TMG",
+      "name": "Anwaltskanzlei Cerkezovic",
+      "owner": "Mirnes Cerkezovic",
+      "address": {
+        "street": "Bei den Mühren 70",
+        "city": "20457 Hamburg"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "+49 40 638 622 39",
+      "email": "info@kanzlei-cerkezovic.de"
+    },
+    "supervisory": {
+      "title": "Supervisory Authority",
+      "name": "Hamburg Bar Association",
+      "address": {
+        "street": "Valentinskamp 88",
+        "city": "20355 Hamburg"
+      },
+      "website": "https://www.rak-hamburg.de/"
+    },
+    "professional": {
+      "title": "Professional Title and Regulations",
+      "designation": {
+        "title": "Professional Title:",
+        "value": "Attorney at Law"
+      },
+      "chamber": {
+        "title": "Responsible Chamber:",
+        "name": "Hamburg Bar Association",
+        "address": {
+          "street": "Valentinskamp 88",
+          "city": "20355 Hamburg"
+        }
+      },
+      "issuedIn": {
+        "title": "Issued in:",
+        "value": "Germany"
+      },
+      "regulations": {
+        "title": "The following professional regulations apply:",
+        "items": [
+          {
+            "name": "Federal Lawyers' Act (BRAO)",
+            "link": "https://www.brak.de/"
+          },
+          {
+            "name": "Federal Lawyers' Fee Schedule (BRAGO)",
+            "link": "https://www.brak.de/"
+          },
+          {
+            "name": "Lawyers' Remuneration Act (RVG)",
+            "link": "https://www.brak.de/"
+          },
+          {
+            "name": "Professional Code of Conduct for Lawyers (BORA)",
+            "link": "https://www.brak.de/"
+          }
+        ]
+      }
+    },
+    "insurance": {
+      "title": "Professional Liability Insurance Information",
+      "insurer": {
+        "title": "Name and Address of Insurer:",
+        "name": "Markel Insurance SE",
+        "address": {
+          "street": "Sophienstraße 26",
+          "city": "80333 München"
+        }
+      },
+      "coverage": {
+        "title": "Insurance Coverage Area:",
+        "value": "Germany"
+      }
+    },
+    "disputes": {
+      "title": "Consumer Dispute Resolution/Universal Arbitration Board",
+      "text": "We are not willing or obligated to participate in dispute resolution proceedings before a consumer arbitration board."
+    }
+  },
+  "dataProtection": {
+    "title": "Data Protection",
+    "sections": [
+      {
+        "title": "1. General Information",
+        "content": "The operators of these pages take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the statutory data protection regulations and this privacy policy. You can find detailed information on the subject of data protection in the following content:"
+      },
+      {
+        "title": "2. Responsible Party",
+        "content": "The responsible party for data processing on this website is:",
+        "details": [
+          "Mirnes Cerkezovic",
+          "Bei den Mühren 70",
+          "20457 Hamburg",
+          "Phone: 040 35 77 42 61",
+          "Email: info@kanzlei-cerkezovic.de"
+        ]
+      },
+      {
+        "title": "3. Collection and Storage of Personal Data",
+        "content": "Every time our website is accessed, information is automatically transmitted to our website's server by the browser you are using. The following information is collected and stored until automatic deletion:",
+        "items": [
+          "IP address of the requesting computer,",
+          "Date and time of access,",
+          "Name and URL of the retrieved file,",
+          "The referrer URL, i.e., the website from which access was made,",
+          "Information about the browser type used,",
+          "Your computer's operating system,",
+          "The name of your Internet service provider"
+        ],
+        "legalBasis": "The legal basis for this processing is Art. 6(1)(f) GDPR."
+      },
+      {
+        "title": "4. Cookies",
+        "content": "Our website uses so-called \"cookies\". Cookies are small data packages and do not cause any damage to your device. They are stored either temporarily for the duration of a session (session cookies) or permanently (permanent cookies) on your device. Session cookies are automatically deleted at the end of your visit. Permanent cookies remain stored on your device until you delete them yourself or until they are automatically deleted by your web browser. Cookies can come from us (first-party cookies) or from third-party companies (third-party cookies). Third-party cookies enable the integration of certain services from third-party companies within websites (e.g., cookies for processing payment services). Cookies have various functions. Many cookies are technically necessary, as certain website functions would not work without them (e.g., the shopping cart function or the display of videos). Other cookies can be used to analyze user behavior or for advertising purposes. Cookies that are necessary for carrying out the electronic communication process, for providing certain functions requested by you, or for optimizing the website (e.g., cookies for measuring the web audience) are stored on the basis of Art. 6(1)(f) GDPR, unless another legal basis is specified. The website operator has a legitimate interest in storing necessary cookies for the technically error-free and optimized provision of its services. If consent for the storage of cookies and similar recognition technologies has been requested, processing takes place exclusively on the basis of this consent (Art. 6(1)(a) GDPR and § 25(1) TTDSG); consent can be revoked at any time. You can set your browser so that you are informed about the setting of cookies and only allow cookies in individual cases, exclude the acceptance of cookies for certain cases or in general, and activate the automatic deletion of cookies when closing the browser. When deactivating cookies, the functionality of this website may be limited."
+      },
+      {
+        "title": "5. Google Analytics (Analysis tool)",
+        "content": "For the purpose of demand-oriented design and continuous optimization of our pages, we use Google Analytics, a web analysis service provided by Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland (hereinafter: \"Google\"). We use the tracking measures to ensure that our website is statistically recorded and evaluated for the purpose of optimizing our offer for you. The legal basis for this data processing is your consent in accordance with Art. 6(1)(a) GDPR. When visiting our website, you have the opportunity to give your consent to data processing by cookies for evaluation and marketing purposes. This consent is voluntary and can be revoked by you at any time. If you do not give consent, no cookies for marketing or analysis purposes will be set. In this context, pseudonymized usage profiles are created and cookies (see section IV.) are used. The information generated by the cookie about your use of this website such as",
+        "items": [
+          "Browser type/version,",
+          "Operating system used,",
+          "Referrer URL (the previously visited page),",
+          "Host name of the accessing computer (IP address),",
+          "Time of the server request,"
+        ],
+        "additionalContent": "are usually transferred to a Google server and stored there. Under certain circumstances, data may also be transferred to servers of Google in the USA. Due to Google's certification under the EU-US Privacy Shield, the European Commission has determined an adequate level of data protection for Google. The above-mentioned information may also be transferred to third parties if this is required by law or if third parties process this data on behalf of us. Under no circumstances will the IP address transmitted by your browser be merged with other data from Google. The IP addresses are anonymized so that an assignment is not possible (IP masking). Only in exceptional cases is the full IP address transferred to a Google server in the USA and shortened there. On our behalf, Google will use this information to evaluate your use of the website, to compile reports on website activities, and to provide us with other services related to website and internet usage. You can prevent the installation of cookies by setting your browser software accordingly; however, we point out that in this case you may not be able to use all functions of this website to their full extent. You can also prevent the collection of data generated by the cookie and related to your use of the website (including your IP address) and the processing of this data by Google by downloading and installing a browser add-on to disable Google Analytics. Alternatively, to prevent data collection by Google Analytics, especially for browsers on mobile devices, you can click on this LINK. An opt-out cookie will be set to prevent future collection of your data when visiting this website. The opt-out cookie is placed on your device and is only valid in this browser and only for our website. If you delete the cookies in this browser, you must set the opt-out cookie again. Further information on data protection in connection with Google Analytics can be found in the Google Analytics Help."
+      },
+      {
+        "title": "6. Google Ads (Marketing service)",
+        "content": "We have integrated the Google Ads service on our website. Google Ads is an internet advertising service that allows advertisers to place ads in both Google search engine results and the Google advertising network. The operating company of this service is Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. The legal basis for this data processing is your consent in accordance with Art. 6(1)(a) GDPR. When visiting our website, you have the opportunity to give your consent to data processing by cookies for evaluation and marketing purposes. This consent is voluntary and can be revoked by you at any time. If you do not give consent, no cookies for marketing or analysis purposes will be set. The purpose of Google Ads is to promote our website by displaying interest-relevant advertising on the websites of third-party companies and in the search engine results of Google and by displaying third-party advertising on our website. For statistical evaluation and improvement of our offer, the Google Ads advertisements are evaluated using Google Conversion Tracking. For this purpose, a cookie (see section IV.) is set by Google Ads on your computer if you have reached our website via a Google advertisement. These cookies lose their validity after 30 days and are not used for personal identification. If the user visits certain pages of the Ads customer's website and the cookie has not yet expired, Google and the customer can recognize that the user clicked on the ad and was redirected to this page. Each Ads customer receives a different cookie. Cookies can therefore not be tracked across Ads customers' websites. The information obtained using the conversion cookie is used to create conversion statistics for Ads customers who have opted for conversion tracking. Ads customers learn the total number of users who clicked on their ad and were redirected to a page tagged with a conversion tracking tag. However, they do not receive any information that can be used to personally identify users. If you do not want to participate in the tracking procedure, you can also refuse the setting of a cookie required for this - for example, by means of a browser setting that generally deactivates the automatic setting of cookies. You can also deactivate cookies for conversion tracking by setting your browser to block cookies from the domain \"www.googleadservices.com\". Google's further information and privacy policy on conversion tracking can be found here: Google Ads Help Conversion Tracking and Google Privacy Policy & Terms of Use We also use Google Tag Manager on our website. Google Tag Manager is a solution that allows marketers to manage website tags through an interface. The Tag Manager tool itself (which implements the tags) is a cookie-less domain and does not collect any personal data. The tool triggers other tags, which in turn may collect data. Google Tag Manager does not access this data. If deactivation has been made at the domain or cookie level, it remains in place for all tracking tags implemented with Google Tag Manager. Our website also uses Google's remarketing function. This technology serves to present interest-based advertisements to website visitors within the Google partner network. The display of advertising is carried out using cookies, with the help of which the user behavior when visiting the website can be analyzed and subsequently used for targeted product recommendations and interest-based advertising. According to Google's own statements, Google does not collect any personal data in this process. You can find further information here: Google Marketing Platform - Tag Manager Terms of Service and here Google Privacy Policy & Terms of Use If you do not want interest-based advertising via Google remarketing technology, you can deactivate the use of cookies by Google for these purposes by making the appropriate settings at the following link: Google Settings for personalized ads"
+      },
+      {
+        "title": "7. Contact Form",
+        "content": "If you send us inquiries via the contact form, your details from the inquiry form, including the contact details you provided there, will be stored by us for the purpose of processing the inquiry and in case of follow-up questions. We do not share this data without your consent. The processing of this data is based on Art. 6(1)(b) GDPR, if your request is related to the fulfillment of a contract or is necessary for the implementation of pre-contractual measures. In all other cases, the processing is based on our legitimate interest in the effective processing of the requests addressed to us (Art. 6(1)(f) GDPR) or on your consent (Art. 6(1)(a) GDPR) if this has been requested; the consent can be revoked at any time. The data you enter in the contact form will remain with us until you request us to delete it, revoke your consent for storage, or the purpose for data storage no longer applies (e.g., after your request has been processed). Mandatory statutory provisions - especially retention periods - remain unaffected. Request by Email, Phone, or Fax: If you contact us by email, telephone, or fax, your inquiry, including all resulting personal data (name, inquiry) will be stored and processed by us for the purpose of handling your request. We do not share this data without your consent. The processing of this data is based on Art. 6(1)(b) GDPR, if your request is related to the fulfillment of a contract or is necessary for the implementation of pre-contractual measures. In all other cases, the processing is based on our legitimate interest in the effective processing of the requests addressed to us (Art. 6(1)(f) GDPR) or on your consent (Art. 6(1)(a) GDPR) if this has been requested; the consent can be revoked at any time. The data you send to us via contact requests remains with us until you request us to delete it, revoke your consent for storage, or the purpose for data storage no longer applies (e.g., after your request has been processed). Mandatory statutory provisions - especially statutory retention periods - remain unaffected."
+      },
+      {
+        "title": "8. Social Media (Instagram)",
+        "content": "Functions of the Instagram service are integrated on this website. These functions are offered by Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Ireland. When the social media element is active, a direct connection is established between your device and the Instagram server. Instagram thereby receives information about your visit to this website. If you are logged into your Instagram account, you can link the content of this website to your Instagram profile by clicking the Instagram button. This allows Instagram to associate your visit to this website with your user account. We would like to point out that we, as the provider of the pages, have no knowledge of the content of the transmitted data or its use by Instagram. If consent (Consent) has been obtained, the above-mentioned service is used on the basis of Art. 6(1)(a) GDPR and § 25 TTDSG. The consent can be revoked at any time. If no consent has been obtained, the use of the service is based on our legitimate interest in achieving the greatest possible visibility in social media. Insofar as personal data is collected on our website with the help of the tool described here and forwarded to Facebook or Instagram, we and Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Ireland are jointly responsible for this data processing (Art. 26 GDPR). The joint responsibility is limited exclusively to the collection of the data and its forwarding to Facebook or Instagram. The processing by Facebook or Instagram after the forwarding is not part of the joint responsibility. Our joint obligations have been set out in an agreement on joint processing. The wording of the agreement can be found at: https://www.facebook.com/legal/controller_addendum. According to this agreement, we are responsible for providing the privacy information when using the Facebook or Instagram tool and for the privacy-compliant implementation of the tool on our website. Facebook is responsible for the data security of Facebook and Instagram products. You can assert data subject rights (e.g., requests for information) regarding data processed by Facebook or Instagram directly with Facebook. If you assert the data subject rights with us, we are obliged to forward them to Facebook. The data transfer to the USA is based on the standard contractual clauses of the EU Commission. Details can be found here: https://www.facebook.com/legal/EU_data_transfer_addendum, https://help.instagram.com/519522125107875 and https://de-de.facebook.com/help/566994660333381. Further information on this can be found in Instagram's privacy policy: https://instagram.com/about/legal/privacy/. The company has a certification according to the \"EU-US Data Privacy Framework\" (DPF). The DPF is an agreement between the European Union and the USA that is intended to ensure compliance with European data protection standards for data processing in the USA. Every company certified under the DPF commits to comply with these data protection standards. You can obtain further information on this from the provider at the following link: https://www.dataprivacyframework.gov/s/participant-search/participant- detail?contact=true&id=a2zt0000000GnywAAC&status=Active"
+      },
+      {
+        "title": "9. Plugins and Tools",
+        "subsections": [
+          {
+            "title": "a. Google Fonts",
+            "content": "This page uses so-called Google Fonts provided by Google for the uniform display of fonts. When you call up a page, your browser loads the required fonts into your browser cache to display texts and fonts correctly. For this purpose, the browser you use must connect to Google's servers. As a result, Google learns that our website has been accessed via your IP address. The use of Google Fonts is based on Art. 6(1)(f) GDPR. The website operator has a legitimate interest in the uniform presentation of the typeface on his website. If appropriate consent has been obtained, the processing is carried out exclusively on the basis of Art. 6(1)(a) GDPR and § 25(1) TTDSG, insofar as the consent includes the storage of cookies or access to information in the user's end device (e.g., device fingerprinting) within the meaning of the TTDSG. The consent can be revoked at any time. If your browser does not support Google Fonts, a standard font will be used from your computer. Further information about Google Fonts can be found at https://developers.google.com/fonts/faq and in Google's privacy policy: https://policies.google.com/privacy?hl=en. The company has a certification according to the \"EU-US Data Privacy Framework\" (DPF). The DPF is an agreement between the European Union and the USA that is intended to ensure compliance with European data protection standards for data processing in the USA. Every company certified under the DPF commits to comply with these data protection standards. You can obtain further information on this from the provider at the following link: https://www.dataprivacyframework.gov/s/participant-search/participant- detail?contact=true&id=a2zt000000001L5AAI&status=Active"
+          },
+          {
+            "title": "b. Google Maps",
+            "content": "This page uses the map service Google Maps. The provider is Google Ireland Limited (\"Google\"), Gordon House, Barrow Street, Dublin 4, Ireland. To use the functions of Google Maps, it is necessary to store your IP address. This information is usually transferred to a Google server in the USA and stored there. The provider of this site has no influence on this data transfer. When Google Maps is activated, Google may use Google Fonts for the purpose of uniform font display. When you call up Google Maps, your browser loads the required Web Fonts into your browser cache in order to display texts and fonts correctly. The use of Google Maps is in the interest of an appealing presentation of our online offers and easy findability of the places we specify on the website. This constitutes a legitimate interest within the meaning of Art. 6(1)(f) GDPR. If appropriate consent has been obtained, the processing is carried out exclusively on the basis of Art. 6(1)(a) GDPR and § 25(1) TTDSG, insofar as the consent includes the storage of cookies or access to information in the user's end device (e.g., device fingerprinting) within the meaning of the TTDSG. The consent can be revoked at any time. The data transfer to the USA is based on the standard contractual clauses of the EU Commission. Details can be found here: https://privacy.google.com/businesses/gdprcontrollerterms/ and https://privacy.google.com/businesses/gdprcontrollerterms/sccs/. You can find more information on the handling of user data in Google's privacy policy: https://policies.google.com/privacy?hl=en. The company has a certification according to the \"EU-US Data Privacy Framework\" (DPF). The DPF is an agreement between the European Union and the USA that is intended to ensure compliance with European data protection standards for data processing in the USA. Every company certified under the DPF commits to comply with these data protection standards. You can obtain further information on this from the provider at the following link: https://www.dataprivacyframework.gov/s/participant-search/participant- detail?contact=true&id=a2zt000000001L5AAI&status=Active"
+          }
+        ]
+      },
+      {
+        "title": "10. Hosting",
+        "content": "We host the contents of our website with the following provider: Strato AG, Otto-Ostrowski-Straße 7, 10249 Berlin (hereinafter referred to as \"Strato\"). When you visit our website, Strato records various log files including your IP addresses. For further information, please refer to Strato's privacy policy: https://www.strato.de/datenschutz/. The use of Strato is based on Art. 6(1)(f) GDPR. We have a legitimate interest in a reliable presentation of our website. If appropriate consent has been obtained, the processing is carried out exclusively on the basis of Art. 6(1)(a) GDPR and § 25(1) TTDSG, insofar as the consent includes the storage of cookies or access to information in the user's end device (e.g., device fingerprinting) within the meaning of the TTDSG. The consent can be revoked at any time.",
+        "subsections": [
+          {
+            "title": "Order Processing",
+            "content": "We have concluded a contract for order processing (AVV) for the use of the above-mentioned service. This is a contract required by data protection law, which ensures that this service processes the personal data of our website visitors only according to our instructions and in compliance with the GDPR."
+          }
+        ]
+      },
+      {
+        "title": "11. Rights of Data Subjects",
+        "content": "As a data subject, you have the following rights vis-à-vis the controller. If you wish to exercise any of these rights, please contact the controller using the contact details provided in Section I.",
+        "subsections": [
+          {
+            "title": "a. Right to Information (Art. 15 GDPR)",
+            "content": "You can request information from the controller about whether personal data concerning you is being processed by them. If such processing is taking place, you can request information from the controller about this personal data and about the processing purposes; the categories of personal data that are processed; the recipients or categories of recipients to whom the personal data concerning you have been or will be disclosed; the planned duration for which the personal data concerning you will be stored, or, if specific information on this is not possible, the criteria for determining the storage duration; the existence of a right to rectification or erasure of the personal data concerning you, a right to restriction of processing by the controller or a right to object to this processing; the existence of a right to lodge a complaint with a supervisory authority; if the personal data are not collected from you, all available information about the origin of the data; the existence of automated decision-making including profiling in accordance with Art. 22(1) and (4) GDPR and - at least in these cases - meaningful information about the logic involved as well as the significance and envisaged consequences of such processing for the data subject; the transfer of personal data to a third country or an international organization as well as the appropriate safeguards pursuant to Art. 46 GDPR in connection with the transfer."
+          },
+          {
+            "title": "b. Right to Rectification (Art. 16 GDPR)",
+            "content": "You have the right to demand immediate correction and/or completion of your personal data from the controller if the personal data processed concerning you is incorrect or incomplete."
+          },
+          {
+            "title": "c. Right to Erasure (Art. 17 GDPR)",
+            "content": "You can request the deletion of your data stored with us if the data is no longer necessary for the purposes for which it was collected or processed; you revoke your consent and there is no other legal basis for the processing; you object pursuant to Art. 21(1) GDPR and there are no overriding legitimate grounds for the processing, or you object pursuant to Art. 21(2) GDPR; the personal data has been unlawfully processed; the deletion is necessary to fulfill a legal obligation; or the personal data was collected in relation to offered services of the information society pursuant to Art. 8(1) GDPR. This right to erasure does not apply insofar as the processing is necessary for exercising the right of freedom of expression and information; for compliance with a legal obligation; for reasons of public interest; or for the establishment, exercise or defense of legal claims."
+          },
+          {
+            "title": "d. Right to Restriction of Processing (Art. 18 GDPR)",
+            "content": "You can request the restriction of the processing of your personal data if you contest the accuracy of the personal data for a period enabling the controller to verify the accuracy; the processing is unlawful and you oppose the erasure of the personal data and request the restriction of their use instead; the controller no longer needs the personal data for the purposes of the processing, but you require them for the establishment, exercise or defense of legal claims; or you have objected to processing pursuant to Art. 21(1) GDPR pending the verification whether the legitimate grounds of the controller override your grounds. Where processing has been restricted, such personal data shall, with the exception of storage, only be processed with your consent or for the establishment, exercise or defense of legal claims or for the protection of the rights of another natural or legal person or for reasons of important public interest of the Union or of a Member State. If the restriction of processing has been restricted according to the above conditions, you will be informed by the controller before the restriction is lifted."
+          },
+          {
+            "title": "e. Right to Data Portability (Art. 20 GDPR)",
+            "content": "You have the right to receive the personal data you have provided to us in a structured, commonly used and machine-readable format or to request that it be transmitted to another controller."
+          },
+          {
+            "title": "f. Right to Object",
+            "content": "If your personal data is processed on the basis of legitimate interests pursuant to Art. 6(1)(f) GDPR, you have the right to object to the processing of your personal data insofar as there are grounds for doing so that arise from your particular situation. If the objection is directed against direct marketing, you have a general right to object, which will be implemented by us without specifying a particular situation."
+          },
+          {
+            "title": "g. Right to Withdraw Consent (Art. 7(3) GDPR)",
+            "content": "You have the right to withdraw your consent given to us at any time with the consequence that we may not continue the data processing based on this consent for the future."
+          },
+          {
+            "title": "h. Right to Lodge a Complaint (Art. 77 GDPR)",
+            "content": "You have the right to lodge a complaint with a supervisory authority. You can contact the supervisory authority of your place of residence or work or the supervisory authority responsible for us."
+          }
+        ]
+      },
+      {
+        "title": "12. Data Security",
+        "content": "To protect your data in the best possible way, we use the SSL (Secure Socket Layer) procedure on our website in conjunction with the highest level of encryption supported by your browser. Whether an individual page of our website is transmitted in encrypted form can be seen from the closed display of the key or lock symbol in the status bar of your browser. We also use appropriate technical and organizational security measures to protect your data against manipulation, loss, destruction or against unauthorized access by third parties."
+      }
+    ]
+  }
+}

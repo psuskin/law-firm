@@ -4,28 +4,30 @@ import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowUpRightIcon } from "@heroicons/react/24/outline";
+import { useTranslations } from "next-intl";
 
 const Footer = () => {
+  const t = useTranslations("footer");
+
   const socialLinks = [
-    { name: "Facebook", href: "#" },
-    { name: "Instagram", href: "#" },
-    { name: "LinkedIn", href: "#" },
+    { name: "facebook", href: "#" },
+    { name: "instagram", href: "#" },
+    { name: "linkedin", href: "#" },
   ];
 
   const legalLinks = [
-    { name: "Imprint", href: "/imprint" },
-    { name: "Data Protection", href: "/data-protection" },
-    { name: "Terms of Service", href: "/terms" },
+    { name: "imprint", href: "/imprint" },
+    { name: "dataProtection", href: "/data-protection" },
   ];
 
   const contactInfo = [
     {
-      text: "info@kanzlei-cerkezovic.de",
-      href: "mailto:info@kanzlei-cerkezovic.de",
+      text: t("contact.email"),
+      href: `mailto:${t("contact.email")}`,
     },
     {
-      text: "(040) 638 622 39",
-      href: "tel:+040638622390",
+      text: t("contact.phone"),
+      href: `tel:+${t("contact.phone").replace(/[^0-9]/g, "")}`,
     },
   ];
 
@@ -51,7 +53,7 @@ const Footer = () => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: index * 0.1 }}
               >
-                {link.name}
+                {t(`social.${link.name}`)}
                 <ArrowUpRightIcon className="w-4 h-4 transform transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
               </motion.a>
             ))}
@@ -155,56 +157,66 @@ const Footer = () => {
             >
               {/* First Word with Initial Gold Letter */}
               <div className="flex flex-wrap items-baseline">
-                {/* Split "Anwaltskanzlei" and "Gür" */}
-                {"Anwaltskanzlei".split("").map((letter, index) => (
-                  <motion.span
-                    key={`first-${index}`}
-                    variants={letterAnimation}
-                    transition={{ delay: index * 0.05 }}
-                    className={`hover:text-gold transition-colors duration-300 ${
-                      index === 0 ? "text-gold" : "text-marine"
-                    }`}
-                  >
-                    {letter}
-                  </motion.span>
-                ))}
+                {t("brand.firstWord")
+                  .split("")
+                  .map((letter, index) => (
+                    <motion.span
+                      key={`first-${index}`}
+                      variants={letterAnimation}
+                      transition={{ delay: index * 0.05 }}
+                      className={`hover:text-gold transition-colors duration-300 ${
+                        index === 0 ? "text-gold" : "text-marine"
+                      }`}
+                    >
+                      {letter}
+                    </motion.span>
+                  ))}
                 {/* Add space */}
                 <motion.span
                   variants={letterAnimation}
-                  transition={{ delay: "Anwaltskanzlei".length * 0.05 }}
+                  transition={{ delay: t("brand.firstWord").length * 0.05 }}
                   className="w-[0.5em]"
                 >
                   &nbsp;
                 </motion.span>
-                {/* "Gür" part */}
-                {"Gür".split("").map((letter, index) => (
-                  <motion.span
-                    key={`second-${index}`}
-                    variants={letterAnimation}
-                    transition={{
-                      delay: ("Anwaltskanzlei".length + 1 + index) * 0.05,
-                    }}
-                    className="text-marine hover:text-gold transition-colors duration-300"
-                  >
-                    {letter}
-                  </motion.span>
-                ))}
+                {/* Second Word */}
+                {t("brand.secondWord")
+                  .split("")
+                  .map((letter, index) => (
+                    <motion.span
+                      key={`second-${index}`}
+                      variants={letterAnimation}
+                      transition={{
+                        delay: (t("brand.firstWord").length + 1 + index) * 0.05,
+                      }}
+                      className="text-marine hover:text-gold transition-colors duration-300"
+                    >
+                      {letter}
+                    </motion.span>
+                  ))}
               </div>
 
-              {/* Second Line */}
+              {/* Subtitle */}
               <div className="flex flex-wrap">
-                {"Law Firm".split("").map((letter, index) => (
-                  <motion.span
-                    key={`law-firm-${index}`}
-                    variants={letterAnimation}
-                    transition={{
-                      delay: ("Anwaltskanzlei Gür".length + 1 + index) * 0.05,
-                    }}
-                    className="text-marine hover:text-gold transition-colors duration-300"
-                  >
-                    {letter === " " ? "\u00A0" : letter}
-                  </motion.span>
-                ))}
+                {t("brand.subtitle")
+                  .split("")
+                  .map((letter, index) => (
+                    <motion.span
+                      key={`subtitle-${index}`}
+                      variants={letterAnimation}
+                      transition={{
+                        delay:
+                          (t("brand.firstWord").length +
+                            t("brand.secondWord").length +
+                            2 +
+                            index) *
+                          0.05,
+                      }}
+                      className="text-marine hover:text-gold transition-colors duration-300"
+                    >
+                      {letter === " " ? "\u00A0" : letter}
+                    </motion.span>
+                  ))}
               </div>
             </motion.div>
 
@@ -222,7 +234,7 @@ const Footer = () => {
                       href={link.href}
                       className="text-marine/50 hover:text-marine transition-colors duration-300 text-sm relative group"
                     >
-                      {link.name}
+                      {t(`legal.${link.name}`)}
                       <motion.span
                         className="absolute -bottom-1 left-0 w-0 h-px bg-gold origin-left"
                         whileHover={{ scaleX: 1 }}
@@ -239,8 +251,7 @@ const Footer = () => {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.5 }}
               >
-                © {new Date().getFullYear()} All rights reserved to
-                Anwaltskanzlei Gür Law Firm.
+                {t("copyright", { year: new Date().getFullYear() })}
               </motion.p>
             </div>
           </div>

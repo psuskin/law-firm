@@ -2,59 +2,46 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { 
-  MapPinIcon, 
-  DevicePhoneMobileIcon, 
-  PrinterIcon, 
-  EnvelopeIcon, 
-  ClockIcon 
+import {
+  MapPinIcon,
+  DevicePhoneMobileIcon,
+  PrinterIcon,
+  EnvelopeIcon,
+  ClockIcon,
 } from "@heroicons/react/24/outline";
-
-const contactDetails = [
-  {
-    id: 1,
-    title: "Location",
-    icon: MapPinIcon,
-    content: [
-      "Bei den Mühren 70",
-      "20457 Hamburg"
-    ],
-    color: "text-marine"
-  },
-  {
-    id: 2,
-    title: "phone",
-    icon: DevicePhoneMobileIcon,
-    content: ["(040) 638 622 39"],
-    color: "text-marine"
-  },
-  {
-    id: 3,
-    title: "fax",
-    icon: PrinterIcon,
-    content: ["(040) 334 824 08"],
-    color: "text-marine"
-  },
-  {
-    id: 4,
-    title: "e-mail",
-    icon: EnvelopeIcon,
-    content: ["info@kanzlei-cerkezovic.de"],
-    color: "text-marine"
-  },
-  {
-    id: 5,
-    title: "Telephone availability",
-    icon: ClockIcon,
-    content: [
-      "Monday–Friday",
-      "09:00 am – 06:00 pm"
-    ],
-    color: "text-marine"
-  }
-];
+import { useTranslations } from "next-intl";
 
 const ContactInfo = () => {
+  const t = useTranslations("contact.info");
+
+  const contactDetails = [
+    {
+      id: 1,
+      key: "location",
+      icon: MapPinIcon,
+    },
+    {
+      id: 2,
+      key: "phone",
+      icon: DevicePhoneMobileIcon,
+    },
+    {
+      id: 3,
+      key: "fax",
+      icon: PrinterIcon,
+    },
+    {
+      id: 4,
+      key: "email",
+      icon: EnvelopeIcon,
+    },
+    {
+      id: 5,
+      key: "availability",
+      icon: ClockIcon,
+    },
+  ];
+
   return (
     <div className="space-y-8">
       {contactDetails.map((detail, index) => (
@@ -70,13 +57,10 @@ const ContactInfo = () => {
           </div>
           <div>
             <h3 className="text-lg font-medium text-marine mb-2">
-              {detail.title}
+              {t(`${detail.key}.title`)}
             </h3>
-            {detail.content.map((line, i) => (
-              <p 
-                key={i} 
-                className="text-marine/70"
-              >
+            {t.raw(`${detail.key}.lines`).map((line: string, i: number) => (
+              <p key={i} className="text-marine/70">
                 {line}
               </p>
             ))}
@@ -87,4 +71,4 @@ const ContactInfo = () => {
   );
 };
 
-export default ContactInfo; 
+export default ContactInfo;

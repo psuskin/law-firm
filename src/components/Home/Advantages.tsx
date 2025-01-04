@@ -10,53 +10,44 @@ import {
   DocumentCheckIcon,
   PhoneArrowUpRightIcon,
 } from "@heroicons/react/24/outline";
-
-const advantages = [
-  {
-    id: 1,
-    title: "Multilingual legal advice",
-    description:
-      "In addition to German, I also advise you in Bosnian, Serbian, Croatian and English.",
-    icon: LanguageIcon,
-  },
-  {
-    id: 2,
-    title: "Technical expertise",
-    description:
-      "My focus is on traffic and criminal law, which allows me to develop a solution tailored to your needs.",
-    icon: ScaleIcon,
-  },
-  {
-    id: 3,
-    title: "Fast processing",
-    description:
-      "By using various digital tools, I can handle your legal matter efficiently and quickly.",
-    icon: ClockIcon,
-  },
-  {
-    id: 4,
-    title: "Cost transparency",
-    description:
-      "I will inform you in advance about the costs involved and, if necessary, obtain a confirmation of coverage from your legal expenses insurance in advance.",
-    icon: BanknotesIcon,
-  },
-  {
-    id: 5,
-    title: "Free initial assessment",
-    description:
-      "Use the contact form to describe your concerns to receive a free initial assessment.",
-    icon: DocumentCheckIcon,
-  },
-  {
-    id: 6,
-    title: "High accessibility",
-    description:
-      "I offer a variety of contact options. You can reach me by phone or email or arrange a callback.",
-    icon: PhoneArrowUpRightIcon,
-  },
-];
+import { useTranslations } from "next-intl";
 
 const Advantages = () => {
+  const t = useTranslations("advantages");
+
+  const advantages = [
+    {
+      id: 1,
+      key: "multilingual",
+      icon: LanguageIcon,
+    },
+    {
+      id: 2,
+      key: "expertise",
+      icon: ScaleIcon,
+    },
+    {
+      id: 3,
+      key: "processing",
+      icon: ClockIcon,
+    },
+    {
+      id: 4,
+      key: "transparency",
+      icon: BanknotesIcon,
+    },
+    {
+      id: 5,
+      key: "assessment",
+      icon: DocumentCheckIcon,
+    },
+    {
+      id: 6,
+      key: "accessibility",
+      icon: PhoneArrowUpRightIcon,
+    },
+  ];
+
   return (
     <section className="py-24 bg-marine-light">
       <div className="max-w-7xl mx-auto px-4">
@@ -69,11 +60,9 @@ const Advantages = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-marine mb-6">
-            Advantages
+            {t("title")}
           </h2>
-          <p className="text-marine/70 max-w-2xl mx-auto">
-            The reasons why I am the right contact for you.
-          </p>
+          <p className="text-marine/70 max-w-2xl mx-auto">{t("subtitle")}</p>
         </motion.div>
 
         {/* Advantages Grid */}
@@ -97,10 +86,10 @@ const Advantages = () => {
               {/* Content */}
               <div className="relative">
                 <h3 className="text-xl font-semibold text-marine mb-3 group-hover:text-marine/90 transition-colors duration-300">
-                  {advantage.title}
+                  {t(`items.${advantage.key}.title`)}
                 </h3>
                 <p className="text-marine/60 leading-relaxed">
-                  {advantage.description}
+                  {t(`items.${advantage.key}.description`)}
                 </p>
               </div>
 

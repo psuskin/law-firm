@@ -11,6 +11,8 @@ import {
 } from "framer-motion";
 import Button from "@/components/ui/Button";
 import Image from "next/image";
+import { useTranslations, useLocale } from "next-intl";
+import LocaleSwitcher from "@/components/LocaleSwitcher";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,6 +20,8 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const pathname = usePathname();
   const { scrollY } = useScroll();
+  const t = useTranslations("navigation");
+  const locale = useLocale();
 
   // Transform values for scroll-based animations
   const headerHeight = useTransform(scrollY, [0, 100], ["6rem", "5rem"]);
@@ -54,13 +58,16 @@ const Navbar = () => {
   }, []);
 
   const menuItems = [
-    { title: "Home", href: "#home" },
-    { title: "Services", href: "#services" },
-    { title: "Legal Areas", href: "#legal-areas" },
-    { title: "Advantages", href: "#advantages" },
-    { title: "About Me", href: "#about" },
-    { title: "Contact", href: "#contact" },
-  ];
+    { title: t("home"), href: "#home" },
+    { title: t("services"), href: "#services" },
+    { title: t("legalAreas"), href: "#legal-areas" },
+    { title: t("advantages"), href: "#advantages" },
+    { title: t("aboutMe"), href: "#about" },
+    { title: t("contact"), href: "#contact" },
+  ].map((item) => ({
+    ...item,
+    className: "text-[13px] lg:text-[14px] xl:text-[15px]",
+  }));
 
   const handleScroll = (
     e: React.MouseEvent<HTMLAnchorElement>,
@@ -102,146 +109,154 @@ const Navbar = () => {
           isScrolled ? "border-marine/10 shadow-sm" : "border-transparent"
         }`}
       >
-        <div className="max-w-[1400px] mx-auto px-4 lg:px-2 h-full">
-          <div className="flex justify-between items-center h-full gap-4">
-            {/* Logo */}
+        <div className="max-w-[1500px] mx-auto px-4 h-full">
+          <div className="flex items-center justify-between h-full gap-2 md:gap-4">
+            {/* Logo Container - Add max-width to control logo size */}
             <Link
+              onClick={(e) => handleScroll(e, "#home")}
               href="/"
-              className="flex items-center mr"
-              // onClick={(e) => handleScroll(e, "/")}
+              className="flex items-center flex-shrink-0 w-[200px] xl:w-[300px]"
             >
               <Image
                 src="/Anwaltskanzlei_Guer-trans.png"
                 alt="Logo"
                 width={300}
                 height={80}
+                className="w-auto h-[35px] sm:h-[40px] md:h-[45px] lg:h-[50px] xl:h-[55px] object-contain"
+                priority
               />
             </Link>
 
-            {/* Desktop Navigation */}
-            <div className="hidden lg:flex items-center space-x-12">
-              {menuItems.map((item) => (
-                <Link
-                  key={item.title}
-                  href={item.href}
-                  onClick={(e) => handleScroll(e, item.href)}
-                  className={`group relative text-[15px] font-medium uppercase tracking-wide ${
-                    isLinkActive(item.href) ? "text-marine" : "text-marine/70"
-                  }`}
-                >
-                  <span className="relative z-10 transition-colors duration-300 group-hover:text-marine">
-                    {item.title}
-                  </span>
-                  {isLinkActive(item.href) && (
-                    <motion.span
-                      layoutId="activeMenu"
-                      className="absolute bottom-0 left-0 w-full h-[2px] bg-gold"
-                      transition={{
-                        type: "spring",
-                        stiffness: 380,
-                        damping: 30,
-                      }}
-                    />
-                  )}
-                </Link>
-              ))}
+            {/* Desktop Navigation - Updated with flex-1 and justification */}
+            <div className="hidden lg:flex flex-1 items-center justify-center">
+              {/* Menu Items Container - Centered */}
+              <div className="flex items-center space-x-3 xl:space-x-6">
+                {menuItems.map((item) => (
+                  <Link
+                    key={item.title}
+                    href={item.href}
+                    onClick={(e) => handleScroll(e, item.href)}
+                    className={`group relative font-medium uppercase tracking-wide transition-colors duration-200 ${
+                      item.className
+                    } ${
+                      isLinkActive(item.href)
+                        ? "text-marine"
+                        : "text-marine/70 hover:text-marine"
+                    }`}
+                  >
+                    <span className="relative z-10 whitespace-nowrap">
+                      {item.title}
+                    </span>
+                    {isLinkActive(item.href) && (
+                      <motion.span
+                        layoutId="activeMenu"
+                        className="absolute bottom-0 left-0 w-full h-[2px] bg-gold"
+                        transition={{
+                          type: "spring",
+                          stiffness: 380,
+                          damping: 30,
+                        }}
+                      />
+                    )}
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            {/* Right Section: Language Switcher and Consultation Button */}
+            <div className="hidden lg:flex items-center gap-4 w-[200px] xl:w-[310px] justify-end">
+              <LocaleSwitcher />
               <Button
                 variant="primary"
                 size="sm"
                 onClick={(e) => handleScroll(e as any, "#contact")}
+                className="text-[13px] lg:text-[14px] whitespace-nowrap px-4 py-2.5 min-w-[140px]"
               >
-                FREE CONSULTATION
+                {t("freeConsultation")}
               </Button>
             </div>
 
-            {/* Modern Hamburger Menu */}
-            <div className="lg:hidden flex items-center">
-              <button
-                onClick={() => setIsOpen(!isOpen)}
-                className="relative w-12 h-12 text-marine/70 focus:outline-none z-50"
-              >
-                <span className="sr-only">Open menu</span>
+            {/* Mobile Menu Button */}
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="lg:hidden p-2 text-marine/70 hover:text-marine focus:outline-none"
+              aria-label="Toggle menu"
+            >
+              <div className="relative w-6 h-6">
                 <motion.span
-                  className="absolute h-0.5 w-8 bg-current transform transition-all duration-300 ease-in-out"
-                  style={{ top: "calc(50% - 4px)", left: "calc(50% - 12px)" }}
+                  className="absolute h-0.5 w-6 bg-current transform transition-all duration-300"
+                  style={{ top: "calc(50% - 4px)" }}
                   animate={isOpen ? { rotate: 45, y: 4 } : { rotate: 0, y: 0 }}
                 />
                 <motion.span
-                  className="absolute h-0.5 w-8 bg-current transform transition-all duration-300 ease-in-out"
-                  style={{ top: "calc(50% + 4px)", left: "calc(50% - 12px)" }}
+                  className="absolute h-0.5 w-6 bg-current transform transition-all duration-300"
+                  style={{ top: "calc(50% + 4px)" }}
                   animate={
                     isOpen ? { rotate: -45, y: -4 } : { rotate: 0, y: 0 }
                   }
                 />
-              </button>
-            </div>
+              </div>
+            </button>
           </div>
         </div>
       </motion.nav>
 
-      {/* Mobile menu - Slide from left  */}
+      {/* Mobile Menu */}
       <AnimatePresence>
         {isOpen && (
           <>
-            {/* Overlay */}
+            {/* Backdrop */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.2 }}
-              className="fixed inset-0 bg-black/30 backdrop-blur-[2px] z-40 lg:hidden"
+              className="fixed inset-0 bg-black/30 backdrop-blur-sm z-40 lg:hidden"
               onClick={() => setIsOpen(false)}
             />
 
-            {/* Menu Panel */}
+            {/* Mobile Menu Panel */}
             <motion.div
               initial={{ x: "-100%" }}
               animate={{ x: 0 }}
               exit={{ x: "-100%" }}
               transition={{ type: "spring", damping: 32, stiffness: 300 }}
-              className="fixed top-0 left-0 w-[85%] h-full bg-white shadow-xl z-50 lg:hidden"
+              className="fixed top-0 left-0 w-[90%] sm:w-[380px] h-full bg-white shadow-xl z-50 lg:hidden overflow-y-auto"
             >
               <div className="flex flex-col h-full">
-                {/* Header */}
-                <div className="p-6 flex justify-between items-center border-b border-marine/10">
-                  <Link
-                    href="/"
-                    className="relative"
-                    onClick={() => setIsOpen(false)}
-                  >
+                {/* Mobile Header */}
+                <div className="p-4 sm:p-6 flex items-center justify-between border-b border-marine/10">
+                  <Link href="/" onClick={() => setIsOpen(false)}>
                     <Image
                       src="/Anwaltskanzlei_Guer-trans.png"
                       alt="Logo"
                       width={240}
                       height={60}
-                      className="w-auto h-auto"
+                      className="h-[40px] w-auto object-contain"
                     />
                   </Link>
-
-                  <button
-                    onClick={() => setIsOpen(false)}
-                    className="p-2.5 rounded-full hover:bg-marine/5 active:bg-marine/10 transition-colors duration-200"
-                    aria-label="Close menu"
-                  >
-                    <motion.div
-                      whileHover={{ rotate: 90 }}
-                      transition={{ duration: 0.2 }}
+                  <div className="flex items-center gap-4">
+                    <LocaleSwitcher />
+                    <button
+                      onClick={() => setIsOpen(false)}
+                      className="p-2 text-marine/60 hover:text-marine"
+                      aria-label="Close menu"
                     >
                       <svg
-                        className="w-6 h-6 text-marine/60 hover:text-marine"
+                        className="w-6 h-6"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
-                        strokeWidth={1.5}
                       >
                         <path
                           strokeLinecap="round"
                           strokeLinejoin="round"
+                          strokeWidth={1.5}
                           d="M6 18L18 6M6 6l12 12"
                         />
                       </svg>
-                    </motion.div>
-                  </button>
+                    </button>
+                  </div>
                 </div>
 
                 {/* Menu Items */}
@@ -316,7 +331,7 @@ const Navbar = () => {
                       setIsOpen(false);
                     }}
                   >
-                    FREE CONSULTATION
+                    {t("freeConsultation")}
                   </Button>
                 </div>
               </div>

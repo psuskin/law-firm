@@ -1,0 +1,500 @@
+{
+  "navigation": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "legalAreas": "Hukuki Alanlar",
+    "advantages": "Avantajlar",
+    "aboutMe": "Hakkımda",
+    "contact": "İletişim",
+    "freeConsultation": "ÜCRETSİZ DANIŞMA"
+  },
+  "hero": {
+    "upperTitle": "Trafik ve Ceza Hukuku Bürosu",
+    "nameTitle1": "Anwaltskanzlei",
+    "nameTitle2": "Gür",
+    "subtitle": "Trafik ve ceza hukuku konularında uzman hukuki danışmanlığınız.",
+    "description": "Yıllarca süren deneyimle profesyonel temsil.",
+    "scheduleConsultation": "Randevu Al",
+    "learnMore": "Daha Fazla Bilgi"
+  },
+  "not-found": {
+    "title": "Sayfa Bulunamadı",
+    "description": "Aradığınız sayfa bulunamadı veya taşındı.",
+    "button": "Ana Sayfa"
+  },
+  "services": {
+    "title": "Hukuki konularda başvuru noktanız",
+    "description": "Kaza tazminatı, para cezası veya ceza davalarında savunma olsun, size yardımcı olmak için buradayım. Aşağıdan size uygun olan konuyu seçin ve talimatları takip edin.",
+    "items": {
+      "traffic_accident": {
+        "title": "Trafik Kazası",
+        "description": "Trafik kazası geçirdiniz ve tazminat talep etmek mi istiyorsunuz?",
+        "action": "O halde kaza soru formunu doldurun, ben sizin için ilgileneceğim.",
+        "buttonText": "Kaza formu"
+      },
+      "fine_notice": {
+        "title": "Para Cezası",
+        "description": "Para cezası aldınız ve ehliyetinize puan eklenmesi veya ehliyetinizin alınması mı söz konusu?",
+        "action": "Para cezası butonuna tıklayın ve ceza bildirimini yükleyin, yasal olarak inceleyeceğiz.",
+        "buttonText": "Para cezası"
+      },
+      "criminal_proceedings": {
+        "title": "Ceza Davası",
+        "description": "Hakkınızda cezai soruşturma mı var veya polis tarafından ifadeye mi çağrıldınız?",
+        "action": "Olayların sizin versiyonunu dinlemek, sonraki adımları açıklamak ve uygun bir savunma stratejisi hazırlamak için randevu alın.",
+        "buttonText": "Randevu al"
+      }
+    }
+  },
+  "legalAreas": {
+    "title": "Hukuki Alanlar",
+    "areas": {
+      "traffic_civil_law": {
+        "title": "Trafik Hukuku",
+        "items": {
+          "accident_settlement": {
+            "title": "Kaza Çözümü",
+            "description": "Taleplerinizi başarıyla elde etmek için karşı sigorta şirketi ve uzmanlarla tüm iletişimi üstleniyorum."
+          },
+          "damage_claims": {
+            "title": "Tazminat Talepleri",
+            "description": "Maddi hasar, yaralanma ve kullanım kaybı dahil olmak üzere tüm ilgili tazminat taleplerini takip ediyorum."
+          },
+          "comprehensive_insurance": {
+            "title": "Kasko Talepleri",
+            "description": "Kasko tazminat taleplerinde, kendi sigorta şirketinize karşı çıkarlarınızı temsil ediyorum."
+          },
+          "vehicle_purchase": {
+            "title": "Araç Alımı",
+            "description": "Araç alımında aldatıldıysanız veya önemli bilgiler saklandıysa, sözleşmeden çekilmeniz konusunda size destek oluyorum."
+          },
+          "car_leasing": {
+            "title": "Araç Kiralama",
+            "description": "Araç kiralama sözleşmelerindeki anlaşmazlıkları yetkin bir şekilde çözüyor ve kiralayan karşısında çıkarlarınızı temsil ediyorum."
+          },
+          "car_repairs": {
+            "title": "Araç Servisleri",
+            "description": "Araç servisleriyle yaşanan hukuki anlaşmazlıklarda yanınızda oluyorum."
+          }
+        }
+      },
+      "fines_administrative": {
+        "title": "Para Cezaları ve İdari İşlemler",
+        "items": {
+          "fines": {
+            "title": "Para Cezaları",
+            "description": "Hız aşımı, mesafe ihlali veya kırmızı ışık ihlali olsun, para cezalarının yasallığını kontrol ediyorum."
+          },
+          "points_bans": {
+            "title": "Ceza Puanları ve Sürüş Yasakları",
+            "description": "Ehliyetiniz özel veya mesleki amaçlar için gerekliyse, özellikle ceza puanlarına veya sürüş yasaklarına yol açabilecek ciddi ihlallerde itirazın başarı şansını değerlendiriyorum."
+          },
+          "license_revocation": {
+            "title": "Ehliyet İptali",
+            "description": "Belirli sayıda puan sonrası ehliyetiniz iptal edilebilir. Bu süreçte size destek oluyorum."
+          },
+          "mpu": {
+            "title": "Tıbbi-Psikolojik Muayene (MPU)",
+            "description": "Uyuşturucu veya alkol kullanımı nedeniyle sürüş yeteneğinizden şüphe duyuluyorsa, olası MPU gerekliliğinde size yardımcı oluyorum."
+          },
+          "logbook": {
+            "title": "Seyir Defteri Zorunluluğundan Kaçınma",
+            "description": "Seyir defteri zorunluluğundan kaçınmak için çalışıyor ve çıkarlarınızı başarıyla temsil ediyorum."
+          }
+        }
+      },
+      "traffic_criminal_law": {
+        "title": "Trafik Ceza Hukuku",
+        "items": {
+          "dui": {
+            "title": "Alkol/Uyuşturucu Etkisinde Araç Kullanma",
+            "description": "Alkol veya uyuşturucu etkisi altında araç kullanma davalarında uzman savunma."
+          },
+          "bodily_harm": {
+            "title": "Yaralama",
+            "description": "Yaralanmayla sonuçlanan trafik kazası davalarında temsil."
+          },
+          "negligent_homicide": {
+            "title": "Taksirle Ölüme Sebebiyet",
+            "description": "Ölümle sonuçlanan trafik kazası davalarında hassas ve profesyonel yaklaşım."
+          },
+          "hit_and_run": {
+            "title": "Çarpıp Kaçma",
+            "description": "Kaza yerini terk etme davalarında stratejik savunma."
+          },
+          "traffic_hazard": {
+            "title": "Trafik Güvenliğini Tehlikeye Atma",
+            "description": "Trafik güvenliğini tehlikeye atma suçlamalarına karşı savunma."
+          },
+          "no_insurance": {
+            "title": "Sigortasız Araç Kullanma",
+            "description": "Sigortasız araç kullanma ihlallerinde hukuki destek."
+          },
+          "no_license": {
+            "title": "Ehliyetsiz Araç Kullanma",
+            "description": "Ehliyetsiz araç kullanma davalarında savunma stratejileri."
+          }
+        }
+      },
+      "general_criminal_law": {
+        "title": "Genel Ceza Hukuku",
+        "items": {
+          "comprehensive_advice": {
+            "title": "Kapsamlı Danışmanlık",
+            "description": "Soruşturmalar, polis ifadeleri, tutuklamalar veya suçlamalar olsun, başından itibaren yanınızdayım. Birlikte size özel bir savunma stratejisi geliştiriyoruz."
+          },
+          "court_representation": {
+            "title": "Mahkemede Temsil",
+            "description": "Dava mahkemeye taşınırsa, çıkarlarınızı profesyonellik ve kararlılıkla temsil ediyorum. Hukuk sistemini biliyor ve sizin tarafınızı en iyi şekilde sunmak için çalışıyorum."
+          },
+          "evidence_analysis": {
+            "title": "Delil Analizi",
+            "description": "Davanızla ilgili tüm delilleri ve bilgileri, iddianamede olası zayıf noktaları belirlemek ve kullanmak için dikkatle inceliyorum."
+          },
+          "early_termination": {
+            "title": "Erken Sonlandırma",
+            "description": "Mümkün olan durumlarda, dava açılmadan önce ceza soruşturmasının sonlandırılması için çalışıyorum."
+          }
+        }
+      }
+    }
+  },
+  "advantages": {
+    "title": "Avantajlar",
+    "subtitle": "Sizin için doğru kişi olmamın nedenleri.",
+    "items": {
+      "multilingual": {
+        "title": "Çok dilli hukuki danışmanlık",
+        "description": "Almanca'nın yanı sıra Boşnakça, Sırpça, Hırvatça ve İngilizce dillerinde de danışmanlık veriyorum."
+      },
+      "expertise": {
+        "title": "Teknik uzmanlık",
+        "description": "Trafik ve ceza hukuku üzerine odaklanmam, ihtiyaçlarınıza uygun bir çözüm geliştirmemi sağlıyor."
+      },
+      "processing": {
+        "title": "Hızlı işlem",
+        "description": "Çeşitli dijital araçları kullanarak, hukuki meselelerinizi verimli ve hızlı bir şekilde halledebiliyorum."
+      },
+      "transparency": {
+        "title": "Maliyet şeffaflığı",
+        "description": "Sizi önceden maliyetler hakkında bilgilendiriyor ve gerekirse hukuki masraf sigortanızdan önceden teminat onayı alıyorum."
+      },
+      "assessment": {
+        "title": "Ücretsiz ilk değerlendirme",
+        "description": "Ücretsiz ilk değerlendirme almak için iletişim formunu kullanarak endişelerinizi anlatabilirsiniz."
+      },
+      "accessibility": {
+        "title": "Kolay ulaşılabilirlik",
+        "description": "Çeşitli iletişim seçenekleri sunuyorum. Bana telefon veya e-posta ile ulaşabilir veya geri arama talep edebilirsiniz."
+      }
+    }
+  },
+  "aboutMe": {
+    "title": "Hakkımda",
+    "nameTag": {
+      "title": "Anwaltskanzlei Gür",
+      "subtitle": "avukat"
+    },
+    "education": {
+      "title": "Eğitim",
+      "description": "Hamburg Üniversitesi'nde birinci devlet sınavını ve Schleswig Yüksek Eyalet Mahkemesi, Kiel Bölge Mahkemesi'nde ikinci devlet sınavını tamamladım."
+    },
+    "experience": {
+      "title": "Mesleki Deneyim",
+      "items": [
+        "Erken dönemde trafik ve ceza hukukuna odaklandım ve öğrenimim ve hukuk stajım sırasında bu hukuk alanlarında derinlemesine bilgi edindim. Hukuk stajım sırasında özenle seçilen staj yerleri de buna katkıda bulundu.",
+        "Hukuk stajım sırasında Kiel savcılığındaki çalışmam, karşı tarafın çalışma şekli ve yaklaşımı hakkında da fikir verdi. Bu, savcılığın belirli davranışlarını öngörebilmemi ve etkili bir savunma hazırlayabilmemi sağlıyor.",
+        "Hukuk ve seçmeli stajımın bir parçası olarak, tanınmış bir ceza avukatı ve trafik hukuku uzmanı avukat yanında tamamladım."
+      ]
+    }
+  },
+  "videoTour": {
+    "title": "Tur Atın",
+    "description": "Kurumsal yönetim sağlayarak, müşterilerimize finans alanında bir şirketi yönetme sorumluluklarını yönetmede yardımcı oluyoruz."
+  },
+  "contact": {
+    "title": "Randevu alın",
+    "subtitle": "Hukuk, göz ardı edildiğinde önemli sorunlara yol açabilecek karmaşık bir konudur. Size yardımcı olmamıza izin verin!",
+    "form": {
+      "firstName": {
+        "placeholder": "Ad *",
+        "error": "Ad gereklidir"
+      },
+      "lastName": {
+        "placeholder": "Soyad *",
+        "error": "Soyad gereklidir"
+      },
+      "email": {
+        "placeholder": "E-posta *",
+        "error": "Lütfen geçerli bir e-posta adresi girin"
+      },
+      "phone": {
+        "placeholder": "Telefon numarası",
+        "error": "Lütfen geçerli bir telefon numarası girin"
+      },
+      "message": {
+        "placeholder": "Konunuz (örn. trafik kazası, sürüş yasağı, tazminat)",
+        "error": "Mesaj gereklidir"
+      },
+      "submit": "Mesaj Gönder",
+      "success": "Mesajınız başarıyla gönderildi!"
+    },
+    "info": {
+      "location": {
+        "title": "Konum",
+        "lines": ["Bei den Mühren 70", "20457 Hamburg"]
+      },
+      "phone": {
+        "title": "Telefon",
+        "lines": ["(040) 638 622 39"]
+      },
+      "fax": {
+        "title": "Faks",
+        "lines": ["(040) 334 824 08"]
+      },
+      "email": {
+        "title": "E-posta",
+        "lines": ["info@kanzlei-cerkezovic.de"]
+      },
+      "availability": {
+        "title": "Telefon müsaitliği",
+        "lines": ["Pazartesi–Cuma", "09:00 – 18:00"]
+      }
+    }
+  },
+  "footer": {
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    },
+    "legal": {
+      "imprint": "Künye",
+      "dataProtection": "Veri Koruma",
+      "terms": "Kullanım Şartları"
+    },
+    "contact": {
+      "email": "info@kanzlei-cerkezovic.de",
+      "phone": "(040) 638 622 39"
+    },
+    "brand": {
+      "firstWord": "Anwaltskanzlei",
+      "secondWord": "Gür",
+      "subtitle": "Hukuk Bürosu"
+    },
+    "copyright": "© {year} Tüm hakları Anwaltskanzlei Gür Hukuk Bürosu'na aittir."
+  },
+  "imprint": {
+    "title": "Künye",
+    "legalInfo": {
+      "title": "§ 5 TMG'ye göre bilgiler",
+      "name": "Anwaltskanzlei Cerkezovic",
+      "owner": "Mirnes Cerkezovic",
+      "address": {
+        "street": "Bei den Mühren 70",
+        "city": "20457 Hamburg"
+      }
+    },
+    "contact": {
+      "title": "İletişim",
+      "phone": "+49 40 638 622 39",
+      "email": "info@kanzlei-cerkezovic.de"
+    },
+    "supervisory": {
+      "title": "Denetim Kurumu",
+      "name": "Hamburg Barosu",
+      "address": {
+        "street": "Valentinskamp 88",
+        "city": "20355 Hamburg"
+      },
+      "website": "https://www.rak-hamburg.de/"
+    },
+    "professional": {
+      "title": "Mesleki Unvan ve Düzenlemeler",
+      "designation": {
+        "title": "Mesleki Unvan:",
+        "value": "Avukat"
+      },
+      "chamber": {
+        "title": "Sorumlu Oda:",
+        "name": "Hamburg Barosu",
+        "address": {
+          "street": "Valentinskamp 88",
+          "city": "20355 Hamburg"
+        }
+      },
+      "issuedIn": {
+        "title": "Verildiği Yer:",
+        "value": "Almanya"
+      },
+      "regulations": {
+        "title": "Aşağıdaki mesleki düzenlemeler geçerlidir:",
+        "items": [
+          {
+            "name": "Federal Avukatlık Kanunu (BRAO)",
+            "link": "https://www.brak.de/"
+          },
+          {
+            "name": "Federal Avukatlık Ücret Tarifesi (BRAGO)",
+            "link": "https://www.brak.de/"
+          },
+          {
+            "name": "Avukatlık Ücret Kanunu (RVG)",
+            "link": "https://www.brak.de/"
+          },
+          {
+            "name": "Avukatlık Meslek Kuralları (BORA)",
+            "link": "https://www.brak.de/"
+          }
+        ]
+      }
+    },
+    "insurance": {
+      "title": "Mesleki Sorumluluk Sigortası Bilgileri",
+      "insurer": {
+        "title": "Sigortacının Adı ve Adresi:",
+        "name": "Markel Insurance SE",
+        "address": {
+          "street": "Sophienstraße 26",
+          "city": "80333 München"
+        }
+      },
+      "coverage": {
+        "title": "Sigorta Kapsama Alanı:",
+        "value": "Almanya"
+      }
+    },
+    "disputes": {
+      "title": "Tüketici Uyuşmazlıkları Çözümü/Evrensel Arabuluculuk Kurulu",
+      "text": "Tüketici arabuluculuk kurulu önündeki uyuşmazlık çözüm süreçlerine katılmaya istekli veya yükümlü değiliz."
+    }
+  },
+  "dataProtection": {
+    "title": "Veri Koruma",
+    "sections": [
+      {
+        "title": "1. Genel Bilgiler",
+        "content": "Bu sayfaların operatörleri, kişisel verilerinizin korunmasını çok ciddiye almaktadır. Kişisel verilerinizi gizli olarak ve yasal veri koruma düzenlemelerine ve bu gizlilik politikasına uygun olarak işliyoruz. Veri koruma konusunda ayrıntılı bilgiyi aşağıdaki içerikte bulabilirsiniz:"
+      },
+      {
+        "title": "2. Sorumlu Taraf",
+        "content": "Bu web sitesindeki veri işleme için sorumlu taraf:",
+        "details": [
+          "Mirnes Cerkezovic",
+          "Bei den Mühren 70",
+          "20457 Hamburg",
+          "Telefon: 040 35 77 42 61",
+          "E-posta: info@kanzlei-cerkezovic.de"
+        ]
+      },
+      {
+        "title": "3. Kişisel Verilerin Toplanması ve Saklanması",
+        "content": "Web sitemize her erişimde, kullandığınız tarayıcı tarafından otomatik olarak web sitemizin sunucusuna bilgiler iletilir. Aşağıdaki bilgiler toplanır ve otomatik silinene kadar saklanır:",
+        "items": [
+          "İstek yapan bilgisayarın IP adresi,",
+          "Erişim tarihi ve saati,",
+          "Erişilen dosyanın adı ve URL'si,",
+          "Yönlendiren URL, yani erişimin yapıldığı web sitesi,",
+          "Kullanılan tarayıcı türü hakkında bilgiler,",
+          "Bilgisayarınızın işletim sistemi,",
+          "İnternet servis sağlayıcınızın adı"
+        ],
+        "legalBasis": "Bu işleme için yasal dayanak, GDPR Madde 6(1)(f)'dir."
+      },
+      {
+        "title": "4. Çerezler",
+        "content": "Web sitemiz \"çerezler\" adı verilen araçları kullanmaktadır. Çerezler küçük veri paketleridir ve cihazınıza zarar vermez. Bunlar ya geçici olarak bir oturum süresince (oturum çerezleri) ya da kalıcı olarak (kalıcı çerezler) cihazınızda saklanır. Oturum çerezleri ziyaretinizin sonunda otomatik olarak silinir. Kalıcı çerezler, siz bunları manuel olarak silene kadar veya web tarayıcınız tarafından otomatik olarak silinene kadar cihazınızda kalır. Çerezler bizden (birinci taraf çerezleri) veya üçüncü taraf şirketlerden (üçüncü taraf çerezleri) gelebilir. Üçüncü taraf çerezleri, web siteleri içinde belirli üçüncü taraf hizmetlerinin entegrasyonuna olanak tanır (örneğin, ödeme hizmetlerini işlemek için çerezler). Çerezlerin çeşitli işlevleri vardır. Birçok çerez teknik olarak gereklidir, çünkü belirli web sitesi işlevleri bunlar olmadan çalışmaz (örneğin, alışveriş sepeti işlevi veya video gösterimi). Diğer çerezler kullanıcı davranışını analiz etmek veya reklam amaçlı kullanılabilir. Elektronik iletişim sürecini gerçekleştirmek, sizin tarafınızdan talep edilen belirli işlevleri sağlamak veya web sitesini optimize etmek (örneğin, web izleyicisini ölçmek için çerezler) için gerekli olan çerezler (gerekli çerezler), GDPR Madde 6(1)(f) temelinde saklanır, başka bir yasal dayanak belirtilmedikçe. Web sitesi operatörünün, hizmetlerinin teknik olarak hatasız ve optimize edilmiş bir şekilde sağlanması için gerekli çerezleri saklamakta meşru bir menfaati vardır. Çerezlerin ve benzer tanıma teknolojilerinin saklanması için onay istendiyse, işleme yalnızca bu onay temelinde gerçekleşir (GDPR Madde 6(1)(a) ve TTDSG Bölüm 25(1)); onay herhangi bir zamanda geri çekilebilir. Tarayıcınızı, çerezlerin ayarlanması hakkında bilgilendirilecek ve çerezlere yalnızca vaka bazında izin verecek, belirli durumlar için veya genel olarak çerezlerin kabul edilmesini reddedecek ve tarayıcı kapatıldığında çerezlerin otomatik olarak silinmesini etkinleştirecek şekilde ayarlayabilirsiniz. Çerezler devre dışı bırakıldığında, bu web sitesinin işlevselliği sınırlı olabilir."
+      },
+      {
+        "title": "5. Google Analytics (Analiz aracı)",
+        "content": "Sayfalarımızın ihtiyaca uygun tasarımı ve sürekli optimizasyonu amacıyla Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, İrlanda (bundan sonra \"Google\" olarak anılacaktır) tarafından sağlanan bir web analiz hizmeti olan Google Analytics'i kullanıyoruz. İzleme önlemlerini, web sitemizin kullanımını istatistiksel olarak kaydetmek ve teklifimizi sizin için optimize etmek amacıyla kullanıyoruz. Bu veri işleme için yasal dayanak, GDPR Madde 6(1)(a) uyarınca sizin onayınızdır. Web sitemizi ziyaret ettiğinizde, analiz ve pazarlama amaçlı çerezler aracılığıyla veri işlemeye onay verme fırsatınız olacaktır. Bu onay gönüllüdür ve istediğiniz zaman geri çekilebilir. Onay vermezseniz, pazarlama veya analiz amaçlı çerezler ayarlanmaz. Bu bağlamda, takma adlı kullanım profilleri oluşturulur ve çerezler (bkz. Bölüm IV) kullanılır. Çerez tarafından oluşturulan, bu web sitesinin kullanımına ilişkin bilgiler şunlardır:",
+        "items": [
+          "Tarayıcı türü/versiyonu,",
+          "Kullanılan işletim sistemi,",
+          "Yönlendiren URL (daha önce ziyaret edilen sayfa),",
+          "Erişim yapan bilgisayarın ana bilgisayar adı (IP adresi),",
+          "Sunucu isteğinin zamanı,"
+        ],
+        "additionalContent": "genellikle Google'ın bir sunucusuna aktarılır ve orada saklanır. Verilerin ABD'deki Google sunucularına aktarılması da mümkündür. Google'ın EU-US Privacy Shield kapsamında sertifikalandırılması nedeniyle, Avrupa Komisyonu Google için yeterli bir veri koruma düzeyi belirlemiştir. Yukarıda belirtilen bilgiler, yasalarca gerekli olduğu durumlarda veya üçüncü tarafların bu verileri bizim adımıza işlediği durumlarda üçüncü taraflara da aktarılabilir. Hiçbir durumda tarayıcınız tarafından iletilen IP adresi Google'ın diğer verileriyle birleştirilmez. IP adresleri anonimleştirilir, böylece bir atama mümkün olmaz (IP maskeleme). Yalnızca istisnai durumlarda tam IP adresi ABD'deki bir Google sunucusuna aktarılır ve orada kısaltılır. Google, bu bilgiyi bizim adımıza web sitesi kullanımınızı değerlendirmek, web sitesi aktiviteleri hakkında raporlar derlemek ve web sitesi kullanımı ve internet kullanımıyla ilgili diğer hizmetleri bize sağlamak için kullanacaktır. Tarayıcı yazılımının uygun ayarı yapılarak çerezlerin yüklenmesi engellenebilir; ancak bu durumda bu web sitesinin tüm işlevlerinin tam olarak kullanılamayabileceğini belirtmek isteriz. Ayrıca, çerez tarafından oluşturulan ve web sitesi kullanımınızla ilgili verilerin (IP adresiniz dahil) toplanmasını ve bu verilerin Google tarafından işlenmesini, Google Analytics'i devre dışı bırakan bir tarayıcı eklentisi indirip kurarak engelleyebilirsiniz. Alternatif olarak, özellikle mobil cihazlardaki tarayıcılar için, bu BAĞLANTI'ya tıklayarak Google Analytics tarafından veri toplanmasını da engelleyebilirsiniz. Gelecekteki web sitesi ziyaretlerinizde verilerinizin toplanmasını önlemek için bir opt-out çerezi ayarlanacaktır. Opt-out çerezi cihazınıza yerleştirilir ve yalnızca bu tarayıcıda ve yalnızca bizim web sitemiz için geçerlidir. Bu tarayıcıdaki çerezleri silerseniz, opt-out çerezini yeniden ayarlamanız gerekecektir. Google Analytics ile ilgili veri koruma hakkında daha fazla bilgiyi Google Analytics yardımında bulabilirsiniz."
+      },
+      {
+        "title": "6. Google Ads (Pazarlama hizmeti)",
+        "content": "Web sitemizde Google Ads hizmetini entegre ettik. Google Ads, hem Google arama motoru sonuçlarında hem de Google reklam ağında reklam göstermeye izin veren bir internet reklam hizmetidir. Bu hizmetin işletmeci şirketi Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, İrlanda'dır. Bu veri işleme için yasal dayanak, GDPR Madde 6(1)(a) uyarınca sizin onayınızdır. Web sitemizi ziyaret ettiğinizde, analiz ve pazarlama amaçlı çerezler aracılığıyla veri işlemeye onay verme fırsatınız olacaktır. Bu onay gönüllüdür ve istediğiniz zaman geri çekilebilir. Onay vermezseniz, pazarlama veya analiz amaçlı çerezler ayarlanmaz. Google Ads'in amacı, üçüncü taraf web sitelerinde ve Google arama sonuçlarında reklam göstererek ve web sitemizde yabancı reklamlar göstererek web sitemizin reklamını yapmaktır. İstatistiksel değerlendirme ve teklifimizin iyileştirilmesi için Google Ads reklamları, Google Dönüşüm İzleme kullanılarak değerlendirilir. Bunun için, bir Google reklamı üzerinden web sitemize geldiğinizde Google Ads tarafından bilgisayarınıza bir çerez (bkz. Bölüm IV) yerleştirilir. Bu çerezler 30 gün sonra geçerliliğini yitirir ve kişisel tanımlama için kullanılmaz. Kullanıcı, Ads müşterisinin belirli sayfalarını ziyaret eder ve çerez henüz sona ermemişse, Google ve müşteri, kullanıcının reklama tıkladığını ve bu sayfaya yönlendirildiğini anlayabilir. Her Ads müşterisi farklı bir çerez alır. Bu nedenle çerezler Ads müşterilerinin web siteleri üzerinden takip edilemez. Dönüşüm çerezi kullanılarak toplanan bilgiler, Dönüşüm İzleme'yi seçen Ads müşterileri için Dönüşüm istatistikleri oluşturmak için kullanılır. Ads müşterileri, reklamlarına tıklayan ve bir Dönüşüm İzleme etiketi ile işaretlenmiş bir sayfaya yönlendirilen toplam kullanıcı sayısını öğrenir. Ancak, kullanıcıları kişisel olarak tanımlayabilecek bilgiler almazlar. İzleme prosedürüne katılmak istemiyorsanız, örneğin çerezlerin otomatik olarak ayarlanmasını genel olarak devre dışı bırakan tarayıcı ayarı gibi, bunun için gerekli olan çerezin ayarlanmasını da reddedebilirsiniz. Ayrıca, \"www.googleadservices.com\" alan adından gelen çerezleri engelleyecek şekilde tarayıcınızı ayarlayarak Dönüşüm İzleme için çerezleri devre dışı bırakabilirsiniz. Google'ın Dönüşüm İzleme hakkındaki diğer bilgileri ve gizlilik bildirimi burada bulunabilir: Google Ads Yardım Dönüşüm İzleme ve Google Gizlilik Politikası ve Kullanım Koşulları Ayrıca, web sitemizde Google Tag Manager'ı kullanıyoruz. Google Tag Manager, pazarlamacıların web sitesi etiketlerini bir arayüz üzerinden yönetmesine olanak tanıyan bir çözümdür. Etiket Yöneticisi aracının kendisi (etiketleri uygulayan) çerezsiz bir alandır ve kişisel verileri toplamaz. Araç, diğer etiketlerin tetiklenmesini sağlar, bu etiketler de kendi başlarına veri toplayabilir. Google Tag Manager bu verilere erişmez. Alan veya çerez düzeyinde bir devre dışı bırakma yapılmışsa, bu, Google Tag Manager ile uygulanan tüm izleme etiketleri için geçerli kalır. Web sitemiz ayrıca Google'ın Yeniden Pazarlama işlevini kullanmaktadır. Bu teknoloji, web sitesi ziyaretçilerine Google Ortak Ağı kapsamında ilgi alanlarına dayalı reklamlar sunmayı amaçlar. Reklamların gösterilmesi, çerezler kullanılarak gerçekleştirilir; bu çerezler yardımıyla web sitesi ziyareti sırasında kullanıcı davranışı analiz edilir ve daha sonra hedefli ürün önerileri ve ilgi alanına dayalı reklamlar için kullanılabilir. Daha sonra bu sayfalarda, ziyaretçiye daha önce Google'ın Yeniden Pazarlama teknolojisini kullanan web sitelerinde görüntülediği içeriklerle ilgili reklamlar gösterilebilir. Google'ın kendi açıklamalarına göre, bu süreçte kişisel veri toplamaz. Daha fazla bilgiyi burada bulabilirsiniz: Google Pazarlama Platformu - Etiket Yöneticisi Hizmet Şartları ve burada Google Gizlilik Politikası ve Kullanım Koşulları. Google Yeniden Pazarlama teknolojisi aracılığıyla ilgi alanına dayalı reklam istemiyorsanız, Google'ın bu amaçlar için çerez kullanımını aşağıdaki bağlantıdan ilgili ayarları yaparak devre dışı bırakabilirsiniz: Google Kişiselleştirilmiş Reklam Ayarları"
+      },
+      {
+        "title": "7. İletişim Formu",
+        "content": "İletişim formu aracılığıyla bize sorular gönderirseniz, soru formundaki bilgileriniz, orada belirttiğiniz iletişim bilgileri de dahil olmak üzere, soruyu işlemek ve olası takip soruları için tarafımızda saklanacaktır. Bu verileri sizin izniniz olmadan paylaşmayız. Bu verilerin işlenmesi, GDPR Madde 6(1)(b) temelinde gerçekleşir, eğer talebiniz bir sözleşmenin yerine getirilmesiyle ilgiliyse veya sözleşme öncesi önlemlerin alınması için gerekliyse. Diğer tüm durumlarda, işleme bize yöneltilen taleplerin etkin bir şekilde işlenmesindeki meşru menfaatimize (GDPR Madde 6(1)(f)) veya sizin onayınıza (GDPR Madde 6(1)(a)) dayanır, eğer bu istenmiş ise; onay herhangi bir zamanda geri çekilebilir. İletişim formunda girdiğiniz veriler, siz bizi silmemiz için uyarana, onayınızı geri çekene veya veri saklama amacı ortadan kalkana kadar (örneğin, talebinizin işlenmesi tamamlandıktan sonra) bizde kalır. Zorunlu yasal hükümler - özellikle saklama süreleri - bundan etkilenmez. E-posta, Telefon veya Faks ile Talep:Bize e-posta, telefon veya faks yoluyla iletişime geçerseniz, talebiniz, bundan kaynaklanan tüm kişisel veriler (ad, talep) dahil olmak üzere, talebinizi işlemek amacıyla tarafımızda saklanacak ve işlenecektir. Bu verileri sizin izniniz olmadan paylaşmayız. Bu verilerin işlenmesi, GDPR Madde 6(1)(b) temelinde gerçekleşir, eğer talebiniz bir sözleşmenin yerine getirilmesiyle ilgiliyse veya sözleşme öncesi önlemlerin alınması için gerekliyse. Diğer tüm durumlarda, işleme bize yöneltilen taleplerin etkin bir şekilde işlenmesindeki meşru menfaatimize (GDPR Madde 6(1)(f)) veya sizin onayınıza (GDPR Madde 6(1)(a)) dayanır, eğer bu istenmiş ise; onay herhangi bir zamanda geri çekilebilir. İletişim talepleri aracılığıyla bize gönderdiğiniz veriler, siz bizi silmemiz için uyarana, onayınızı geri çekene veya veri saklama amacı ortadan kalkana kadar (örneğin, talebinizin işlenmesi tamamlandıktan sonra) bizde kalır. Zorunlu yasal hükümler - özellikle yasal saklama süreleri - bundan etkilenmez."
+      },
+      {
+        "title": "8. Sosyal Medya (Instagram)",
+        "content": "Bu web sitesinde Instagram hizmetinin işlevleri entegre edilmiştir. Bu işlevler Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, İrlanda tarafından sunulmaktadır. Sosyal medya öğesi aktif olduğunda, cihazınız ile Instagram sunucusu arasında doğrudan bir bağlantı kurulur. Instagram bu sayede bu web sitesini ziyaretiniz hakkında bilgi alır. Instagram hesabınızda oturum açmışsanız, Instagram düğmesine tıklayarak bu web sitesinin içeriğini Instagram profilinizle ilişkilendirebilirsiniz. Bu, Instagram'ın bu web sitesini ziyaretinizi kullanıcı hesabınıza atayabilmesini sağlar. Sayfaların sağlayıcısı olarak, iletilen verilerin içeriği veya Instagram tarafından kullanımı hakkında hiçbir bilgi almadığımızı belirtmek isteriz. Bir onay (Consent) alındıysa, yukarıda belirtilen hizmetin kullanımı GDPR Madde 6(1)(a) ve TTDSG Bölüm 25 temelinde gerçekleşir. Onay herhangi bir zamanda geri çekilebilir. Onay alınmadıysa, hizmetin kullanımı sosyal medyada mümkün olan en kapsamlı görünürlüğe olan meşru menfaatimize dayanmaktadır. Burada açıklanan araç yardımıyla web sitemizde kişisel veriler toplanıp Facebook veya Instagram'a iletildiği ölçüde, biz ve Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, İrlanda bu veri işleme için ortaklaşa sorumludur (GDPR Madde 26). Ortak sorumluluk, yalnızca verilerin toplanması ve Facebook veya Instagram'a iletilmesiyle sınırlıdır. İletimden sonra Facebook veya Instagram tarafından yapılan işleme, ortak sorumluluğun bir parçası değildir. Birlikte üstlendiğimiz yükümlülükler, ortak işleme anlaşmasında belirlenmiştir. Anlaşmanın metnini şu adreste bulabilirsiniz: https://www.facebook.com/legal/controller_addendum. Bu anlaşmaya göre, Facebook veya Instagram aracının kullanımında veri koruma bilgilerinin sağlanmasından ve aracın web sitemize veri koruma hukuku açısından güvenli bir şekilde uygulanmasından biz sorumluyuz. Facebook veya Instagram ürünlerinin veri güvenliğinden Facebook sorumludur. İlgili kişilerin hakları (örneğin bilgi talepleri) Facebook veya Instagram'da işlenen verilerle ilgili olarak doğrudan Facebook'a karşı ileri sürülebilir. İlgili kişilerin haklarını bize karşı ileri sürmesi durumunda, bunları Facebook'a iletmekle yükümlüyüz. ABD'ye veri aktarımı, AB Komisyonu'nun standart sözleşme maddelerine dayanmaktadır. Ayrıntıları burada bulabilirsiniz: https://www.facebook.com/legal/EU_data_transfer_addendum, https://help.instagram.com/519522125107875 ve https://de-de.facebook.com/help/566994660333381. Bu konuda daha fazla bilgiyi Instagram'ın gizlilik politikasında bulabilirsiniz: https://instagram.com/about/legal/privacy/. Şirket, \"EU-US Data Privacy Framework\" (DPF) kapsamında bir sertifikaya sahiptir. DPF, Avrupa Birliği ile ABD arasında, ABD'deki veri işlemlerinde Avrupa veri koruma standartlarına uyulmasını sağlamayı amaçlayan bir anlaşmadır. DPF kapsamında sertifikalandırılmış her şirket, bu veri koruma standartlarına uymayı taahhüt eder. Bu konuda daha fazla bilgiyi sağlayıcıdan şu bağlantıdan alabilirsiniz: https://www.dataprivacyframework.gov/s/participant-search/participant- detail?contact=true&id=a2zt0000000GnywAAC&status=Active"
+      },
+      {
+        "title": "9. Eklentiler ve Araçlar",
+        "subsections": [
+          {
+            "title": "a. Google Fonts",
+            "content": "Bu sayfa, yazı tiplerinin tek tip gösterimi için Google tarafından sağlanan Google Fonts adı verilen yazı tiplerini kullanır. Bir sayfayı çağırdığınızda, tarayıcınız metinleri ve yazı tiplerini doğru görüntülemek için gerekli yazı tiplerini tarayıcı önbelleğine yükler. Bu amaçla, kullandığınız tarayıcının Google sunucularıyla bağlantı kurması gerekir. Bu sayede Google, IP adresiniz üzerinden bu web sitesinin çağrıldığını öğrenir. Google Fonts'un kullanımı, GDPR Madde 6(1)(f) temelinde gerçekleşir. Web sitesi operatörünün, web sitesindeki yazı tipinin tek tip gösterimi konusunda meşru bir menfaati vardır. İlgili bir onay istendiyse, işleme yalnızca GDPR Madde 6(1)(a) ve TTDSG Bölüm 25(1) temelinde gerçekleşir, onay TTDSG anlamında kullanıcının cihazındaki bilgilere erişimi veya bilgilerin depolanmasını (örneğin cihaz parmak izi) içerdiği sürece. Onay herhangi bir zamanda geri çekilebilir. Tarayıcınız Google Fonts'u desteklemiyorsa, bilgisayarınızdan standart bir yazı tipi kullanılır. Google Fonts hakkında daha fazla bilgiyi https://developers.google.com/fonts/faq adresinde ve Google'ın gizlilik politikasında bulabilirsiniz: https://policies.google.com/privacy?hl=de. Şirket, \"EU-US Data Privacy Framework\" (DPF) kapsamında bir sertifikaya sahiptir. DPF, Avrupa Birliği ile ABD arasında, ABD'deki veri işlemlerinde Avrupa veri koruma standartlarına uyulmasını sağlamayı amaçlayan bir anlaşmadır. DPF kapsamında sertifikalandırılmış her şirket, bu veri koruma standartlarına uymayı taahhüt eder. Bu konuda daha fazla bilgiyi sağlayıcıdan şu bağlantıdan alabilirsiniz: https://www.dataprivacyframework.gov/s/participant-search/participant- detail?contact=true&id=a2zt000000001L5AAI&status=Active"
+          },
+          {
+            "title": "b. Google Maps",
+            "content": "Bu sayfa Google Maps harita hizmetini kullanmaktadır. Sağlayıcı, Google Ireland Limited (\"Google\"), Gordon House, Barrow Street, Dublin 4, İrlanda'dır. Google Maps'in işlevlerini kullanmak için IP adresinizin saklanması gereklidir. Bu bilgiler genellikle ABD'deki bir Google sunucusuna aktarılır ve orada saklanır. Bu sayfanın sağlayıcısının bu veri aktarımı üzerinde hiçbir etkisi yoktur. Google Maps etkinleştirildiğinde, Google yazı tiplerinin tek tip gösterimi amacıyla Google Fonts'u kullanabilir. Google Maps'i çağırdığınızda, tarayıcınız metinleri ve yazı tiplerini doğru görüntülemek için gerekli Web Fonts'u tarayıcı önbelleğine yükler. Google Maps'in kullanımı, çevrimiçi tekliflerimizin çekici bir şekilde sunulması ve web sitemizde belirtilen yerlerin kolayca bulunabilmesi menfaatimize dayanmaktadır. Bu, GDPR Madde 6(1)(f) anlamında meşru bir menfaat teşkil eder. İlgili bir onay istendiyse, işleme yalnızca GDPR Madde 6(1)(a) ve TTDSG Bölüm 25(1) temelinde gerçekleşir, onay TTDSG anlamında kullanıcının cihazındaki bilgilere erişimi veya bilgilerin depolanmasını (örneğin cihaz parmak izi) içerdiği sürece. Onay herhangi bir zamanda geri çekilebilir. ABD'ye veri aktarımı, AB Komisyonu'nun standart sözleşme maddelerine dayanmaktadır. Ayrıntıları burada bulabilirsiniz: https://privacy.google.com/businesses/gdprcontrollerterms/ ve https://privacy.google.com/businesses/gdprcontrollerterms/sccs/. Kullanıcı verilerinin işlenmesi hakkında daha fazla bilgiyi Google'ın gizlilik politikasında bulabilirsiniz: https://policies.google.com/privacy?hl=de. Şirket, \"EU-US Data Privacy Framework\" (DPF) kapsamında bir sertifikaya sahiptir. DPF, Avrupa Birliği ile ABD arasında, ABD'deki veri işlemlerinde Avrupa veri koruma standartlarına uyulmasını sağlamayı amaçlayan bir anlaşmadır. DPF kapsamında sertifikalandırılmış her şirket, bu veri koruma standartlarına uymayı taahhüt eder. Bu konuda daha fazla bilgiyi sağlayıcıdan şu bağlantıdan alabilirsiniz: https://www.dataprivacyframework.gov/s/participant-search/participant- detail?contact=true&id=a2zt000000001L5AAI&status=Active"
+          }
+        ]
+      },
+      {
+        "title": "10. Barındırma",
+        "content": "Web sitemizin içeriğini aşağıdaki sağlayıcıda barındırıyoruz: Strato AG, Otto-Ostrowski-Straße 7, 10249 Berlin (bundan sonra \"Strato\" olarak anılacaktır). Web sitemizi ziyaret ettiğinizde, Strato IP adresleriniz dahil olmak üzere çeşitli günlük dosyalarını kaydeder. Daha fazla bilgiyi Strato'nun gizlilik politikasında bulabilirsiniz: https://www.strato.de/datenschutz/. Strato'nun kullanımı GDPR Madde 6(1)(f) temelinde gerçekleşir. Web sitemizin mümkün olduğunca güvenilir bir şekilde sunulmasında meşru bir menfaatimiz vardır. İlgili bir onay istendiyse, işleme yalnızca GDPR Madde 6(1)(a) ve TTDSG Bölüm 25(1) temelinde gerçekleşir, onay TTDSG anlamında kullanıcının cihazındaki bilgilere erişimi veya bilgilerin depolanmasını (örneğin cihaz parmak izi) içerdiği sürece. Onay herhangi bir zamanda geri çekilebilir.",
+        "subsections": [
+          {
+            "title": "İşleme Sözleşmesi",
+            "content": "Yukarıda belirtilen hizmetin kullanımı için bir veri işleme sözleşmesi (AVV) imzaladık. Bu, veri koruma yasası tarafından öngörülen bir sözleşmedir ve web sitesi ziyaretçilerimizin kişisel verilerini yalnızca bizim talimatlarımıza göre ve GDPR'ye uygun olarak işlediğini garanti eder."
+          }
+        ]
+      },
+      {
+        "title": "11. İlgili Kişilerin Hakları",
+        "content": "İlgili kişi olarak, veri sorumlusuna karşı aşağıdaki haklara sahipsiniz. Bu haklardan herhangi birini kullanmak istiyorsanız, lütfen Bölüm I'de belirtilen iletişim bilgilerini kullanarak veri sorumlusuyla iletişime geçin.",
+        "subsections": [
+          {
+            "title": "a. Bilgi Alma Hakkı (GDPR Madde 15)",
+            "content": "Veri sorumlusundan, sizinle ilgili kişisel verilerin işlenip işlenmediği konusunda bilgi talep edebilirsiniz. Bir işleme söz konusuysa, veri sorumlusundan bu kişisel veriler ve işleme amaçları; işlenen kişisel veri kategorileri; sizinle ilgili kişisel verilerin açıklandığı veya açıklanacağı alıcılar veya alıcı kategorileri; sizinle ilgili kişisel verilerin planlanan saklama süresi veya bu mümkün değilse, saklama süresinin belirlenmesi için kullanılan kriterler; sizinle ilgili kişisel verilerin düzeltilmesi veya silinmesi veya veri sorumlusu tarafından işlemenin kısıtlanması veya bu işleme itiraz etme hakkının varlığı; bir denetim makamına şikayet hakkının varlığı; kişisel veriler sizden toplanmadıysa, verilerin kaynağı hakkında mevcut tüm bilgiler; GDPR Madde 22(1) ve (4) uyarınca otomatik karar verme ve profil oluşturma dahil olmak üzere otomatik karar vermenin varlığı ve - en azından bu durumlarda - ilgili mantık hakkında anlamlı bilgiler ve bu tür işlemenin ilgili kişi için önemi ve olası sonuçları; kişisel verilerin üçüncü bir ülkeye veya uluslararası bir kuruluşa aktarılması ve bu bağlamda GDPR Madde 46 uyarınca uygun garantiler hakkında bilgi talep edebilirsiniz."
+          },
+          {
+            "title": "b. Düzeltme Hakkı (GDPR Madde 16)",
+            "content": "Sizinle ilgili işlenen kişisel verilerin yanlış veya eksik olması durumunda, veri sorumlusundan kişisel verilerinizin derhal düzeltilmesini ve/veya tamamlanmasını talep etme hakkına sahipsiniz."
+          },
+          {
+            "title": "c. Silme Hakkı (GDPR Madde 17)",
+            "content": "Bizde saklanan verilerinizin silinmesini talep edebilirsiniz, eğer veriler toplandıkları veya işlendikleri amaçlar için artık gerekli değilse; onayınızı geri çektiyseniz ve işleme için başka bir yasal dayanak yoksa; GDPR Madde 21(1) uyarınca itiraz ettiyseniz ve işleme için üstün gelen meşru sebepler yoksa veya GDPR Madde 21(2) uyarınca itiraz ettiyseniz; kişisel veriler hukuka aykırı olarak işlenmişse; silme yasal bir yükümlülüğün yerine getirilmesi için gerekliyse; veya kişisel veriler GDPR Madde 8(1) uyarınca bilgi toplumu hizmetleri ile ilgili olarak toplanmışsa. Bu silme hakkı, işlemenin ifade ve bilgi edinme özgürlüğü hakkının kullanılması için; yasal bir yükümlülüğün yerine getirilmesi için; kamu yararına veya resmi yetkinin kullanılması için; veya yasal iddiaların ileri sürülmesi, kullanılması veya savunulması için gerekli olduğu durumlarda geçerli değildir."
+          },
+          {
+            "title": "d. İşlemenin Kısıtlanması Hakkı (GDPR Madde 18)",
+            "content": "Kişisel verilerin doğruluğunu tarafınızdan itiraz edildiği süre boyunca veri sorumlusu tarafından doğruluğun kontrol edilmesi için; işleme hukuka aykırı olduğunda ve silme yerine işlemenin kısıtlanmasını talep ettiğinizde; veri sorumlusu artık verilere ihtiyaç duymadığında ancak siz yasal iddiaların ileri sürülmesi, kullanılması veya savunulması için bunlara ihtiyaç duyduğunuzda; veya GDPR Madde 21(1) uyarınca işlemeye itiraz ettiğinizde ve veri sorumlusunun meşru sebeplerinin sizin sebeplerinize göre üstün gelip gelmediği henüz belirlenmediğinde, sizinle ilgili kişisel verilerin işlenmesinin kısıtlanmasını talep edebilirsiniz. Sizinle ilgili kişisel verilerin işlenmesi kısıtlandıysa, bu veriler - saklanmaları dışında - yalnızca sizin onayınızla veya yasal iddiaların ileri sürülmesi, kullanılması veya savunulması için veya başka bir gerçek veya tüzel kişinin haklarının korunması için veya Birliğin veya bir Üye Devletin önemli bir kamu yararı nedeniyle işlenebilir. İşlemenin yukarıdaki koşullar altında kısıtlanması durumunda, kısıtlama kaldırılmadan önce veri sorumlusu tarafından bilgilendirileceksiniz."
+          },
+          {
+            "title": "e. Veri Taşınabilirliği Hakkı (GDPR Madde 20)",
+            "content": "Bize sağladığınız kişisel verilerinizi, yapılandırılmış, yaygın olarak kullanılan ve makine tarafından okunabilir bir formatta alma veya bu verilerin başka bir veri sorumlusuna iletilmesini talep etme hakkına sahipsiniz."
+          },
+          {
+            "title": "f. İtiraz Hakkı",
+            "content": "Kişisel verileriniz GDPR Madde 6(1)(f) uyarınca meşru menfaatler temelinde işleniyorsa, özel durumunuzdan kaynaklanan sebeplerle kişisel verilerinizin işlenmesine itiraz etme hakkına sahipsiniz. İtiraz doğrudan pazarlamaya yönelikse, özel bir durum belirtmeden genel bir itiraz hakkına sahipsiniz ve bu tarafımızdan uygulanacaktır."
+          },
+          {
+            "title": "g. Onayı Geri Çekme Hakkı (GDPR Madde 7(3))",
+            "content": "Bir kez verdiğiniz onayı herhangi bir zamanda bize karşı geri çekme hakkına sahipsiniz. Bunun sonucu olarak, bu onaya dayanan veri işlemeyi gelecekte devam ettiremeyiz."
+          },
+          {
+            "title": "h. Şikayet Hakkı (GDPR Madde 77)",
+            "content": "Bir denetim makamına şikayette bulunma hakkına sahipsiniz. Bunun için ikamet yerinizin veya iş yerinizin denetim makamına veya bizim için yetkili denetim makamına başvurabilirsiniz."
+          }
+        ]
+      },
+      {
+        "title": "12. Veri Güvenliği",
+        "content": "Verilerinizi en iyi şekilde korumak için, web sitemizde tarayıcınız tarafından desteklenen en yüksek şifreleme seviyesi ile birlikte SSL (Secure Socket Layer) prosedürünü kullanıyoruz. İnternet sitemizin belirli bir sayfasının şifrelenmiş olarak iletilip iletilmediğini, tarayıcınızın durum çubuğundaki anahtar veya kilit sembolünün kapalı gösteriminden anlayabilirsiniz. Ayrıca, verilerinizi manipülasyonlara, kayıplara, yok edilmeye veya üçüncü tarafların yetkisiz erişimine karşı korumak için uygun teknik ve organizasyonel güvenlik önlemlerini kullanıyoruz."
+      }
+    ]
+  }
+
+}
