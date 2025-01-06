@@ -16,7 +16,7 @@ const config: Config = {
           dark: '#001b3d',     // Darker shade for emphasis
         },
         // Gold - Simplified to single brand color
-        gold: '#ffc947',       // Brand gold color
+        gold: '#ce092b',       // Brand gold color
         
         law: {
           light: '#f8fafc',     
