@@ -109,7 +109,7 @@ const Hero = () => {
             {/* Main Image */}
             <div className="relative w-[90%] h-[90%] overflow-hidden rounded-2xl">
               <Image
-                src="/lawyer-image.jpg"
+                src="/lawyer-image2.jpg"
                 alt="Professional Lawyer"
                 fill
                 className="object-cover object-center"
