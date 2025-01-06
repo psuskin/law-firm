@@ -4,7 +4,7 @@ import Services from "@/components/Home/Services";
 import LegalAreas from "@/components/Home/LegalAreas";
 import Advantages from "@/components/Home/Advantages";
 import AboutMe from "@/components/Home/AboutMe";
-import VideoTour from "@/components/Home/VideoTour";
+// import VideoTour from "@/components/Home/VideoTour";
 import Contact from "@/components/Home/Contact";
 import { unstable_setRequestLocale } from "next-intl/server";
 
@@ -27,9 +27,9 @@ const Home = ({ params: { locale } }: { params: { locale: string } }) => {
       <section id="about">
         <AboutMe />
       </section>
-      <section id="video-tour">
+      {/* <section id="video-tour">
         <VideoTour />
-      </section>
+      </section> */}
       <section id="contact">
         <Contact />
       </section>
