@@ -242,7 +242,7 @@
     "info": {
       "location": {
         "title": "Konum",
-        "lines": ["Bei den Mühren 70", "20457 Hamburg"]
+        "lines": ["Herderstraße 11", "22085 Hamburg"]
       },
       "phone": {
         "title": "Telefon",
@@ -254,7 +254,7 @@
       },
       "email": {
         "title": "E-posta",
-        "lines": ["info@kanzlei-cerkezovic.de"]
+        "lines": ["info@kanzleiguer.de"]
       },
       "availability": {
         "title": "Telefon müsaitliği",
@@ -274,7 +274,7 @@
       "terms": "Kullanım Şartları"
     },
     "contact": {
-      "email": "info@kanzlei-cerkezovic.de",
+      "email": "info@kanzleiguer.de",
       "phone": "(040) 638 622 39"
     },
     "brand": {
@@ -288,17 +288,17 @@
     "title": "Künye",
     "legalInfo": {
       "title": "§ 5 TMG'ye göre bilgiler",
-      "name": "Anwaltskanzlei Cerkezovic",
+      "name": "Anwaltskanzlei Gür",
       "owner": "Mirnes Cerkezovic",
       "address": {
-        "street": "Bei den Mühren 70",
-        "city": "20457 Hamburg"
+        "street": "Herderstraße 11",
+        "city": "22085 Hamburg"
       }
     },
     "contact": {
       "title": "İletişim",
       "phone": "+49 40 638 622 39",
-      "email": "info@kanzlei-cerkezovic.de"
+      "email": "info@kanzleiguer.de"
     },
     "supervisory": {
       "title": "Denetim Kurumu",
@@ -381,10 +381,10 @@
         "content": "Bu web sitesindeki veri işleme için sorumlu taraf:",
         "details": [
           "Mirnes Cerkezovic",
-          "Bei den Mühren 70",
-          "20457 Hamburg",
+          "Herderstraße 11",
+          "22085 Hamburg",
           "Telefon: 040 35 77 42 61",
-          "E-posta: info@kanzlei-cerkezovic.de"
+          "E-posta: info@kanzleiguer.de"
         ]
       },
       {

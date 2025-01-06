@@ -25,11 +25,11 @@ const ContactInfo = () => {
       key: "phone",
       icon: DevicePhoneMobileIcon,
     },
-    {
-      id: 3,
-      key: "fax",
-      icon: PrinterIcon,
-    },
+    // {
+    //   id: 3,
+    //   key: "fax",
+    //   icon: PrinterIcon,
+    // },
     {
       id: 4,
       key: "email",

@@ -242,7 +242,7 @@
     "info": {
       "location": {
         "title": "Location",
-        "lines": ["Bei den Mühren 70", "20457 Hamburg"]
+        "lines": ["Herderstraße 11", "22085 Hamburg"]
       },
       "phone": {
         "title": "Phone",
@@ -254,7 +254,7 @@
       },
       "email": {
         "title": "E-mail",
-        "lines": ["info@kanzlei-cerkezovic.de"]
+        "lines": ["info@kanzleiguer.de"]
       },
       "availability": {
         "title": "Telephone availability",
@@ -274,7 +274,7 @@
       "terms": "Terms of Service"
     },
     "contact": {
-      "email": "info@kanzlei-cerkezovic.de",
+      "email": "info@kanzleiguer.de",
       "phone": "(040) 638 622 39"
     },
     "brand": {
@@ -288,17 +288,17 @@
     "title": "Imprint",
     "legalInfo": {
       "title": "Information according to § 5 TMG",
-      "name": "Anwaltskanzlei Cerkezovic",
+      "name": "Anwaltskanzlei Gür",
       "owner": "Mirnes Cerkezovic",
       "address": {
-        "street": "Bei den Mühren 70",
-        "city": "20457 Hamburg"
+        "street": "Herderstraße 11",
+        "city": "22085 Hamburg"
       }
     },
     "contact": {
       "title": "Contact",
       "phone": "+49 40 638 622 39",
-      "email": "info@kanzlei-cerkezovic.de"
+      "email": "info@kanzleiguer.de"
     },
     "supervisory": {
       "title": "Supervisory Authority",
@@ -381,10 +381,10 @@
         "content": "The responsible party for data processing on this website is:",
         "details": [
           "Mirnes Cerkezovic",
-          "Bei den Mühren 70",
-          "20457 Hamburg",
+          "Herderstraße 11",
+          "22085 Hamburg",
           "Phone: 040 35 77 42 61",
-          "Email: info@kanzlei-cerkezovic.de"
+          "Email: info@kanzleiguer.de"
         ]
       },
       {
