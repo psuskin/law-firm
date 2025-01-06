@@ -15,21 +15,21 @@ const Services = () => {
       id: 1,
       key: "traffic_accident",
       image:
-        "https://images.unsplash.com/photo-1562411052-105105232432?q=80&w=1000&auto=format&fit=crop",
+        "/book-min.jpg",
       href: "/questionnaire/accident",
     },
     {
       id: 2,
       key: "fine_notice",
       image:
-        "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=1000&auto=format&fit=crop",
+        "/table-min.jpg",
       href: "/fine-notice",
     },
     {
       id: 3,
       key: "criminal_proceedings",
       image:
-        "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1000&auto=format&fit=crop",
+        "/court.jpg",
       href: "/appointment",
     },
   ];
