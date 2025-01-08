@@ -23,7 +23,6 @@ const Navbar = () => {
   const t = useTranslations("navigation");
   const locale = useLocale();
 
-  // Transform values for scroll-based animations
   const headerHeight = useTransform(scrollY, [0, 100], ["6rem", "5rem"]);
   const headerBackground = useTransform(
     scrollY,
@@ -35,7 +34,6 @@ const Navbar = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
 
-      // Get all sections and their positions
       const sections = document.querySelectorAll("section[id]");
       const scrollPosition = window.scrollY + window.innerHeight / 3;
 
@@ -69,16 +67,21 @@ const Navbar = () => {
     className: "text-[13px] lg:text-[14px] xl:text-[15px]",
   }));
 
-  const handleScroll = (
+  const handleScroll = async (
     e: React.MouseEvent<HTMLAnchorElement>,
     href: string
   ) => {
     e.preventDefault();
     const targetId = href.replace("#", "");
-    const element = document.getElementById(targetId);
 
+    if (pathname !== `/${locale}`) {
+      window.location.href = `/${locale}#${targetId}`;
+      return;
+    }
+
+    const element = document.getElementById(targetId);
     if (element) {
-      const navHeight = 96; // Height of your navbar
+      const navHeight = 96;
       const elementPosition = element.offsetTop - navHeight;
 
       window.scrollTo({
@@ -91,7 +94,15 @@ const Navbar = () => {
     }
   };
 
-  // Check if link is active
+  const handleLogoClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    if (pathname !== `/${locale}`) {
+      window.location.href = `/${locale}`;
+    } else {
+      handleScroll(e, "#home");
+    }
+  };
+
   const isLinkActive = (href: string) => {
     const sectionId = href.replace("#", "");
     return sectionId === activeSection;
@@ -113,8 +124,8 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-full gap-2 md:gap-4">
             {/* Logo Container - Add max-width to control logo size */}
             <Link
-              onClick={(e) => handleScroll(e, "#home")}
-              href="/"
+              onClick={handleLogoClick}
+              href={`/${locale}`}
               className="flex items-center flex-shrink-0 w-[200px] xl:w-[300px]"
             >
               <Image
@@ -127,9 +138,7 @@ const Navbar = () => {
               />
             </Link>
 
-            {/* Desktop Navigation - Updated with flex-1 and justification */}
             <div className="hidden lg:flex flex-1 items-center justify-center">
-              {/* Menu Items Container - Centered */}
               <div className="flex items-center space-x-3 xl:space-x-6">
                 {menuItems.map((item) => (
                   <Link
