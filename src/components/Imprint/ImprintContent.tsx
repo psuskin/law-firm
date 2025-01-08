@@ -146,10 +146,10 @@ const ImprintContent = () => {
 
             {/* Dispute Resolution */}
             <div>
-              <h2 className="text-2xl font-semibold text-marine mb-4">
+              <h2 className="text-2xl font-semibold text-marine mb-4 break-words sm:text-lg md:text-2xl">
                 {t("disputes.title")}
               </h2>
-              <p>{t("disputes.text")}</p>
+              <p className="text-marine/70 break-words">{t("disputes.text")}</p>
             </div>
           </div>
         </motion.div>
