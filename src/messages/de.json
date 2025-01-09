@@ -12,7 +12,7 @@
     "upperTitle": "Anwaltskanzlei für Verkehrs- und Strafrecht",
     "nameTitle1": "Anwaltskanzlei",
     "nameTitle2": "Gür",
-    "subtitle": "Ihre kompetente Rechtsberatung in Verkehrs- und Strafrechtsfragen.",
+    "subtitle": "Ihre kompetente Rechtsberatung in Straf- und Verkehrsrecht.",
     "description": "Professionelle Vertretung mit langjähriger Erfahrung.",
     "scheduleConsultation": "Beratung Vereinbaren",
     "learnMore": "Mehr Erfahren"
@@ -197,14 +197,13 @@
     },
     "education": {
       "title": "Ausbildung",
-      "description": "Ich absolvierte das erste Staatsexamen an der Universität Hamburg und das zweite Staatsexamen am Oberlandesgericht Schleswig, Landgerichtsbezirk Kiel."
+      "description": "Ich absolvierte das erste Staatsexamen an der Universität Hamburg und das zweite Staatsexamen am Oberlandesgericht Schleswig, Landgerichtsbezirk Itzehoe."
     },
     "experience": {
       "title": "Berufserfahrung",
       "items": [
         "Ich habe mich früh auf Verkehrs- und Strafrecht spezialisiert und während meines Studiums und Referendariats vertiefte Kenntnisse in diesen Rechtsbereichen erworben. Dazu trugen auch die sorgfältig ausgewählten Stationen während meines Referendariats bei.",
-        "Meine Tätigkeit bei der Kieler Staatsanwaltschaft während meines Referendariats gab mir auch einen Einblick in die Arbeitsweise und Herangehensweise der Gegenseite. Das bedeutet, dass ich bestimmte Verhaltensweisen der Staatsanwaltschaft vorhersehen und eine effektive Verteidigung vorbereiten kann.",
-        "Im Rahmen meines Rechts- und Wahlreferendariats absolvierte ich dieses bei einem renommierten Strafverteidiger und einem Fachanwalt für Verkehrsrecht."
+        "Meine Tätigkeit bei der Staatsanwaltschaft Itzehoe während meines Referendariats gab mir auch einen Einblick in die Arbeitsweise und Herangehensweise der Gegenseite. Das bedeutet, dass ich bestimmte Verhaltensweisen der Staatsanwaltschaft vorhersehen und eine effektive Verteidigung vorbereiten kann."
       ]
     }
   },
@@ -242,7 +241,7 @@
     "info": {
       "location": {
         "title": "Standort",
-        "lines": ["Herderstraße 11", "22085 Hamburg"]
+        "lines": ["An der Kleiderkasse 5", "22765 Hamburg"]
       },
       "phone": {
         "title": "Telefon",
@@ -254,7 +253,7 @@
       },
       "email": {
         "title": "E-Mail",
-        "lines": ["info@kanzleiguer.de"]
+        "lines": ["info@kanzlei-guer.de"]
       },
       "availability": {
         "title": "Telefonische Erreichbarkeit",
@@ -274,7 +273,7 @@
       "terms": "AGB"
     },
     "contact": {
-      "email": "info@kanzleiguer.de",
+      "email": "info@kanzlei-guer.de",
       "phone": "(040) 638 622 39"
     },
     "brand": {
@@ -289,16 +288,16 @@
     "legalInfo": {
       "title": "Angaben gemäß § 5 TMG",
       "name": "Anwaltskanzlei Gür",
-      "owner": "Mirnes Cerkezovic",
+      "owner": "Fatih Mehmet Gür",
       "address": {
-        "street": "Herderstraße 11",
-        "city": "22085 Hamburg"
+        "street": "An der Kleiderkasse 5",
+        "city": "22765 Hamburg"
       }
     },
     "contact": {
       "title": "Kontakt",
       "phone": "+49 40 638 622 39",
-      "email": "info@kanzleiguer.de"
+      "email": "info@kanzlei-guer.de"
     },
     "supervisory": {
       "title": "Aufsichtsbehörde",
@@ -353,10 +352,10 @@
       "title": "Angaben zur Berufshaftpflichtversicherung",
       "insurer": {
         "title": "Name und Sitz des Versicherers:",
-        "name": "Markel Insurance SE",
+        "name": "R+V Allgemeine Versicherung AG",
         "address": {
-          "street": "Sophienstraße 26",
-          "city": "80333 München"
+          "street": "Raiffeisenplatz 1",
+          "city": "65189 Wiesbaden"
         }
       },
       "coverage": {
@@ -381,11 +380,11 @@
           "title": "2. Verantwortliche Stelle",
           "content": "Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:",
           "details": [
-            "Mirnes Cerkezovic",
-            "Herderstraße 11",
-            "22085 Hamburg",
+            "Fatih Mehmet Gür",
+            "An der Kleiderkasse 5",
+            "22765 Hamburg",
             "Telefon: 040 35 77 42 61",
-            "E-Mail: info@kanzleiguer.de"
+            "E-Mail: info@kanzlei-guer.de"
           ]
         },
         {

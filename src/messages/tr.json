@@ -197,14 +197,13 @@
     },
     "education": {
       "title": "Eğitim",
-      "description": "Hamburg Üniversitesi'nde birinci devlet sınavını ve Schleswig Yüksek Eyalet Mahkemesi, Kiel Bölge Mahkemesi'nde ikinci devlet sınavını tamamladım."
+      "description": "Hamburg Üniversitesi'nde birinci devlet sınavını ve Schleswig Yüksek Eyalet Mahkemesi, Itzehoe Bölge Mahkemesi'nde ikinci devlet sınavını tamamladım."
     },
     "experience": {
       "title": "Mesleki Deneyim",
       "items": [
         "Erken dönemde trafik ve ceza hukukuna odaklandım ve öğrenimim ve hukuk stajım sırasında bu hukuk alanlarında derinlemesine bilgi edindim. Hukuk stajım sırasında özenle seçilen staj yerleri de buna katkıda bulundu.",
-        "Hukuk stajım sırasında Kiel savcılığındaki çalışmam, karşı tarafın çalışma şekli ve yaklaşımı hakkında da fikir verdi. Bu, savcılığın belirli davranışlarını öngörebilmemi ve etkili bir savunma hazırlayabilmemi sağlıyor.",
-        "Hukuk ve seçmeli stajımın bir parçası olarak, tanınmış bir ceza avukatı ve trafik hukuku uzmanı avukat yanında tamamladım."
+        "Hukuk stajım sırasında Itzehoe savcılığındaki çalışmam, karşı tarafın çalışma şekli ve yaklaşımı hakkında da fikir verdi. Bu, savcılığın belirli davranışlarını öngörebilmemi ve etkili bir savunma hazırlayabilmemi sağlıyor."
       ]
     }
   },
@@ -242,7 +241,7 @@
     "info": {
       "location": {
         "title": "Konum",
-        "lines": ["Herderstraße 11", "22085 Hamburg"]
+        "lines": ["An der Kleiderkasse 5", "22765 Hamburg"]
       },
       "phone": {
         "title": "Telefon",
@@ -254,7 +253,7 @@
       },
       "email": {
         "title": "E-posta",
-        "lines": ["info@kanzleiguer.de"]
+        "lines": ["info@kanzlei-guer.de"]
       },
       "availability": {
         "title": "Telefon müsaitliği",
@@ -274,7 +273,7 @@
       "terms": "Kullanım Şartları"
     },
     "contact": {
-      "email": "info@kanzleiguer.de",
+      "email": "info@kanzlei-guer.de",
       "phone": "(040) 638 622 39"
     },
     "brand": {
@@ -289,16 +288,16 @@
     "legalInfo": {
       "title": "§ 5 TMG'ye göre bilgiler",
       "name": "Anwaltskanzlei Gür",
-      "owner": "Mirnes Cerkezovic",
+      "owner": "Fatih Mehmet Gür",
       "address": {
-        "street": "Herderstraße 11",
-        "city": "22085 Hamburg"
+        "street": "An der Kleiderkasse 5",
+        "city": "22765 Hamburg"
       }
     },
     "contact": {
       "title": "İletişim",
       "phone": "+49 40 638 622 39",
-      "email": "info@kanzleiguer.de"
+      "email": "info@kanzlei-guer.de"
     },
     "supervisory": {
       "title": "Denetim Kurumu",
@@ -353,10 +352,10 @@
       "title": "Mesleki Sorumluluk Sigortası Bilgileri",
       "insurer": {
         "title": "Sigortacının Adı ve Adresi:",
-        "name": "Markel Insurance SE",
+        "name": "R+V Allgemeine Versicherung AG",
         "address": {
-          "street": "Sophienstraße 26",
-          "city": "80333 München"
+          "street": "Raiffeisenplatz 1",
+          "city": "65189 Wiesbaden"
         }
       },
       "coverage": {
@@ -380,11 +379,11 @@
         "title": "2. Sorumlu Taraf",
         "content": "Bu web sitesindeki veri işleme için sorumlu taraf:",
         "details": [
-          "Mirnes Cerkezovic",
-          "Herderstraße 11",
-          "22085 Hamburg",
+          "Fatih Mehmet Gür",
+          "An der Kleiderkasse 5",
+          "22765 Hamburg",
           "Telefon: 040 35 77 42 61",
-          "E-posta: info@kanzleiguer.de"
+          "E-posta: info@kanzlei-guer.de"
         ]
       },
       {

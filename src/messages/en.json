@@ -197,14 +197,13 @@
     },
     "education": {
       "title": "Education",
-      "description": "I completed the first state examination at the University of Hamburg and the second state examination at the Schleswig Higher Regional Court, Kiel Regional Court District."
+      "description": "I completed the first state examination at the University of Hamburg and the second state examination at the Schleswig Higher Regional Court, Itzehoe Regional Court District."
     },
     "experience": {
       "title": "Professional Experience",
       "items": [
         "I focused on traffic and criminal law early on and acquired in-depth knowledge of these legal areas during my studies and legal traineeship. The carefully selected stations during my legal traineeship also contributed to this.",
-        "My work at the Kiel public prosecutor's office during my legal traineeship also gave me an insight into the work and approach of the opposing side. This means that I can predict certain behaviors of the public prosecutor's office and enable me to prepare an effective defense.",
-        "As part of my legal and elective internship, I completed this with a renowned criminal defense attorney and a specialist lawyer for traffic law."
+        "My work at the public prosecutor's office in Itzehoe during my legal traineeship also gave me an insight into the work and approach of the opposing side. This means that I can predict certain behaviors of the public prosecutor's office and enable me to prepare an effective defense."
       ]
     }
   },
@@ -242,7 +241,7 @@
     "info": {
       "location": {
         "title": "Location",
-        "lines": ["Herderstraße 11", "22085 Hamburg"]
+        "lines": ["An der Kleiderkasse 5", "22765 Hamburg"]
       },
       "phone": {
         "title": "Phone",
@@ -254,7 +253,7 @@
       },
       "email": {
         "title": "E-mail",
-        "lines": ["info@kanzleiguer.de"]
+        "lines": ["info@kanzlei-guer.de"]
       },
       "availability": {
         "title": "Telephone availability",
@@ -274,7 +273,7 @@
       "terms": "Terms of Service"
     },
     "contact": {
-      "email": "info@kanzleiguer.de",
+      "email": "info@kanzlei-guer.de",
       "phone": "(040) 638 622 39"
     },
     "brand": {
@@ -289,16 +288,16 @@
     "legalInfo": {
       "title": "Information according to § 5 TMG",
       "name": "Anwaltskanzlei Gür",
-      "owner": "Mirnes Cerkezovic",
+      "owner": "Fatih Mehmet Gür",
       "address": {
-        "street": "Herderstraße 11",
-        "city": "22085 Hamburg"
+        "street": "An der Kleiderkasse 5",
+        "city": "22765 Hamburg"
       }
     },
     "contact": {
       "title": "Contact",
       "phone": "+49 40 638 622 39",
-      "email": "info@kanzleiguer.de"
+      "email": "info@kanzlei-guer.de"
     },
     "supervisory": {
       "title": "Supervisory Authority",
@@ -353,10 +352,10 @@
       "title": "Professional Liability Insurance Information",
       "insurer": {
         "title": "Name and Address of Insurer:",
-        "name": "Markel Insurance SE",
+        "name": "R+V Allgemeine Versicherung AG",
         "address": {
-          "street": "Sophienstraße 26",
-          "city": "80333 München"
+          "street": "Raiffeisenplatz 1",
+          "city": "65189 Wiesbaden"
         }
       },
       "coverage": {
@@ -380,11 +379,11 @@
         "title": "2. Responsible Party",
         "content": "The responsible party for data processing on this website is:",
         "details": [
-          "Mirnes Cerkezovic",
-          "Herderstraße 11",
-          "22085 Hamburg",
+          "Fatih Mehmet Gür",
+          "An der Kleiderkasse 5",
+          "22765 Hamburg",
           "Phone: 040 35 77 42 61",
-          "Email: info@kanzleiguer.de"
+          "Email: info@kanzlei-guer.de"
         ]
       },
       {
