@@ -43,7 +43,7 @@ const AboutMe = () => {
               {/* Main Image Container */}
               <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
                 <Image
-                  src="/hammer-min.jpg"
+                  src="/Guer.jpg"
                   alt="Mirnes Anwaltskanzlei_Gür"
                   fill
                   className="object-cover"
