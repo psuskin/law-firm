@@ -3,16 +3,17 @@
     "home": "Home",
     "services": "Services",
     "legalAreas": "Legal Areas",
+    "gastronomyLaw": "Gastronomy Law",
     "advantages": "Advantages",
     "aboutMe": "About Me",
     "contact": "Contact",
     "freeConsultation": "FREE CONSULTATION"
   },
   "hero": {
-    "upperTitle": "Law Firm for Traffic and Criminal Law",
+    "upperTitle": "Law Firm for Gastronomy and Criminal Law",
     "nameTitle1": "Anwaltskanzlei",
     "nameTitle2": "Gür",
-    "subtitle": "Your competent legal counsel in matters of traffic and criminal law.",
+    "subtitle": "Your competent legal counsel in matters of gastronomy and criminal law.",
     "description": "Professional representation with years of experience.",
     "scheduleConsultation": "Schedule Consultation",
     "learnMore": "Learn More"
@@ -32,7 +33,7 @@
       },
       "expertise": {
         "title": "Technical expertise",
-        "description": "My focus is on traffic and criminal law, which allows me to develop a solution tailored to your needs."
+        "description": "My focus is on gastronomy and criminal law, which allows me to develop a solution tailored to your needs."
       },
       "processing": {
         "title": "Fast processing",
@@ -73,6 +74,12 @@
         "description": "Are you being investigated criminally or have you been summoned by the police?",
         "action": "Make an appointment for me to listen to your version of events, explain the next steps, and prepare an appropriate defense strategy.",
         "buttonText": "Make an appointment"
+      },
+      "gastronomy_law": {
+        "title": "Gastronomy Law",
+        "description": "Are you a restaurant owner and need legal advice?",
+        "action": "Then click on the gastronomy law button and I will take care of your concerns.",
+        "buttonText": "Gastronomy law"
       }
     }
   },
@@ -186,8 +193,58 @@
             "description": "Where possible, I will try to have the criminal proceedings against you terminated before charges are brought."
           }
         }
+      },
+      "gastronomy_law": {
+        "title": "Gastronomy Law",
+        "items": {
+          "business_startup": {
+            "title": "Business startup",
+            "description": "I will support you in all legal matters related to starting your own business, including contracts, permits and licenses."
+          },
+          "contract_review": {
+            "title": "Contract review",
+            "description": "I will review your contracts with suppliers, employees and other partners to ensure that your interests are protected."
+          },
+          "dispute_resolution": {
+            "title": "Dispute resolution",
+            "description": "In the event of disputes with customers, suppliers or authorities, I will represent your interests and work towards an amicable solution."
+          },
+          "compliance_advice": {
+            "title": "Compliance advice",
+            "description": "I will advise you on compliance with legal regulations in the gastronomy sector, including hygiene regulations and labor law."
+          }
+        }
       }
     }
+  },
+  "gastronomyLaw": {
+    "title": "Gastronomy Law",
+    "p1": "I am not a legal specialist. I am one of you.",
+    "p2": "Before becoming a lawyer, I ran two businesses myself – alongside my studies. I know what it means to unlock the doors at five in the morning, chase after suppliers, negotiate prices, discuss with employees, keep track of everything – and then suddenly the tax office shows up for an audit.",
+    "p3": "60-hour weeks? Completely normal.",
+    "p4": "Holidays? Don’t exist.",
+    "p5": "And anyone who doesn’t know how to tax a latte macchiato with oat milk for takeaway can get into serious trouble.",
+    "p6": "Gastronomy is more than just a profession – it’s a lifestyle. But it’s also legally extremely demanding.",
+    "p7": "Because in addition to the tough realities of the business, there are countless regulations: hospitality law, labor law, food law, taxes, hygiene, packaging, environmental regulations, neighborhood law – all within a jungle of federal laws, state requirements, and EU directives. Many lawyers only know this from books. I know it from real life.",
+    "p8": "What do I offer? Legal advice at eye level – clear, understandable, and practical.",
+    "offer": {
+      "title": "My Offer for You:",
+      "list": [
+        "Startup consulting for new gastronomy concepts",
+        "Contract review for rental and lease agreements",
+        "Labor law support, from hiring to termination",
+        "Legally secure drafting of supply contracts (beer, coffee, etc.)",
+        "Hygiene and food law, so you can sleep peacefully before the next inspection",
+        "Licensing procedures & regulatory requirements – I help navigate the bureaucratic jungle",
+        "Terms and conditions and accommodation agreements, legally secure and customized",
+        "Neighborhood disputes, e.g., due to noise or odors",
+        "Debt collection – because you work hard and deserve your money",
+        "Competition law & warnings – protection against unfair behavior by competitors",
+        "I speak plainly, understand your concerns – and fight for you."
+      ]
+    },
+    "p9": "If you don’t have the time or patience to deal with legal paragraphs and bureaucracy, then I am your contact person.",
+    "p10": "One of you. From gastronomy. For gastronomy."
   },
   "aboutMe": {
     "title": "About me",
@@ -202,7 +259,7 @@
     "experience": {
       "title": "Professional Experience",
       "items": [
-        "I focused on traffic and criminal law early on and acquired in-depth knowledge of these legal areas during my studies and legal traineeship. The carefully selected stations during my legal traineeship also contributed to this.",
+        "I focused on gastronomy and criminal law early on and acquired in-depth knowledge of these legal areas during my studies and legal traineeship. The carefully selected stations during my legal traineeship also contributed to this.",
         "My work at the public prosecutor's office in Itzehoe during my legal traineeship also gave me an insight into the work and approach of the opposing side. This means that I can predict certain behaviors of the public prosecutor's office and enable me to prepare an effective defense."
       ]
     }

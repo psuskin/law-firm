@@ -3,16 +3,17 @@
     "home": "Ana Sayfa",
     "services": "Hizmetler",
     "legalAreas": "Hukuki Alanlar",
+    "gastronomyLaw": "Gastronomi Hukuku",
     "advantages": "Avantajlar",
     "aboutMe": "Hakkımda",
     "contact": "İletişim",
     "freeConsultation": "ÜCRETSİZ DANIŞMA"
   },
   "hero": {
-    "upperTitle": "Trafik ve Ceza Hukuku Bürosu",
+    "upperTitle": "Gastronomi ve Ceza Hukuku Bürosu",
     "nameTitle1": "Anwaltskanzlei",
     "nameTitle2": "Gür",
-    "subtitle": "Trafik ve ceza hukuku konularında uzman hukuki danışmanlığınız.",
+    "subtitle": "Gastronomi ve ceza hukuku konularında uzman hukuki danışmanlığınız.",
     "description": "Yıllarca süren deneyimle profesyonel temsil.",
     "scheduleConsultation": "Randevu Al",
     "learnMore": "Daha Fazla Bilgi"
@@ -43,6 +44,12 @@
         "description": "Hakkınızda cezai soruşturma mı var veya polis tarafından ifadeye mi çağrıldınız?",
         "action": "Olayların sizin versiyonunu dinlemek, sonraki adımları açıklamak ve uygun bir savunma stratejisi hazırlamak için randevu alın.",
         "buttonText": "Randevu al"
+      },
+      "gastronomy_law": {
+        "title": "Gastronomi Hukuku",
+        "description": "Gastronomi alanında hukuki danışmanlık ve temsil hizmetleri sunuyorum.",
+        "action": "Gastronomi hukuku ile ilgili konularınız için benimle iletişime geçin.",
+        "buttonText": "İletişim kur"
       }
     }
   },
@@ -156,6 +163,27 @@
             "description": "Mümkün olan durumlarda, dava açılmadan önce ceza soruşturmasının sonlandırılması için çalışıyorum."
           }
         }
+      },
+      "gastronomy_law": {
+        "title": "Gastronomi Hukuku",
+        "items": {
+          "business_startup": {
+            "title": "İşletme Kuruluşu",
+            "description": "Yeni bir işletme kurarken, gerekli izinlerin alınması ve yasal gerekliliklerin yerine getirilmesi konusunda rehberlik ediyorum."
+          },
+          "contract_review": {
+            "title": "Sözleşme İncelemesi",
+            "description": "Tedarikçi sözleşmeleri, kira sözleşmeleri ve diğer ticari sözleşmelerin incelenmesi ve müzakeresi konusunda destek sağlıyorum."
+          },
+          "dispute_resolution": {
+            "title": "Uyuşmazlık Çözümü",
+            "description": "İşletme sahipleri ve tedarikçiler arasındaki uyuşmazlıkların çözümünde hukuki destek sunuyorum."
+          },
+          "compliance_advice": {
+            "title": "Uyum Danışmanlığı",
+            "description": "Gastronomi sektöründeki yasal gerekliliklere uyum sağlamak için danışmanlık yapıyorum."
+          }
+        }
       }
     }
   },
@@ -169,7 +197,7 @@
       },
       "expertise": {
         "title": "Teknik uzmanlık",
-        "description": "Trafik ve ceza hukuku üzerine odaklanmam, ihtiyaçlarınıza uygun bir çözüm geliştirmemi sağlıyor."
+        "description": "Gastronomi ve ceza hukuku üzerine odaklanmam, ihtiyaçlarınıza uygun bir çözüm geliştirmemi sağlıyor."
       },
       "processing": {
         "title": "Hızlı işlem",
@@ -189,6 +217,35 @@
       }
     }
   },
+  "gastronomyLaw": {
+    "title": "Gastronomi Hukuku",
+    "p1": "Ben bir hukukçu değilim. Sizin gibi biriyim.",
+    "p2": "Avukat olmadan önce, iki işletme yönettim – üstelik eğitimim sırasında. Sabah beşte kapıları açmanın, tedarikçileri aramanın, fiyat pazarlığı yapmanın, çalışanlarla tartışmanın, her şeyi takip etmenin ne demek olduğunu biliyorum – ve sonra birden vergi dairesi dış denetim için kapınızda beliriyor.",
+    "p3": "60 saatlik haftalar mı? Tamamen normal.",
+    "p4": "Tatiller mi? Yok öyle bir şey.",
+    "p5": "Ve bir Latte Macchiato'nun yulaf sütüyle dışarıda nasıl vergilendirileceğini bilmeyen biri ciddi sorunlar yaşayabilir.",
+    "p6": "Gastronomi sadece bir meslek değil – bir yaşam tarzıdır. Ama aynı zamanda hukuki açıdan son derece zorludur.",
+    "p7": "Çünkü işletmedeki zorlu gerçeklerin yanı sıra sayısız düzenleme vardır: Lokanta hukuku, iş hukuku, gıda hukuku, vergiler, hijyen, ambalajlama, çevre düzenlemeleri, komşuluk hukuku – ve bunların hepsi federal yasalar, eyalet düzenlemeleri ve AB direktifleri karmaşasında. Birçok hukukçu bunları sadece kitaplardan bilir. Ben ise gerçek hayattan biliyorum.",
+    "p8": "Ne sunuyorum? Anlaşılır, pratik ve net hukuki danışmanlık.",
+    "offer": {
+      "title": "Sizin için sunduğum hizmetler:",
+      "list": [
+        "Yeni gastronomi konseptleri için kuruluş danışmanlığı",
+        "Kira ve kiralama sözleşmelerinin incelenmesi",
+        "İşe alımdan işten çıkarmaya kadar iş hukuku desteği",
+        "Tedarik sözleşmelerinin hukuki olarak güvenli bir şekilde düzenlenmesi (bira, kahve, vb.)",
+        "Hijyen ve gıda hukuku, bir sonraki denetimde rahat uyuyabilmeniz için",
+        "Ruhsat işlemleri ve resmi düzenlemeler – bürokrasi labirentinde size rehberlik ediyorum",
+        "Genel işlem şartları ve konaklama koşulları, hukuki olarak güvenli ve bireysel",
+        "Komşuluk anlaşmazlıkları, örneğin gürültü veya koku nedeniyle",
+        "Alacak yönetimi – çünkü çok çalışıyorsunuz ve paranızı hak ediyorsunuz",
+        "Rekabet hukuku ve ihtarlar – rakiplerin adil olmayan davranışlarına karşı koruma",
+        "Açık konuşuyorum, endişelerinizi anlıyorum – ve sizin için mücadele ediyorum."
+      ]
+    },
+    "p9": "Eğer paragraflar ve bürokrasiyle uğraşacak zamanınız ve sabrınız yoksa, o zaman doğru kişiyim.",
+    "p10": "Sizin gibi biri. Gastronomiden. Gastronomi için."
+  },
   "aboutMe": {
     "title": "Hakkımda",
     "nameTag": {
@@ -202,7 +259,7 @@
     "experience": {
       "title": "Mesleki Deneyim",
       "items": [
-        "Erken dönemde trafik ve ceza hukukuna odaklandım ve öğrenimim ve hukuk stajım sırasında bu hukuk alanlarında derinlemesine bilgi edindim. Hukuk stajım sırasında özenle seçilen staj yerleri de buna katkıda bulundu.",
+        "Erken dönemde gastronomi ve ceza hukukuna odaklandım ve öğrenimim ve hukuk stajım sırasında bu hukuk alanlarında derinlemesine bilgi edindim. Hukuk stajım sırasında özenle seçilen staj yerleri de buna katkıda bulundu.",
         "Hukuk stajım sırasında Itzehoe savcılığındaki çalışmam, karşı tarafın çalışma şekli ve yaklaşımı hakkında da fikir verdi. Bu, savcılığın belirli davranışlarını öngörebilmemi ve etkili bir savunma hazırlayabilmemi sağlıyor."
       ]
     }

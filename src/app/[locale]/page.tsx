@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "@/components/Home/Hero";
 import Services from "@/components/Home/Services";
 import LegalAreas from "@/components/Home/LegalAreas";
+import GastronomyLaw from "@/components/Home/GastronomyLaw";
 import Advantages from "@/components/Home/Advantages";
 import AboutMe from "@/components/Home/AboutMe";
 // import VideoTour from "@/components/Home/VideoTour";
@@ -20,6 +21,9 @@ const Home = ({ params: { locale } }: { params: { locale: string } }) => {
       </section>
       <section id="legal-areas">
         <LegalAreas />
+      </section>
+      <section id="gastronomy-law">
+        <GastronomyLaw />
       </section>
       <section id="advantages">
         <Advantages />

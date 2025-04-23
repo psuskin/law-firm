@@ -11,26 +11,33 @@ const Services = () => {
   const t = useTranslations("services");
 
   const services = [
+    // {
+    //   id: 1,
+    //   key: "traffic_accident",
+    //   image:
+    //     "/book-min.jpg",
+    //   href: "/questionnaire/accident",
+    // },
     {
       id: 1,
-      key: "traffic_accident",
+      key: "gastronomy_law",
       image:
-        "/book-min.jpg",
-      href: "/questionnaire/accident",
+        "/hammer-min.jpg",
+      href: "#gastronomy-law",
     },
     {
       id: 2,
       key: "fine_notice",
       image:
         "/table-min.jpg",
-      href: "/fine-notice",
+      href: "#contact",
     },
     {
       id: 3,
       key: "criminal_proceedings",
       image:
-        "/court.jpg",
-      href: "/appointment",
+        "/court-min.jpg",
+      href: "#contact",
     },
   ];
 

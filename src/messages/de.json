@@ -3,16 +3,17 @@
     "home": "Startseite",
     "services": "Dienstleistungen",
     "legalAreas": "Rechtsbereiche",
+    "gastronomyLaw": "Gastronomierecht",
     "advantages": "Vorteile",
     "aboutMe": "Über Mich",
     "contact": "Kontakt",
     "freeConsultation": "KOSTENLOSE BERATUNG"
   },
   "hero": {
-    "upperTitle": "Anwaltskanzlei für Verkehrs- und Strafrecht",
+    "upperTitle": "Anwaltskanzlei für Strafrecht und Gastronomierecht",
     "nameTitle1": "Anwaltskanzlei",
     "nameTitle2": "Gür",
-    "subtitle": "Ihre kompetente Rechtsberatung in Straf- und Verkehrsrecht.",
+    "subtitle": "Ihre kompetente Rechtsberatung in Straf- und Gastronomierecht.",
     "description": "Professionelle Vertretung mit langjähriger Erfahrung.",
     "scheduleConsultation": "Beratung Vereinbaren",
     "learnMore": "Mehr Erfahren"
@@ -32,7 +33,7 @@
       },
       "expertise": {
         "title": "Fachliche Expertise",
-        "description": "Mein Fokus liegt auf dem Verkehrs- und Strafrecht, was mir ermöglicht, eine auf Ihre Bedürfnisse zugeschnittene Lösung zu entwickeln."
+        "description": "Mein Fokus liegt auf Strafrecht und Gastronomierecht, was mir ermöglicht, eine auf Ihre Bedürfnisse zugeschnittene Lösung zu entwickeln."
       },
       "processing": {
         "title": "Schnelle Bearbeitung",
@@ -73,6 +74,12 @@
         "description": "Sie werden strafrechtlich ermittelt oder wurden von der Polizei vorgeladen?",
         "action": "Vereinbaren Sie einen Termin, damit ich mir Ihre Version der Ereignisse anhöre, die nächsten Schritte erkläre und eine passende Verteidigungsstrategie vorbereite.",
         "buttonText": "Termin vereinbaren"
+      },
+      "gastronomy_law": {
+        "title": "Gastronomierecht",
+        "description": "Sie sind Gastronom und benötigen rechtliche Unterstützung?",
+        "action": "Ich helfe Ihnen bei allen rechtlichen Fragen rund um Ihr Gastronomiegeschäft.",
+        "buttonText": "Mehr erfahren"
       }
     }
   },
@@ -186,8 +193,58 @@
             "description": "Wo möglich, versuche ich, das Strafverfahren gegen Sie bereits vor Anklageerhebung einstellen zu lassen."
           }
         }
+      },
+      "gastronomy_law": {
+        "title": "Gastronomierecht",
+        "items": {
+          "business_startup": {
+            "title": "Unternehmensgründung",
+            "description": "Ich unterstütze Sie bei der Gründung Ihres Gastronomiebetriebs, einschließlich der Erstellung von Verträgen und der Einhaltung gesetzlicher Vorschriften."
+          },
+          "contract_review": {
+            "title": "Vertragsprüfung",
+            "description": "Ich prüfe Ihre Verträge auf rechtliche Fallstricke und berate Sie zu Ihren Rechten und Pflichten."
+          },
+          "dispute_resolution": {
+            "title": "Streitbeilegung",
+            "description": "Ich helfe Ihnen bei der Lösung von Streitigkeiten mit Lieferanten, Kunden oder anderen Geschäftspartnern."
+          },
+          "compliance_advice": {
+            "title": "Compliance-Beratung",
+            "description": "Ich berate Sie zu den rechtlichen Anforderungen in der Gastronomie, um rechtliche Probleme zu vermeiden."
+          }
+        }
       }
     }
+  },
+  "gastronomyLaw": {
+    "title": "Gastronomierecht",
+    "p1": "Ich bin kein juristischer Fachidiot. Ich bin einer von Ihnen.",
+    "p2": "Bevor ich Anwalt wurde, habe ich selbst zwei Läden geführt – neben dem Studium. Ich weiß, was es heißt, morgens um fünf die Türen aufzusperren, Lieferanten hinterherzutelefonieren, Preise zu verhandeln, mit Mitarbeitenden zu diskutieren, den Überblick über alles zu behalten – und dann steht plötzlich das Finanzamt zur Außenprüfung vor der Tür.",
+    "p3": "60-Stunden-Wochen? Ganz normal.",
+    "p4": "Feiertage? Gibt’s nicht.",
+    "p5": "Und wer nicht weiß, wie ein Latte Macchiato mit Hafermilch außer Haus zu versteuern ist, kann richtig Ärger bekommen.",
+    "p6": "Die Gastronomie ist mehr als nur ein Beruf – sie ist ein Lebensstil. Aber sie ist auch rechtlich extrem anspruchsvoll.",
+    "p7": "Denn neben der harten Realität im Betrieb kommen unzählige Vorschriften: Gaststättenrecht, Arbeitsrecht, Lebensmittelrecht, Steuern, Hygiene, Verpackung, Umweltauflagen, Nachbarschaftsrecht – und das alles in einem Dschungel aus Bundesgesetzen, Landesvorgaben und EU-Richtlinien. Viele Juristen kennen das nur aus Büchern. Ich kenne es aus dem echten Leben.",
+    "p8": "Was ich biete? Juristische Beratung auf Augenhöhe – klar, verständlich, praxisnah.",
+    "offer": {
+      "title": "Mein Angebot für Sie:",
+      "list": [
+        "Gründungsberatung für neue Gastro-Konzepte",
+        "Vertragsprüfung bei Miet- und Pachtverhältnissen",
+        "Arbeitsrechtliche Unterstützung, von der Einstellung bis zur Kündigung",
+        "Lieferverträge rechtlich sicher gestalten (Bier, Kaffee, etc.)",
+        "Hygiene- und Lebensmittelrecht, damit Sie bei der nächsten Kontrolle ruhig schlafen können",
+        "Konzessionsverfahren & behördliche Auflagen – ich helfe durch den Behördendschungel",
+        "AGB und Beherbergungsbedingungen, rechtssicher und individuell",
+        "Nachbarschaftsstreitigkeiten, z. B. wegen Lärm oder Geruch",
+        "Forderungsmanagement – weil Sie hart arbeiten und Ihr Geld verdient haben",
+        "Wettbewerbsrecht & Abmahnungen – Schutz vor unfairem Verhalten der Konkurrenz",
+        "Ich rede Klartext, verstehe eure Sorgen – und kämpfe für Sie."
+      ]
+    },
+    "p9": "Wenn Sie keine Zeit und keine Nerven hast, dich mit Paragrafen und Bürokratie rumzuschlagen, dann bin ich dein Ansprechpartner.",
+    "p10": "Einer von Ihnen. Aus der Gastronomie. Für die Gastronomie."
   },
   "aboutMe": {
     "title": "Über mich",
@@ -202,7 +259,7 @@
     "experience": {
       "title": "Berufserfahrung",
       "items": [
-        "Ich habe mich früh auf Verkehrs- und Strafrecht spezialisiert und während meines Studiums und Referendariats vertiefte Kenntnisse in diesen Rechtsbereichen erworben. Dazu trugen auch die sorgfältig ausgewählten Stationen während meines Referendariats bei.",
+        "Ich habe mich früh auf Gastronomie- und Strafrecht spezialisiert und während meines Studiums und Referendariats vertiefte Kenntnisse in diesen Rechtsbereichen erworben. Dazu trugen auch die sorgfältig ausgewählten Stationen während meines Referendariats bei.",
         "Meine Tätigkeit bei der Staatsanwaltschaft Itzehoe während meines Referendariats gab mir auch einen Einblick in die Arbeitsweise und Herangehensweise der Gegenseite. Das bedeutet, dass ich bestimmte Verhaltensweisen der Staatsanwaltschaft vorhersehen und eine effektive Verteidigung vorbereiten kann."
       ]
     }

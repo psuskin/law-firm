@@ -3,7 +3,7 @@ export default function StructuredData() {
     "@context": "https://schema.org",
     "@type": "LegalService",
     name: "Anwaltskanzlei Gür Law Firm",
-    description: "Expert legal counsel in traffic and criminal law matters",
+    description: "Expert legal counsel in gastronomy and criminal law matters",
     url: "https://anwaltskanzlei.de",
     address: {
       "@type": "PostalAddress",
@@ -20,7 +20,7 @@ export default function StructuredData() {
     telephone: "+49 40 300 300 300",
     email: "info@anwaltskanzlei.de",
     areaServed: "Hamburg",
-    serviceType: ["Traffic Law", "Criminal Law"],
+    serviceType: ["Gastronomy Law", "Criminal Law"],
     priceRange: "€€",
     openingHours: "Mo-Fr 09:00-18:00",
   };
