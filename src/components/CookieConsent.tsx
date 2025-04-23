@@ -64,27 +64,25 @@ const CookieConsent = () => {
                   Cookie Settings
                 </h3>
                 <p className="text-marine/70 text-xs sm:text-sm leading-relaxed max-w-[90%] sm:max-w-none">
-                  We use cookies to enhance your browsing experience, serve
-                  personalized content, and analyze our traffic. By clicking
-                  &quot;Accept All&quot;, you consent to our use of cookies.{" "}
+                  Wir verwenden Cookies, um Ihr Browsererlebnis zu verbessern, personalisierte Inhalte bereitzustellen und unseren Datenverkehr zu analysieren. Indem Sie auf &quot;Alle akzeptieren&quot; klicken, stimmen Sie der Verwendung von Cookies zu.{" "}
                   <a
-                    href="/data-protection"
-                    className="text-marine underline hover:text-gold transition-colors inline-flex items-center gap-1 group whitespace-nowrap"
+                  href="/data-protection"
+                  className="text-marine underline hover:text-gold transition-colors inline-flex items-center gap-1 group whitespace-nowrap"
                   >
-                    Read More
-                    <svg
-                      className="w-3 h-3 transform transition-transform group-hover:translate-x-0.5"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M9 5l7 7-7 7"
-                      />
-                    </svg>
+                  Mehr erfahren
+                  <svg
+                    className="w-3 h-3 transform transition-transform group-hover:translate-x-0.5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 5l7 7-7 7"
+                    />
+                  </svg>
                   </a>
                 </p>
               </div>
