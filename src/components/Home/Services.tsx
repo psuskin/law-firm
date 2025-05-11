@@ -25,13 +25,13 @@ const Services = () => {
         "/hammer-min.jpg",
       href: "#gastronomy-law",
     },
-    {
-      id: 2,
-      key: "fine_notice",
-      image:
-        "/table-min.jpg",
-      href: "#contact",
-    },
+    // {
+    //   id: 2,
+    //   key: "fine_notice",
+    //   image:
+    //     "/table-min.jpg",
+    //   href: "#contact",
+    // },
     {
       id: 3,
       key: "criminal_proceedings",
@@ -59,7 +59,7 @@ const Services = () => {
         </motion.div>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {services.map((service, index) => (
             <motion.div
               key={service.id}

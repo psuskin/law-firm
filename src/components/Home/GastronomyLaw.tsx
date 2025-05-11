@@ -58,9 +58,9 @@ const GastronomyLaw = () => {
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
       >
-      <p className="text-marine/70 max-w-4xl mx-auto my-4">
+      {/* <p className="text-marine/70 max-w-4xl mx-auto my-4">
       {t("p1")}
-      </p>
+      </p> */}
       <p className="text-marine/70 max-w-4xl mx-auto my-4">
       {t("p2")}
       </p>

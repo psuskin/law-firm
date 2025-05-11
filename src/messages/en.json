@@ -55,7 +55,7 @@
   },
   "services": {
     "title": "Your contact in legal matters",
-    "description": "Whether it's about settling an accident, a fine or defending yourself in criminal proceedings, I'm here to help you. Select the topic that applies to you below and follow the further instructions.",
+    "description": "I offer you competent support in two legal focus areas: criminal defense and gastronomy law. As a criminal defense lawyer, I represent you in all phases of a criminal proceeding – from the investigation process to the main trial and defense in tax criminal law, particularly during external audits and assessments by the tax office. Furthermore, I advise and represent gastronomy businesses in all legal matters related to their operations – from regulatory requirements and commercial law issues to tenancy and labor law aspects.",
     "items": {
       "traffic_accident": {
         "title": "Traffic Accident",
@@ -298,11 +298,11 @@
     "info": {
       "location": {
         "title": "Location",
-        "lines": ["An der Kleiderkasse 5", "22765 Hamburg"]
+        "lines": ["Alter Wall 69", "20457 Hamburg"]
       },
       "phone": {
         "title": "Phone",
-        "lines": ["+491632006603"]
+        "lines": ["040 57309020"]
       },
       "fax": {
         "title": "Fax",
@@ -331,7 +331,7 @@
     },
     "contact": {
       "email": "info@kanzlei-guer.de",
-      "phone": "+491632006603"
+      "phone": "040 57309020"
     },
     "brand": {
       "firstWord": "Anwaltskanzlei",
@@ -347,13 +347,13 @@
       "name": "Anwaltskanzlei Gür",
       "owner": "Fatih Mehmet Gür",
       "address": {
-        "street": "An der Kleiderkasse 5",
-        "city": "22765 Hamburg"
+        "street": "Alter Wall 69",
+        "city": "20457 Hamburg"
       }
     },
     "contact": {
       "title": "Contact",
-      "phone": "+49 40 638 622 39",
+      "phone": "040 57309020",
       "email": "info@kanzlei-guer.de"
     },
     "supervisory": {
@@ -437,8 +437,8 @@
         "content": "The responsible party for data processing on this website is:",
         "details": [
           "Fatih Mehmet Gür",
-          "An der Kleiderkasse 5",
-          "22765 Hamburg",
+          "Alter Wall 69",
+          "20457 Hamburg",
           "Phone: 040 35 77 42 61",
           "Email: info@kanzlei-guer.de"
         ]

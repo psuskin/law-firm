@@ -25,7 +25,7 @@
   },
   "services": {
     "title": "Hukuki konularda başvuru noktanız",
-    "description": "Kaza tazminatı, para cezası veya ceza davalarında savunma olsun, size yardımcı olmak için buradayım. Aşağıdan size uygun olan konuyu seçin ve talimatları takip edin.",
+    "description": "Size iki hukuki uzmanlık alanında yetkin destek sunuyorum: Ceza savunması ve gastronomi hukuku. Ceza savunucusu olarak, bir ceza soruşturmasından ana duruşmaya ve vergi ceza hukukunda, özellikle vergi dairesi tarafından yapılan dış denetimler ve tahminlerde savunmaya kadar ceza yargılamasının tüm aşamalarında sizi temsil ediyorum. Ayrıca, gastronomi işletmelerine, işletme ile ilgili tüm hukuki konularda – resmi gerekliliklerden ve ticaret hukuku sorularından kira hukuku ve iş hukuku yönlerine kadar – danışmanlık yapıyor ve temsil ediyorum.",
     "items": {
       "traffic_accident": {
         "title": "Trafik Kazası",
@@ -298,11 +298,11 @@
     "info": {
       "location": {
         "title": "Konum",
-        "lines": ["An der Kleiderkasse 5", "22765 Hamburg"]
+        "lines": ["Alter Wall 69", "20457 Hamburg"]
       },
       "phone": {
         "title": "Telefon",
-        "lines": ["+491632006603"]
+        "lines": ["040 57309020"]
       },
       "fax": {
         "title": "Faks",
@@ -331,7 +331,7 @@
     },
     "contact": {
       "email": "info@kanzlei-guer.de",
-      "phone": "+491632006603"
+      "phone": "040 57309020"
     },
     "brand": {
       "firstWord": "Anwaltskanzlei",
@@ -347,13 +347,13 @@
       "name": "Anwaltskanzlei Gür",
       "owner": "Fatih Mehmet Gür",
       "address": {
-        "street": "An der Kleiderkasse 5",
-        "city": "22765 Hamburg"
+        "street": "Alter Wall 69",
+        "city": "20457 Hamburg"
       }
     },
     "contact": {
       "title": "İletişim",
-      "phone": "+49 40 638 622 39",
+      "phone": "040 57309020",
       "email": "info@kanzlei-guer.de"
     },
     "supervisory": {
@@ -437,8 +437,8 @@
         "content": "Bu web sitesindeki veri işleme için sorumlu taraf:",
         "details": [
           "Fatih Mehmet Gür",
-          "An der Kleiderkasse 5",
-          "22765 Hamburg",
+          "Alter Wall 69",
+          "20457 Hamburg",
           "Telefon: 040 35 77 42 61",
           "E-posta: info@kanzlei-guer.de"
         ]

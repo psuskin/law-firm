@@ -55,7 +55,7 @@
   },
   "services": {
     "title": "Ihr Ansprechpartner in Rechtsfragen",
-    "description": "Ob es um die Abwicklung eines Unfalls, ein Bußgeld oder die Verteidigung in einem Strafverfahren geht, ich bin für Sie da. Wählen Sie unten das für Sie zutreffende Thema aus und folgen Sie den weiteren Anweisungen.",
+    "description": "Ich biete Ihnen kompetente Unterstützung in zwei rechtlichen Schwerpunktbereichen: Strafverteidigung und Gastronomierecht. Als Strafverteidiger vertrete ich Sie in allen Phasen eines Strafverfahrens – vom Ermittlungsverfahren über die Hauptverhandlung bis hin zur Verteidigung im Steuerstrafrecht, insbesondere bei Außenprüfungen und Schätzungen durch das Finanzamt. Darüber hinaus berate und vertrete ich Gastronomiebetriebe in allen rechtlichen Fragen rund um den Betrieb – von behördlichen Auflagen und gewerberechtlichen Fragen bis hin zu mietrechtlichen und arbeitsrechtlichen Aspekten",
     "items": {
       "traffic_accident": {
         "title": "Verkehrsunfall",
@@ -298,11 +298,11 @@
     "info": {
       "location": {
         "title": "Standort",
-        "lines": ["An der Kleiderkasse 5", "22765 Hamburg"]
+        "lines": ["Alter Wall 69", "20457 Hamburg"]
       },
       "phone": {
         "title": "Telefon",
-        "lines": ["+491632006603"]
+        "lines": ["040 57309020"]
       },
       "fax": {
         "title": "Fax",
@@ -331,7 +331,7 @@
     },
     "contact": {
       "email": "info@kanzlei-guer.de",
-      "phone": "+491632006603"
+      "phone": "040 57309020"
     },
     "brand": {
       "firstWord": "Anwaltskanzlei",
@@ -347,13 +347,13 @@
       "name": "Anwaltskanzlei Gür",
       "owner": "Fatih Mehmet Gür",
       "address": {
-        "street": "An der Kleiderkasse 5",
-        "city": "22765 Hamburg"
+        "street": "Alter Wall 69",
+        "city": "20457 Hamburg"
       }
     },
     "contact": {
       "title": "Kontakt",
-      "phone": "+49 40 638 622 39",
+      "phone": "040 57309020",
       "email": "info@kanzlei-guer.de"
     },
     "supervisory": {
@@ -438,8 +438,8 @@
           "content": "Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:",
           "details": [
             "Fatih Mehmet Gür",
-            "An der Kleiderkasse 5",
-            "22765 Hamburg",
+            "Alter Wall 69",
+            "20457 Hamburg",
             "Telefon: 040 35 77 42 61",
             "E-Mail: info@kanzlei-guer.de"
           ]
