@@ -59,7 +59,6 @@ const Navbar = () => {
     { title: t("home"), href: "#home" },
     { title: t("services"), href: "#services" },
     { title: t("legalAreas"), href: "#legal-areas" },
-    { title: t("gastronomyLaw"), href: "#gastronomy-law" },
     { title: t("advantages"), href: "#advantages" },
     { title: t("aboutMe"), href: "#about" },
     { title: t("contact"), href: "#contact" },

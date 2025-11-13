@@ -97,7 +97,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Anwaltskanzlei Gür",
-  description: "Expert legal counsel in gastronomy and criminal law matters.",
+  description: "Expert legal counsel in criminal law matters.",
 };
 
 export default function RootLayout({

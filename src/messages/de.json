@@ -3,17 +3,16 @@
     "home": "Startseite",
     "services": "Dienstleistungen",
     "legalAreas": "Rechtsbereiche",
-    "gastronomyLaw": "Gastronomierecht",
     "advantages": "Vorteile",
     "aboutMe": "Über Mich",
     "contact": "Kontakt",
     "freeConsultation": "KOSTENLOSE BERATUNG"
   },
   "hero": {
-    "upperTitle": "Anwaltskanzlei für Strafrecht und Gastronomierecht",
+    "upperTitle": "Anwaltskanzlei für Strafrecht",
     "nameTitle1": "Anwaltskanzlei",
     "nameTitle2": "Gür",
-    "subtitle": "Ihre kompetente Rechtsberatung in Straf- und Gastronomierecht.",
+    "subtitle": "Ihre kompetente Rechtsberatung in Strafrecht.",
     "description": "Professionelle Vertretung mit langjähriger Erfahrung.",
     "scheduleConsultation": "Beratung Vereinbaren",
     "learnMore": "Mehr Erfahren"
@@ -33,7 +32,7 @@
       },
       "expertise": {
         "title": "Fachliche Expertise",
-        "description": "Mein Fokus liegt auf Strafrecht und Gastronomierecht, was mir ermöglicht, eine auf Ihre Bedürfnisse zugeschnittene Lösung zu entwickeln."
+        "description": "Mein Fokus liegt auf Strafrecht, was mir ermöglicht, eine auf Ihre Bedürfnisse zugeschnittene Lösung zu entwickeln."
       },
       "processing": {
         "title": "Schnelle Bearbeitung",
@@ -55,7 +54,7 @@
   },
   "services": {
     "title": "Ihr Ansprechpartner in Rechtsfragen",
-    "description": "Ich biete Ihnen kompetente Unterstützung in zwei rechtlichen Schwerpunktbereichen: Strafverteidigung und Gastronomierecht. Als Strafverteidiger vertrete ich Sie in allen Phasen eines Strafverfahrens – vom Ermittlungsverfahren über die Hauptverhandlung bis hin zur Verteidigung im Steuerstrafrecht, insbesondere bei Außenprüfungen und Schätzungen durch das Finanzamt. Darüber hinaus berate und vertrete ich Gastronomiebetriebe in allen rechtlichen Fragen rund um den Betrieb – von behördlichen Auflagen und gewerberechtlichen Fragen bis hin zu mietrechtlichen und arbeitsrechtlichen Aspekten",
+    "description": "Ich biete Ihnen kompetente Unterstützung im Bereich der Strafverteidigung. Als Strafverteidiger vertrete ich Sie in allen Phasen eines Strafverfahrens – vom Ermittlungsverfahren über die Hauptverhandlung bis hin zur Verteidigung im Steuerstrafrecht, insbesondere bei Außenprüfungen und Schätzungen durch das Finanzamt.",
     "items": {
       "traffic_accident": {
         "title": "Verkehrsunfall",
@@ -74,12 +73,6 @@
         "description": "Sie werden strafrechtlich ermittelt oder wurden von der Polizei vorgeladen?",
         "action": "Vereinbaren Sie einen Termin, damit ich mir Ihre Version der Ereignisse anhöre, die nächsten Schritte erkläre und eine passende Verteidigungsstrategie vorbereite.",
         "buttonText": "Termin vereinbaren"
-      },
-      "gastronomy_law": {
-        "title": "Gastronomierecht",
-        "description": "Sie sind Gastronom und benötigen rechtliche Unterstützung?",
-        "action": "Ich helfe Ihnen bei allen rechtlichen Fragen rund um Ihr Gastronomiegeschäft.",
-        "buttonText": "Mehr erfahren"
       }
     }
   },
@@ -193,58 +186,8 @@
             "description": "Wo möglich, versuche ich, das Strafverfahren gegen Sie bereits vor Anklageerhebung einstellen zu lassen."
           }
         }
-      },
-      "gastronomy_law": {
-        "title": "Gastronomierecht",
-        "items": {
-          "business_startup": {
-            "title": "Unternehmensgründung",
-            "description": "Ich unterstütze Sie bei der Gründung Ihres Gastronomiebetriebs, einschließlich der Erstellung von Verträgen und der Einhaltung gesetzlicher Vorschriften."
-          },
-          "contract_review": {
-            "title": "Vertragsprüfung",
-            "description": "Ich prüfe Ihre Verträge auf rechtliche Fallstricke und berate Sie zu Ihren Rechten und Pflichten."
-          },
-          "dispute_resolution": {
-            "title": "Streitbeilegung",
-            "description": "Ich helfe Ihnen bei der Lösung von Streitigkeiten mit Lieferanten, Kunden oder anderen Geschäftspartnern."
-          },
-          "compliance_advice": {
-            "title": "Compliance-Beratung",
-            "description": "Ich berate Sie zu den rechtlichen Anforderungen in der Gastronomie, um rechtliche Probleme zu vermeiden."
-          }
-        }
       }
     }
-  },
-  "gastronomyLaw": {
-    "title": "Gastronomierecht",
-    "p1": "Ich bin kein juristischer Fachidiot. Ich bin einer von Ihnen.",
-    "p2": "Bevor ich Anwalt wurde, habe ich selbst zwei Läden geführt – neben dem Studium. Ich weiß, was es heißt, morgens um fünf die Türen aufzusperren, Lieferanten hinterherzutelefonieren, Preise zu verhandeln, mit Mitarbeitenden zu diskutieren, den Überblick über alles zu behalten – und dann steht plötzlich das Finanzamt zur Außenprüfung vor der Tür.",
-    "p3": "60-Stunden-Wochen? Ganz normal.",
-    "p4": "Feiertage? Gibt’s nicht.",
-    "p5": "Und wer nicht weiß, wie ein Latte Macchiato mit Hafermilch außer Haus zu versteuern ist, kann richtig Ärger bekommen.",
-    "p6": "Die Gastronomie ist mehr als nur ein Beruf – sie ist ein Lebensstil. Aber sie ist auch rechtlich extrem anspruchsvoll.",
-    "p7": "Denn neben der harten Realität im Betrieb kommen unzählige Vorschriften: Gaststättenrecht, Arbeitsrecht, Lebensmittelrecht, Steuern, Hygiene, Verpackung, Umweltauflagen, Nachbarschaftsrecht – und das alles in einem Dschungel aus Bundesgesetzen, Landesvorgaben und EU-Richtlinien. Viele Juristen kennen das nur aus Büchern. Ich kenne es aus dem echten Leben.",
-    "p8": "Was ich biete? Juristische Beratung auf Augenhöhe – klar, verständlich, praxisnah.",
-    "offer": {
-      "title": "Mein Angebot für Sie:",
-      "list": [
-        "Gründungsberatung für neue Gastro-Konzepte",
-        "Vertragsprüfung bei Miet- und Pachtverhältnissen",
-        "Arbeitsrechtliche Unterstützung, von der Einstellung bis zur Kündigung",
-        "Lieferverträge rechtlich sicher gestalten (Bier, Kaffee, etc.)",
-        "Hygiene- und Lebensmittelrecht, damit Sie bei der nächsten Kontrolle ruhig schlafen können",
-        "Konzessionsverfahren & behördliche Auflagen – ich helfe durch den Behördendschungel",
-        "AGB und Beherbergungsbedingungen, rechtssicher und individuell",
-        "Nachbarschaftsstreitigkeiten, z. B. wegen Lärm oder Geruch",
-        "Forderungsmanagement – weil Sie hart arbeiten und Ihr Geld verdient haben",
-        "Wettbewerbsrecht & Abmahnungen – Schutz vor unfairem Verhalten der Konkurrenz",
-        "Ich rede Klartext, verstehe eure Sorgen – und kämpfe für Sie."
-      ]
-    },
-    "p9": "Wenn Sie keine Zeit und keine Nerven hast, dich mit Paragrafen und Bürokratie rumzuschlagen, dann bin ich dein Ansprechpartner.",
-    "p10": "Einer von Ihnen. Aus der Gastronomie. Für die Gastronomie."
   },
   "aboutMe": {
     "title": "Über mich",
@@ -259,7 +202,7 @@
     "experience": {
       "title": "Berufserfahrung",
       "items": [
-        "Ich habe mich früh auf Gastronomie- und Strafrecht spezialisiert und während meines Studiums und Referendariats vertiefte Kenntnisse in diesen Rechtsbereichen erworben. Dazu trugen auch die sorgfältig ausgewählten Stationen während meines Referendariats bei.",
+        "Ich habe mich früh auf Strafrecht spezialisiert und während meines Studiums und Referendariats vertiefte Kenntnisse in diesem Rechtsbereich erworben. Dazu trugen auch die sorgfältig ausgewählten Stationen während meines Referendariats bei.",
         "Meine Tätigkeit bei der Staatsanwaltschaft Itzehoe während meines Referendariats gab mir auch einen Einblick in die Arbeitsweise und Herangehensweise der Gegenseite. Das bedeutet, dass ich bestimmte Verhaltensweisen der Staatsanwaltschaft vorhersehen und eine effektive Verteidigung vorbereiten kann."
       ]
     }
@@ -425,133 +368,132 @@
       "text": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
     }
   },
-  
-    "dataProtection": {
-      "title": "Datenschutz",
-      "sections": [
-        {
-          "title": "1. Allgemeine Hinweise",
-          "content": "Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie dem folgenden Inhalt:"
-        },
-        {
-          "title": "2. Verantwortliche Stelle",
-          "content": "Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:",
-          "details": [
-            "Fatih Mehmet Gür",
-            "Alter Wall 69",
-            "20457 Hamburg",
-            "Telefon: 040 35 77 42 61",
-            "E-Mail: info@kanzlei-guer.de"
-          ]
-        },
-        {
-          "title": "3. Erhebung und Speicherung personenbezogener Daten",
-          "content": "Bei jedem Aufruf unserer Website werden durch den von Ihnen genutzten Browser automatisiert Informationen an den Server unserer Website übermittelt. Folgende Informationen werden dabei erfasst und bis zur automatischen Löschung gespeichert:",
-          "items": [
-            "IP-Adresse des anfragenden Rechners,",
-            "Datum und Uhrzeit des Zugriffs,",
-            "Name und URL der abgerufenen Datei,",
-            "die Referrer-URL, d.h. die Website, von der aus der Zugriff erfolgte,",
-            "Informationen über den verwendeten Browsertyp,",
-            "das Betriebssystem Ihres Rechners,",
-            "der Name Internet-Service-Providers"
-          ],
-          "legalBasis": "Die Rechtsgrundlage für diese Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. f DSGVO."
-        },
-        {
-          "title": "4. Cookies",
-          "content": "Unsere Internetseiten verwenden so genannte „Cookies. Cookies sind kleine Datenpakete und richten auf Ihrem Endgerät keinen Schaden an. Sie werden entweder vorübergehend für die Dauer einer Sitzung (Session-Cookies) oder dauerhaft (permanente Cookies) auf Ihrem Endgerät gespeichert. Session-Cookies werden nach Ende Ihres Besuchs automatisch gelöscht. Permanente Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese selbst löschen oder eine automatische Löschung durch Ihren Webbrowser erfolgt. Cookies können von uns (First-Party-Cookies) oder von Drittunternehmen stammen (sog. Third-Party- Cookies). Third-Party-Cookies ermöglichen die Einbindung bestimmter Dienstleistungen von Drittunternehmen innerhalb von Webseiten (z. B. Cookies zur Abwicklung von Zahlungsdienstleistungen). Cookies haben verschiedene Funktionen. Zahlreiche Cookies sind technisch notwendig, da bestimmte Webseitenfunktionen ohne diese nicht funktionieren würden (z. B. die Warenkorbfunktion oder die Anzeige von Videos). Andere Cookies können zur Auswertung des Nutzerverhaltens oder zu Werbezwecken verwendet werden. Cookies, die zur Durchführung des elektronischen Kommunikationsvorgangs, zur Bereitstellung bestimmter, von Ihnen erwünschter Funktionen oder zur Optimierung der Website (z. B. Cookies zur Messung des Webpublikums) erforderlich sind (notwendige Cookies), werden auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO gespeichert, sofern keine andere Rechtsgrundlage angegeben wird. Der Websitebetreiber hat ein berechtigtes Interesse an der Speicherung von notwendigen Cookies zur technisch fehlerfreien und optimierten Bereitstellung seiner Dienste. Sofern eine Einwilligung zur Speicherung von Cookies und vergleichbaren Wiedererkennungstechnologien abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage dieser Einwilligung (Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG); die Einwilligung ist jederzeit widerrufbar. Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und Cookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte Fälle oder generell ausschließen sowie das automatische Löschen der Cookies beim Schließen des Browsers aktivieren. Bei der Deaktivierung von Cookies kann die Funktionalität dieser Website eingeschränkt sein."
-        },
-        {
-          "title": "5. Google Analytics (Analysetool)",
-          "content": "Zum Zwecke der bedarfsgerechten Gestaltung und fortlaufenden Optimierung unserer Seiten nutzen wir Google Analytics, ein Webanalysedienst der Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland (im Folgenden: „Google). Wir setzen die Tracking-Maßnahmen ein, um die Nutzung unserer Webseite statistisch zu erfassen und zum Zwecke der Optimierung unseres Angebotes für Sie auszuwerten. Rechtsgrundlage für diese Datenverarbeitung ist Ihre Einwilligung gem. Art. 6 Abs. 1 S. 1 lit. a DSGVO. Beim Besuch unserer Webseite haben Sie die Möglichkeit, Ihre Zustimmung zur Datenverarbeitung durch Cookies zu Auswertungs- und Marketingzwecken zu erteilen. Diese Einwilligung ist freiwillig und kann von Ihnen jederzeit widerrufen werden. Erteilen Sie keine Einwilligung, werden keine Cookies zu Marketing- oder Analysezwecken gesetzt. In diesem Zusammenhang werden pseudonymisierte Nutzungsprofile erstellt und Cookies (siehe unter Ziffer IV.) verwendet. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website wie",
-          "items": [
-            "Browser-Typ/-Version,",
-            "verwendetes Betriebssystem,",
-            "Referrer-URL (die zuvor besuchte Seite),",
-            "Hostname des zugreifenden Rechners (IP-Adresse),",
-            "Uhrzeit der Serveranfrage,"
-          ],
-          "additionalContent": "werden in der Regel an einen Server von Google übertragen und dort gespeichert. Unter Umständen findet auch eine Übertragung der Daten an Server von Google in den USA statt. Aufgrund der Zertifizierung von Google unter dem EU-US-Privacy Shield hat die Europäische Kommission für Google ein angemessenes Datenschutzniveau festgestellt. Die o.g. Informationen werden gegebenenfalls auch an Dritte übertragen, sofern dies gesetzlich vorgeschrieben ist oder soweit Dritte diese Daten im Auftrag verarbeiten. Es wird in keinem Fall die von Ihrem Browser übertragene IP-Adresse mit anderen Daten von Google zusammengeführt. Die IP-Adressen werden anonymisiert, so dass eine Zuordnung nicht möglich ist (IP-Masking). Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. In unserem Auftrag wird Google diese Information benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiten-Aktivitäten zusammenzustellen und um weitere mit der Websiten-Nutzung und der Internetnutzung verbundene Dienstleistungen gegenüber uns zu erbringen. Sie können die Installation der Cookies durch eine entsprechende Einstellung der Browser-Software verhindern; wir weisen jedoch darauf hin, dass in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich genutzt werden können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) sowie die Verarbeitung dieser Daten durch Google verhindern, indem Sie ein Browser-Add-on zur Deaktivierung von Google Analytics herunterladen und installieren. Alternativ zum Browser-Add-on, insbesondere bei Browsern auf mobilen Endgeräten, können Sie die Erfassung durch Google Analytics zudem verhindern, indem Sie auf diesen LINK klicken. Es wird ein Opt-out-Cookie gesetzt, sodass zukünftig die Erfassung Ihrer Daten beim Besuch dieser Website verhindert wird. Der Opt-out-Cookie wird auf Ihrem Gerät abgelegt und gilt nur in diesem Browser und nur für unsere Website. Löschen Sie die Cookies in diesem Browser, müssen Sie das Opt-out-Cookie erneut setzen. Weitere Informationen zum Datenschutz im Zusammenhang mit Google Analytics finden Sie etwa in der Google Analytics-Hilfe."
-        },
-        {
-          "title": "6. Google Ads (Marketingdienst)",
-          "content": "Auf unserer Website haben wir den Dienst Google Ads integriert. Google Ads ist ein Dienst zur Internetwerbung, der es erlaubt, sowohl Anzeigen in den Suchmaschinenergebnissen von Google als auch im Google-Werbenetzwerk zu schalten. Betreibergesellschaft dieses Dienstes ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Rechtsgrundlage für diese Datenverarbeitung ist Ihre Einwilligung gem. Art. 6 Abs. 1 S. 1 lit. a DSGVO. Beim Besuch unserer Webseite haben Sie die Möglichkeit, Ihre Zustimmung zur Datenverarbeitung durch Cookies zu Auswertungs- und Marketingzwecken zu erteilen. Diese Einwilligung ist freiwillig und kann von Ihnen jederzeit widerrufen werden. Erteilen Sie keine Einwilligung, werden keine Cookies zu Marketing- oder Analysezwecken gesetzt. Der Zweck von Google Ads ist die Bewerbung unserer Internetseite durch die Einblendung von Werbung auf den Internetseiten von Drittunternehmen und in den Suchergebnissen von Google sowie die Einblendung von Fremdwerbung auf unserer Website. Zur statistischen Auswertung und Verbesserung unseres Angebots werden die Google Ads Anzeigen mithilfe des Google Conversion Tracking ausgewertet. Dabei wird von Google Ads ein Cookie (siehe Ziffer IV.) auf Ihrem Rechner gesetzt, sofern Sie über eine Google-Anzeige auf unsere Website gelangt sind. Diese Cookies verlieren nach 30 Tagen ihre Gültigkeit und dienen nicht der persönlichen Identifizierung. Besucht der Nutzer bestimmte Seiten der Website des Ads-Kunden und das Cookie ist noch nicht abgelaufen, können Google und der Kunde erkennen, dass der Nutzer auf die Anzeige geklickt hat und zu dieser Seite weitergeleitet wurde. Jeder Ads-Kunde erhält ein anderes Cookie. Cookies können somit nicht über die Websiten von Ads-Kunden nachverfolgt werden. Die mithilfe des Conversion-Cookies eingeholten Informationen dienen dazu, Conversion-Statistiken für Ads-Kunden zu erstellen, die sich für Conversion- Tracking entschieden haben. Die Ads-Kunden erfahren die Gesamtanzahl der Nutzer, die auf ihre Anzeige geklickt haben und zu einer mit einem Conversion-Tracking-Tag versehenen Seite weitergeleitet wurden. Sie erhalten jedoch keine Informationen, mit denen sich Nutzer persönlich identifizieren lassen. Wenn Sie nicht an dem Tracking-Verfahren teilnehmen möchten, können Sie auch das hierfür erforderliche Setzen eines Cookies ablehnen – etwa per Browser-Einstellung, die das automatische Setzen von Cookies generell deaktiviert. Sie können Cookies für Conversion-Tracking auch deaktivieren, indem Sie Ihren Browser so einstellen, dass Cookies von der Domain „www.googleadservices.com blockiert werden. Googles weitere Informationen und Datenschutzbelehrung zum Conversion-Tracking finden Sie hier: Google Ads Hilfe Conversion Tracking und Google Datenschutzerklärung & Nutzungsbedingungen Weiterhin verwenden wir auf unserer Website den Google Tag Manager. Google Tag Manager ist eine Lösung, mit der Vermarkter Website-Tags über eine Oberfläche verwalten können. Das Tool Tag Manager selbst (das die Tags implementiert) ist eine cookielose Domain und erfasst keine personenbezogenen Daten. Das Tool sorgt für die Auslösung anderer Tags, die ihrerseits unter Umständen Daten erfassen. Google Tag Manager greift nicht auf diese Daten zu. Wenn auf Domain-oder Cookie-Ebene eine Deaktivierung vorgenommen wurde, bleibt diese für alle Tracking-Tags bestehen, die mit Google Tag Manager implementiert werden. Unsere Website verwendet zudem die Remarketing-Funktion von Google. Diese Technologie dient dazu, Besuchern der Website im Rahmen des Google Partner Netzwerks interessenbezogene Werbeanzeigen zu präsentieren. Die Einblendung der Werbung erfolgt durch den Einsatz von Cookies, mit deren Hilfe das Nutzerverhalten beim Besuch der Website analysiert und anschließend für gezielte Produktempfehlungen und interessenbasierte Werbung genutzt werden kann. Auf diesen Seiten können dem Besucher dann Werbeanzeigen präsentiert werden, die sich auf Inhalte beziehen, die der Besucher zuvor auf Websites aufgerufen hat, die die Remarketing Technologie von Google verwenden. Nach eigenen Angaben erhebt Google bei diesem Vorgang keine personenbezogenen Daten. Weitere Informationen können Sie hier: Google Marketing Plattform - Tag Manager Terms of Service und hier Google Datenschutzerklärung & Nutzungsbedingungen abrufen. Wenn Sie keine interessenbasierte Werbung über die Google Remarketing Technologie möchten, können Sie die Verwendung von Cookies durch Google für diese Zwecke deaktivieren, indem Sie die entsprechenden Einstellungen unter folgendem Link vornehmen: Google Einstellungen für personalisierte Werbung"
-        },
-        {
-          "title": "7. Kontaktformular",
-          "content": "Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter. Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde; die Einwilligung ist jederzeit widerrufbar. Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z. B. nach abgeschlossener Bearbeitung Ihrer Anfrage). Zwingende gesetzliche Bestimmungen – insbesondere Aufbewahrungsfristen – bleiben unberührt. Anfrage per E-Mail, Telefon oder Telefax: Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren, wird Ihre Anfrage inklusive aller daraus hervorgehenden personenbezogenen Daten (Name, Anfrage) zum Zwecke der Bearbeitung Ihres Anliegens bei uns gespeichert und verarbeitet. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter. Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde; die Einwilligung ist jederzeit widerrufbar. Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z. B. nach abgeschlossener Bearbeitung Ihres Anliegens). Zwingende gesetzliche Bestimmungen – insbesondere gesetzliche Aufbewahrungsfristen – bleiben unberührt."
-        },
-        {
-          "title": "8. Soziale Medien (Instagram)",
-          "content": "Auf dieser Website sind Funktionen des Dienstes Instagram eingebunden. Diese Funktionen werden angeboten durch die Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland. Wenn das Social-Media-Element aktiv ist, wird eine direkte Verbindung zwischen Ihrem Endgerät und dem Instagram-Server hergestellt. Instagram erhält dadurch Informationen über den Besuch dieser Website durch Sie. Wenn Sie in Ihrem Instagram-Account eingeloggt sind, können Sie durch Anklicken des Instagram-Buttons die Inhalte dieser Website mit Ihrem Instagram-Profil verlinken. Dadurch kann Instagram den Besuch dieser Website Ihrem Benutzerkonto zuordnen. Wir weisen darauf hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch Instagram erhalten. Soweit eine Einwilligung (Consent) eingeholt wurde, erfolgt der Einsatz des o. g. Dienstes auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 TTDSG. Die Einwilligung ist jederzeit widerrufbar. Soweit keine Einwilligung eingeholt wurde, erfolgt die Verwendung des Dienstes auf Grundlage unseres berechtigten Interesses an einer möglichst umfassenden Sichtbarkeit in den Sozialen Medien. Soweit mit Hilfe des hier beschriebenen Tools personenbezogene Daten auf unserer Website erfasst und an Facebook bzw. Instagram weitergeleitet werden, sind wir und die Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland gemeinsam für diese Datenverarbeitung verantwortlich (Art. 26 DSGVO). Die gemeinsame Verantwortlichkeit beschränkt sich dabei ausschließlich auf die Erfassung der Daten und deren Weitergabe an Facebook bzw. Instagram. Die nach der Weiterleitung erfolgende Verarbeitung durch Facebook bzw. Instagram ist nicht Teil der gemeinsamen Verantwortung. Die uns gemeinsam obliegenden Verpflichtungen wurden in einer Vereinbarung über gemeinsame Verarbeitung festgehalten. Den Wortlaut der Vereinbarung finden Sie unter: https://www.facebook.com/legal/controller_addendum. Laut dieser Vereinbarung sind wir für die Erteilung der Datenschutzinformationen beim Einsatz des Facebook- bzw. Instagram-Tools und für die datenschutzrechtlich sichere Implementierung des Tools auf unserer Website verantwortlich. Für die Datensicherheit der Facebook bzw. Instagram-Produkte ist Facebook verantwortlich. Betroffenenrechte (z. B. Auskunftsersuchen) hinsichtlich der bei Facebook bzw. Instagram verarbeiteten Daten können Sie direkt bei Facebook geltend machen. Wenn Sie die Betroffenenrechte bei uns geltend machen, sind wir verpflichtet, diese an Facebook weiterzuleiten. Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt. Details finden Sie hier: https://www.facebook.com/legal/EU_data_transfer_addendum, https://help.instagram.com/519522125107875 und https://de-de.facebook.com/help/566994660333381. Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Instagram: https://instagram.com/about/legal/privacy/. Das Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy Framework (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie vom Anbieter unter folgendem Link: https://www.dataprivacyframework.gov/s/participant-search/participant- detail?contact=true&id=a2zt0000000GnywAAC&status=Active"
-        },
-        {
-          "title": "9. Plugins und Tools",
-          "subsections": [
-            {
-              "title": "a. Google Fonts",
-              "content": "Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Google Fonts, die von Google bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser die benötigten Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen. Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung zu den Servern von Google aufnehmen. Hierdurch erlangt Google Kenntnis darüber, dass über Ihre IP-Adresse diese Website aufgerufen wurde. Die Nutzung von Google Fonts erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an der einheitlichen Darstellung des Schriftbildes auf seiner Website. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit widerrufbar. Wenn Ihr Browser Google Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer genutzt. Weitere Informationen zu Google Fonts finden Sie unter https://developers.google.com/fonts/faq und in der Datenschutzerklärung von Google: https://policies.google.com/privacy?hl=de. Das Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy Framework (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie vom Anbieter unter folgendem Link: https://www.dataprivacyframework.gov/s/participant-search/participant- detail?contact=true&id=a2zt000000001L5AAI&status=Active"
-            },
-            {
-              "title": "b. Google Maps",
-              "content": "Diese Seite nutzt den Kartendienst Google Maps. Anbieter ist die Google Ireland Limited (Google), Gordon House, Barrow Street, Dublin 4, Irland. Zur Nutzung der Funktionen von Google Maps ist es notwendig, Ihre IP-Adresse zu speichern. Diese Informationen werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Der Anbieter dieser Seite hat keinen Einfluss auf diese Datenübertragung. Wenn Google Maps aktiviert ist, kann Google zum Zwecke der einheitlichen Darstellung der Schriftarten Google Fonts verwenden. Beim Aufruf von Google Maps lädt Ihr Browser die benötigten Web Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen. Die Nutzung von Google Maps erfolgt im Interesse einer ansprechenden Darstellung unserer Online- Angebote und an einer leichten Auffindbarkeit der von uns auf der Website angegebenen Orte. Dies stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit widerrufbar. Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt. Details finden Sie hier: https://privacy.google.com/businesses/gdprcontrollerterms/ und https://privacy.google.com/businesses/gdprcontrollerterms/sccs/. Mehr Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von Google: https://policies.google.com/privacy?hl=de. Das Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy Framework (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie vom Anbieter unter folgendem Link: https://www.dataprivacyframework.gov/s/participant-search/participant- detail?contact=true&id=a2zt000000001L5AAI&status=Active"
-            }
-          ]
-        },
-        {
-          "title": "10. Hosting",
-          "content": "Wir hosten die Inhalte unserer Website bei folgendem Anbieter: Strato AG, Otto-Ostrowski-Straße 7, 10249 Berlin (nachfolgend „Strato). Wenn Sie unsere Website besuchen, erfasst Strato verschiedene Logfiles inklusive Ihrer IP-Adressen. Weitere Informationen entnehmen Sie der Datenschutzerklärung von Strato: https://www.strato.de/datenschutz/. Die Verwendung von Strato erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Wir haben ein berechtigtes Interesse an einer möglichst zuverlässigen Darstellung unserer Website. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit widerrufbar.",
-          "subsections": [
-            {
-              "title": "Auftragsverarbeitung",
-              "content": "Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung des oben genannten Dienstes geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich vorgeschriebenen Vertrag, der gewährleistet, dass dieser die personenbezogenen Daten unserer Websitebesucher nur nach unseren Weisungen und unter Einhaltung der DSGVO verarbeitet."
-            }
-          ]
-        },
-        {
-          "title": "11. Betroffenenrechte",
-          "content": "Als betroffene Person stehen Ihnen folgende Rechte gegenüber dem Verantwortlichen zu. Möchten Sie eines dieser Rechte in Anspruch nehmen, wenden Sie sich hierzu über die in Ziffer I genannten Kontaktdaten an den Verantwortlichen.",
-          "subsections": [
-            {
-              "title": "a. Recht auf Auskunft (Art. 15 DSGVO)",
-              "content": "Sie können von dem Verantwortlichen Auskunft darüber verlangen, ob Sie betreffende personenbezogene Daten von ihm verarbeitet werden. Sofern eine Verarbeitung vorliegt, können Sie von dem Verantwortlichen Auskunft über diese personenbezogenen Daten sowie über die Verarbeitungszwecke; die Kategorien personenbezogener Daten, die verarbeitet werden; die Empfänger bzw. die Kategorien von Empfängern, gegenüber denen die Sie betreffenden personenbezogenen Daten offengelegt worden sind oder noch offengelegt werden; die geplante Dauer, für die die Sie betreffenden personenbezogenen Daten gespeichert werden, oder, falls dies nicht möglich ist, die Kriterien für die Festlegung der Speicherdauer; das Bestehen eines Rechts auf Berichtigung oder Löschung der Sie betreffenden personenbezogenen Daten oder auf Einschränkung der Verarbeitung durch den Verantwortlichen oder eines Widerspruchsrechts gegen diese Verarbeitung; das Bestehen eines Beschwerderechts bei einer Aufsichtsbehörde; wenn die personenbezogenen Daten nicht bei Ihnen erhoben werden, alle verfügbaren Informationen über die Herkunft der Daten; das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling gem. Art. 22 Abs. 1, 4 DSGVO und – zumindest in diesen Fällen – aussagekräftige Informationen über die involvierte Logik sowie die Tragweite und die angestrebten Auswirkungen einer derartigen Verarbeitung für die betroffene Person; die Übermittlung personenbezogener Daten in ein Drittland oder an eine internationale Organisation sowie über die in diesem Zusammengang geeigneten Garantien gem. Art. 46 DSGVO; Auskunft verlangen."
-            },
-            {
-              "title": "b. Recht auf Berichtigung (Art. 16 DSGVO)",
-              "content": "Sie haben ein Recht auf unverzügliche Berichtigung und/oder Vervollständigung ihrer personenbezogenen Daten gegenüber dem Verantwortlichen, wenn die Sie betreffenden verarbeiteten personenbezogenen Daten unrichtig oder unvollständig sind."
-            },
-            {
-              "title": "c. Recht auf Löschung (Art. 17 DSGVO)",
-              "content": "Sie können die Löschung Ihrer bei uns gespeicherten Daten verlangen, wenn die Daten für die Zwecke, für die sie erhoben oder verarbeitet wurden, nicht mehr notwendig sind; Sie Ihre Einwilligung widerrufen und es keine anderweitige Rechtsgrundlage für die Verarbeitung gibt; Sie Widerspruch gem. Art. 21 Abs. 1 DSGVO einlegen und keine vorrangigen berechtigten Gründe für die Verarbeitung vorliegen oder Sie gem. gem. Art. 21 Abs. 2 DSGVO Widerspruch einlegen; die personenbezogenen Daten unrechtmäßig verarbeitet wurden; die Löschung zur Erfüllung einer gesetzlichen Verpflichtung erforderlich ist; oder die personenbezogenen Daten in Bezug auf angebotene Dienste der Informationsgesellschaft gem. Art. 8 Abs. 1 DSGVO erhoben wurden. Dieses Recht auf Löschung gilt nicht, soweit die Verarbeitung zur Ausübung des Rechts auf freie Meinungsäußerung und Information; zur Erfüllung einer rechtlichen Verpflichtung; aus Gründen des öffentlichen Interesses; oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist."
-            },
-            {
-              "title": "d. Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)",
-              "content": "Sie können die Einschränkung der Verarbeitung der Sie betreffenden personenbezogenen Daten verlangen, wenn die Richtigkeit der personenbezogenen Daten von Ihnen bestritten wird für die Dauer der Überprüfung der Richtigkeit durch den Verantwortlichen; die Verarbeitung unrechtmäßig ist und Sie statt der Löschung die Einschränkung der Verarbeitung verlangen; der Verantwortliche die Daten nicht länger benötigt, Sie diese jedoch zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigen; oder Sie Widerspruch gegen die Verarbeitung gem. Art. 21 Abs. 1 DSGVO eingelegt haben und noch nicht feststeht, ob berechtigte Gründe des Verantwortlichen gegenüber Ihren Gründen überwiegen. Wurde die Verarbeitung der Sie betreffenden personenbezogenen Daten eingeschränkt, dürfen diese Daten – von ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der Union oder eines Mitgliedstaats verarbeitet werden. Wurde die Einschränkung der Verarbeitung nach den o.g. Voraussetzungen eingeschränkt, werden Sie von dem Verantwortlichen unterrichtet bevor die Einschränkung aufgehoben wird."
-            },
-            {
-              "title": "e. Recht auf Datenübertragbarkeit (Art. 20 DSGVO)",
-              "content": "Sie haben das Recht, Ihre personenbezogenen Daten, die Sie uns bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten oder die Übermittlung an einen anderen Verantwortlichen zu verlangen."
-            },
-            {
-              "title": "f. Recht auf Widerspruch",
-              "content": "Sofern Ihre personenbezogenen Daten auf Grundlage von berechtigten Interessen gem. Art. 6 Abs. 1 S. 1 lit. f DSGVO verarbeitet werden, haben Sie das Recht Widerspruch gegen die Verarbeitung Ihrer personenbezogenen Daten einzulegen, soweit dafür Gründe vorliegen, die sich aus Ihrer besonderen Situation ergeben. Richtet sich der Widerspruch gegen Direktwerbung, haben Sie ein generelles Widerspruchsrecht, das ohne Angabe einer besonderen Situation von uns umgesetzt wird."
-            },
-            {
-              "title": "g. Recht auf Widerruf einer Einwilligung (Art. 7 Abs. 3 DSGVO)",
-              "content": "Sie haben das Recht Ihre einmal erteilte Einwilligung jederzeit uns gegenüber zu widerrufen mit der Folge, dass wir die auf dieser Einwilligung beruhende Datenverarbeitung für die Zukunft nicht mehr fortführen dürfen."
-            },
-            {
-              "title": "h. Beschwerderecht (Art. 77 DSGVO)",
-              "content": "Sie haben das Recht sich bei einer Aufsichtsbehörde zu beschweren. Sie können sich dafür an die Aufsichtsbehörde Ihres Aufenthaltsortes oder Arbeitsplatzes wenden oder an die für uns zuständige Aufsichtsbehörde."
-            }
-          ]
-        },
-        {
-          "title": "12. Datensicherheit",
-          "content": "Um Ihre Daten bestmöglich zu schützen, verwenden wir auf unserer Website das SSL-Verfahren (Secure Socket Layer) in Verbindung mit der jeweils höchsten Verschlüsselungsstufe, die von Ihrem Browser unterstützt wird. Ob eine einzelne Seite unseres Internetauftrittes verschlüsselt übertragen wird, erkennen Sie an der geschlossenen Darstellung des Schüssel- beziehungsweise Schloss-Symbols in der Statusleiste Ihres Browsers. Wir bedienen uns im Übrigen geeigneter technischer und organisatorischer Sicherheitsmaßnahmen, um Ihre Daten gegen Manipulationen, Verlust, Zerstörung oder gegen den unbefugten Zugriff Dritter zu schützen."
-        }
-      ]
-    }
-  
+
+  "dataProtection": {
+    "title": "Datenschutz",
+    "sections": [
+      {
+        "title": "1. Allgemeine Hinweise",
+        "content": "Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie dem folgenden Inhalt:"
+      },
+      {
+        "title": "2. Verantwortliche Stelle",
+        "content": "Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:",
+        "details": [
+          "Fatih Mehmet Gür",
+          "Alter Wall 69",
+          "20457 Hamburg",
+          "Telefon: 040 35 77 42 61",
+          "E-Mail: info@kanzlei-guer.de"
+        ]
+      },
+      {
+        "title": "3. Erhebung und Speicherung personenbezogener Daten",
+        "content": "Bei jedem Aufruf unserer Website werden durch den von Ihnen genutzten Browser automatisiert Informationen an den Server unserer Website übermittelt. Folgende Informationen werden dabei erfasst und bis zur automatischen Löschung gespeichert:",
+        "items": [
+          "IP-Adresse des anfragenden Rechners,",
+          "Datum und Uhrzeit des Zugriffs,",
+          "Name und URL der abgerufenen Datei,",
+          "die Referrer-URL, d.h. die Website, von der aus der Zugriff erfolgte,",
+          "Informationen über den verwendeten Browsertyp,",
+          "das Betriebssystem Ihres Rechners,",
+          "der Name Internet-Service-Providers"
+        ],
+        "legalBasis": "Die Rechtsgrundlage für diese Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. f DSGVO."
+      },
+      {
+        "title": "4. Cookies",
+        "content": "Unsere Internetseiten verwenden so genannte „Cookies. Cookies sind kleine Datenpakete und richten auf Ihrem Endgerät keinen Schaden an. Sie werden entweder vorübergehend für die Dauer einer Sitzung (Session-Cookies) oder dauerhaft (permanente Cookies) auf Ihrem Endgerät gespeichert. Session-Cookies werden nach Ende Ihres Besuchs automatisch gelöscht. Permanente Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese selbst löschen oder eine automatische Löschung durch Ihren Webbrowser erfolgt. Cookies können von uns (First-Party-Cookies) oder von Drittunternehmen stammen (sog. Third-Party- Cookies). Third-Party-Cookies ermöglichen die Einbindung bestimmter Dienstleistungen von Drittunternehmen innerhalb von Webseiten (z. B. Cookies zur Abwicklung von Zahlungsdienstleistungen). Cookies haben verschiedene Funktionen. Zahlreiche Cookies sind technisch notwendig, da bestimmte Webseitenfunktionen ohne diese nicht funktionieren würden (z. B. die Warenkorbfunktion oder die Anzeige von Videos). Andere Cookies können zur Auswertung des Nutzerverhaltens oder zu Werbezwecken verwendet werden. Cookies, die zur Durchführung des elektronischen Kommunikationsvorgangs, zur Bereitstellung bestimmter, von Ihnen erwünschter Funktionen oder zur Optimierung der Website (z. B. Cookies zur Messung des Webpublikums) erforderlich sind (notwendige Cookies), werden auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO gespeichert, sofern keine andere Rechtsgrundlage angegeben wird. Der Websitebetreiber hat ein berechtigtes Interesse an der Speicherung von notwendigen Cookies zur technisch fehlerfreien und optimierten Bereitstellung seiner Dienste. Sofern eine Einwilligung zur Speicherung von Cookies und vergleichbaren Wiedererkennungstechnologien abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage dieser Einwilligung (Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG); die Einwilligung ist jederzeit widerrufbar. Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und Cookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte Fälle oder generell ausschließen sowie das automatische Löschen der Cookies beim Schließen des Browsers aktivieren. Bei der Deaktivierung von Cookies kann die Funktionalität dieser Website eingeschränkt sein."
+      },
+      {
+        "title": "5. Google Analytics (Analysetool)",
+        "content": "Zum Zwecke der bedarfsgerechten Gestaltung und fortlaufenden Optimierung unserer Seiten nutzen wir Google Analytics, ein Webanalysedienst der Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland (im Folgenden: „Google). Wir setzen die Tracking-Maßnahmen ein, um die Nutzung unserer Webseite statistisch zu erfassen und zum Zwecke der Optimierung unseres Angebotes für Sie auszuwerten. Rechtsgrundlage für diese Datenverarbeitung ist Ihre Einwilligung gem. Art. 6 Abs. 1 S. 1 lit. a DSGVO. Beim Besuch unserer Webseite haben Sie die Möglichkeit, Ihre Zustimmung zur Datenverarbeitung durch Cookies zu Auswertungs- und Marketingzwecken zu erteilen. Diese Einwilligung ist freiwillig und kann von Ihnen jederzeit widerrufen werden. Erteilen Sie keine Einwilligung, werden keine Cookies zu Marketing- oder Analysezwecken gesetzt. In diesem Zusammenhang werden pseudonymisierte Nutzungsprofile erstellt und Cookies (siehe unter Ziffer IV.) verwendet. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website wie",
+        "items": [
+          "Browser-Typ/-Version,",
+          "verwendetes Betriebssystem,",
+          "Referrer-URL (die zuvor besuchte Seite),",
+          "Hostname des zugreifenden Rechners (IP-Adresse),",
+          "Uhrzeit der Serveranfrage,"
+        ],
+        "additionalContent": "werden in der Regel an einen Server von Google übertragen und dort gespeichert. Unter Umständen findet auch eine Übertragung der Daten an Server von Google in den USA statt. Aufgrund der Zertifizierung von Google unter dem EU-US-Privacy Shield hat die Europäische Kommission für Google ein angemessenes Datenschutzniveau festgestellt. Die o.g. Informationen werden gegebenenfalls auch an Dritte übertragen, sofern dies gesetzlich vorgeschrieben ist oder soweit Dritte diese Daten im Auftrag verarbeiten. Es wird in keinem Fall die von Ihrem Browser übertragene IP-Adresse mit anderen Daten von Google zusammengeführt. Die IP-Adressen werden anonymisiert, so dass eine Zuordnung nicht möglich ist (IP-Masking). Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. In unserem Auftrag wird Google diese Information benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiten-Aktivitäten zusammenzustellen und um weitere mit der Websiten-Nutzung und der Internetnutzung verbundene Dienstleistungen gegenüber uns zu erbringen. Sie können die Installation der Cookies durch eine entsprechende Einstellung der Browser-Software verhindern; wir weisen jedoch darauf hin, dass in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich genutzt werden können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) sowie die Verarbeitung dieser Daten durch Google verhindern, indem Sie ein Browser-Add-on zur Deaktivierung von Google Analytics herunterladen und installieren. Alternativ zum Browser-Add-on, insbesondere bei Browsern auf mobilen Endgeräten, können Sie die Erfassung durch Google Analytics zudem verhindern, indem Sie auf diesen LINK klicken. Es wird ein Opt-out-Cookie gesetzt, sodass zukünftig die Erfassung Ihrer Daten beim Besuch dieser Website verhindert wird. Der Opt-out-Cookie wird auf Ihrem Gerät abgelegt und gilt nur in diesem Browser und nur für unsere Website. Löschen Sie die Cookies in diesem Browser, müssen Sie das Opt-out-Cookie erneut setzen. Weitere Informationen zum Datenschutz im Zusammenhang mit Google Analytics finden Sie etwa in der Google Analytics-Hilfe."
+      },
+      {
+        "title": "6. Google Ads (Marketingdienst)",
+        "content": "Auf unserer Website haben wir den Dienst Google Ads integriert. Google Ads ist ein Dienst zur Internetwerbung, der es erlaubt, sowohl Anzeigen in den Suchmaschinenergebnissen von Google als auch im Google-Werbenetzwerk zu schalten. Betreibergesellschaft dieses Dienstes ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Rechtsgrundlage für diese Datenverarbeitung ist Ihre Einwilligung gem. Art. 6 Abs. 1 S. 1 lit. a DSGVO. Beim Besuch unserer Webseite haben Sie die Möglichkeit, Ihre Zustimmung zur Datenverarbeitung durch Cookies zu Auswertungs- und Marketingzwecken zu erteilen. Diese Einwilligung ist freiwillig und kann von Ihnen jederzeit widerrufen werden. Erteilen Sie keine Einwilligung, werden keine Cookies zu Marketing- oder Analysezwecken gesetzt. Der Zweck von Google Ads ist die Bewerbung unserer Internetseite durch die Einblendung von Werbung auf den Internetseiten von Drittunternehmen und in den Suchergebnissen von Google sowie die Einblendung von Fremdwerbung auf unserer Website. Zur statistischen Auswertung und Verbesserung unseres Angebots werden die Google Ads Anzeigen mithilfe des Google Conversion Tracking ausgewertet. Dabei wird von Google Ads ein Cookie (siehe Ziffer IV.) auf Ihrem Rechner gesetzt, sofern Sie über eine Google-Anzeige auf unsere Website gelangt sind. Diese Cookies verlieren nach 30 Tagen ihre Gültigkeit und dienen nicht der persönlichen Identifizierung. Besucht der Nutzer bestimmte Seiten der Website des Ads-Kunden und das Cookie ist noch nicht abgelaufen, können Google und der Kunde erkennen, dass der Nutzer auf die Anzeige geklickt hat und zu dieser Seite weitergeleitet wurde. Jeder Ads-Kunde erhält ein anderes Cookie. Cookies können somit nicht über die Websiten von Ads-Kunden nachverfolgt werden. Die mithilfe des Conversion-Cookies eingeholten Informationen dienen dazu, Conversion-Statistiken für Ads-Kunden zu erstellen, die sich für Conversion- Tracking entschieden haben. Die Ads-Kunden erfahren die Gesamtanzahl der Nutzer, die auf ihre Anzeige geklickt haben und zu einer mit einem Conversion-Tracking-Tag versehenen Seite weitergeleitet wurden. Sie erhalten jedoch keine Informationen, mit denen sich Nutzer persönlich identifizieren lassen. Wenn Sie nicht an dem Tracking-Verfahren teilnehmen möchten, können Sie auch das hierfür erforderliche Setzen eines Cookies ablehnen – etwa per Browser-Einstellung, die das automatische Setzen von Cookies generell deaktiviert. Sie können Cookies für Conversion-Tracking auch deaktivieren, indem Sie Ihren Browser so einstellen, dass Cookies von der Domain „www.googleadservices.com blockiert werden. Googles weitere Informationen und Datenschutzbelehrung zum Conversion-Tracking finden Sie hier: Google Ads Hilfe Conversion Tracking und Google Datenschutzerklärung & Nutzungsbedingungen Weiterhin verwenden wir auf unserer Website den Google Tag Manager. Google Tag Manager ist eine Lösung, mit der Vermarkter Website-Tags über eine Oberfläche verwalten können. Das Tool Tag Manager selbst (das die Tags implementiert) ist eine cookielose Domain und erfasst keine personenbezogenen Daten. Das Tool sorgt für die Auslösung anderer Tags, die ihrerseits unter Umständen Daten erfassen. Google Tag Manager greift nicht auf diese Daten zu. Wenn auf Domain-oder Cookie-Ebene eine Deaktivierung vorgenommen wurde, bleibt diese für alle Tracking-Tags bestehen, die mit Google Tag Manager implementiert werden. Unsere Website verwendet zudem die Remarketing-Funktion von Google. Diese Technologie dient dazu, Besuchern der Website im Rahmen des Google Partner Netzwerks interessenbezogene Werbeanzeigen zu präsentieren. Die Einblendung der Werbung erfolgt durch den Einsatz von Cookies, mit deren Hilfe das Nutzerverhalten beim Besuch der Website analysiert und anschließend für gezielte Produktempfehlungen und interessenbasierte Werbung genutzt werden kann. Auf diesen Seiten können dem Besucher dann Werbeanzeigen präsentiert werden, die sich auf Inhalte beziehen, die der Besucher zuvor auf Websites aufgerufen hat, die die Remarketing Technologie von Google verwenden. Nach eigenen Angaben erhebt Google bei diesem Vorgang keine personenbezogenen Daten. Weitere Informationen können Sie hier: Google Marketing Plattform - Tag Manager Terms of Service und hier Google Datenschutzerklärung & Nutzungsbedingungen abrufen. Wenn Sie keine interessenbasierte Werbung über die Google Remarketing Technologie möchten, können Sie die Verwendung von Cookies durch Google für diese Zwecke deaktivieren, indem Sie die entsprechenden Einstellungen unter folgendem Link vornehmen: Google Einstellungen für personalisierte Werbung"
+      },
+      {
+        "title": "7. Kontaktformular",
+        "content": "Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter. Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde; die Einwilligung ist jederzeit widerrufbar. Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z. B. nach abgeschlossener Bearbeitung Ihrer Anfrage). Zwingende gesetzliche Bestimmungen – insbesondere Aufbewahrungsfristen – bleiben unberührt. Anfrage per E-Mail, Telefon oder Telefax: Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren, wird Ihre Anfrage inklusive aller daraus hervorgehenden personenbezogenen Daten (Name, Anfrage) zum Zwecke der Bearbeitung Ihres Anliegens bei uns gespeichert und verarbeitet. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter. Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde; die Einwilligung ist jederzeit widerrufbar. Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z. B. nach abgeschlossener Bearbeitung Ihres Anliegens). Zwingende gesetzliche Bestimmungen – insbesondere gesetzliche Aufbewahrungsfristen – bleiben unberührt."
+      },
+      {
+        "title": "8. Soziale Medien (Instagram)",
+        "content": "Auf dieser Website sind Funktionen des Dienstes Instagram eingebunden. Diese Funktionen werden angeboten durch die Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland. Wenn das Social-Media-Element aktiv ist, wird eine direkte Verbindung zwischen Ihrem Endgerät und dem Instagram-Server hergestellt. Instagram erhält dadurch Informationen über den Besuch dieser Website durch Sie. Wenn Sie in Ihrem Instagram-Account eingeloggt sind, können Sie durch Anklicken des Instagram-Buttons die Inhalte dieser Website mit Ihrem Instagram-Profil verlinken. Dadurch kann Instagram den Besuch dieser Website Ihrem Benutzerkonto zuordnen. Wir weisen darauf hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch Instagram erhalten. Soweit eine Einwilligung (Consent) eingeholt wurde, erfolgt der Einsatz des o. g. Dienstes auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 TTDSG. Die Einwilligung ist jederzeit widerrufbar. Soweit keine Einwilligung eingeholt wurde, erfolgt die Verwendung des Dienstes auf Grundlage unseres berechtigten Interesses an einer möglichst umfassenden Sichtbarkeit in den Sozialen Medien. Soweit mit Hilfe des hier beschriebenen Tools personenbezogene Daten auf unserer Website erfasst und an Facebook bzw. Instagram weitergeleitet werden, sind wir und die Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland gemeinsam für diese Datenverarbeitung verantwortlich (Art. 26 DSGVO). Die gemeinsame Verantwortlichkeit beschränkt sich dabei ausschließlich auf die Erfassung der Daten und deren Weitergabe an Facebook bzw. Instagram. Die nach der Weiterleitung erfolgende Verarbeitung durch Facebook bzw. Instagram ist nicht Teil der gemeinsamen Verantwortung. Die uns gemeinsam obliegenden Verpflichtungen wurden in einer Vereinbarung über gemeinsame Verarbeitung festgehalten. Den Wortlaut der Vereinbarung finden Sie unter: https://www.facebook.com/legal/controller_addendum. Laut dieser Vereinbarung sind wir für die Erteilung der Datenschutzinformationen beim Einsatz des Facebook- bzw. Instagram-Tools und für die datenschutzrechtlich sichere Implementierung des Tools auf unserer Website verantwortlich. Für die Datensicherheit der Facebook bzw. Instagram-Produkte ist Facebook verantwortlich. Betroffenenrechte (z. B. Auskunftsersuchen) hinsichtlich der bei Facebook bzw. Instagram verarbeiteten Daten können Sie direkt bei Facebook geltend machen. Wenn Sie die Betroffenenrechte bei uns geltend machen, sind wir verpflichtet, diese an Facebook weiterzuleiten. Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt. Details finden Sie hier: https://www.facebook.com/legal/EU_data_transfer_addendum, https://help.instagram.com/519522125107875 und https://de-de.facebook.com/help/566994660333381. Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Instagram: https://instagram.com/about/legal/privacy/. Das Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy Framework (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie vom Anbieter unter folgendem Link: https://www.dataprivacyframework.gov/s/participant-search/participant- detail?contact=true&id=a2zt0000000GnywAAC&status=Active"
+      },
+      {
+        "title": "9. Plugins und Tools",
+        "subsections": [
+          {
+            "title": "a. Google Fonts",
+            "content": "Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Google Fonts, die von Google bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser die benötigten Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen. Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung zu den Servern von Google aufnehmen. Hierdurch erlangt Google Kenntnis darüber, dass über Ihre IP-Adresse diese Website aufgerufen wurde. Die Nutzung von Google Fonts erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an der einheitlichen Darstellung des Schriftbildes auf seiner Website. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit widerrufbar. Wenn Ihr Browser Google Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer genutzt. Weitere Informationen zu Google Fonts finden Sie unter https://developers.google.com/fonts/faq und in der Datenschutzerklärung von Google: https://policies.google.com/privacy?hl=de. Das Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy Framework (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie vom Anbieter unter folgendem Link: https://www.dataprivacyframework.gov/s/participant-search/participant- detail?contact=true&id=a2zt000000001L5AAI&status=Active"
+          },
+          {
+            "title": "b. Google Maps",
+            "content": "Diese Seite nutzt den Kartendienst Google Maps. Anbieter ist die Google Ireland Limited (Google), Gordon House, Barrow Street, Dublin 4, Irland. Zur Nutzung der Funktionen von Google Maps ist es notwendig, Ihre IP-Adresse zu speichern. Diese Informationen werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Der Anbieter dieser Seite hat keinen Einfluss auf diese Datenübertragung. Wenn Google Maps aktiviert ist, kann Google zum Zwecke der einheitlichen Darstellung der Schriftarten Google Fonts verwenden. Beim Aufruf von Google Maps lädt Ihr Browser die benötigten Web Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen. Die Nutzung von Google Maps erfolgt im Interesse einer ansprechenden Darstellung unserer Online- Angebote und an einer leichten Auffindbarkeit der von uns auf der Website angegebenen Orte. Dies stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit widerrufbar. Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt. Details finden Sie hier: https://privacy.google.com/businesses/gdprcontrollerterms/ und https://privacy.google.com/businesses/gdprcontrollerterms/sccs/. Mehr Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von Google: https://policies.google.com/privacy?hl=de. Das Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy Framework (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie vom Anbieter unter folgendem Link: https://www.dataprivacyframework.gov/s/participant-search/participant- detail?contact=true&id=a2zt000000001L5AAI&status=Active"
+          }
+        ]
+      },
+      {
+        "title": "10. Hosting",
+        "content": "Wir hosten die Inhalte unserer Website bei folgendem Anbieter: Strato AG, Otto-Ostrowski-Straße 7, 10249 Berlin (nachfolgend „Strato). Wenn Sie unsere Website besuchen, erfasst Strato verschiedene Logfiles inklusive Ihrer IP-Adressen. Weitere Informationen entnehmen Sie der Datenschutzerklärung von Strato: https://www.strato.de/datenschutz/. Die Verwendung von Strato erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Wir haben ein berechtigtes Interesse an einer möglichst zuverlässigen Darstellung unserer Website. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit widerrufbar.",
+        "subsections": [
+          {
+            "title": "Auftragsverarbeitung",
+            "content": "Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung des oben genannten Dienstes geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich vorgeschriebenen Vertrag, der gewährleistet, dass dieser die personenbezogenen Daten unserer Websitebesucher nur nach unseren Weisungen und unter Einhaltung der DSGVO verarbeitet."
+          }
+        ]
+      },
+      {
+        "title": "11. Betroffenenrechte",
+        "content": "Als betroffene Person stehen Ihnen folgende Rechte gegenüber dem Verantwortlichen zu. Möchten Sie eines dieser Rechte in Anspruch nehmen, wenden Sie sich hierzu über die in Ziffer I genannten Kontaktdaten an den Verantwortlichen.",
+        "subsections": [
+          {
+            "title": "a. Recht auf Auskunft (Art. 15 DSGVO)",
+            "content": "Sie können von dem Verantwortlichen Auskunft darüber verlangen, ob Sie betreffende personenbezogene Daten von ihm verarbeitet werden. Sofern eine Verarbeitung vorliegt, können Sie von dem Verantwortlichen Auskunft über diese personenbezogenen Daten sowie über die Verarbeitungszwecke; die Kategorien personenbezogener Daten, die verarbeitet werden; die Empfänger bzw. die Kategorien von Empfängern, gegenüber denen die Sie betreffenden personenbezogenen Daten offengelegt worden sind oder noch offengelegt werden; die geplante Dauer, für die die Sie betreffenden personenbezogenen Daten gespeichert werden, oder, falls dies nicht möglich ist, die Kriterien für die Festlegung der Speicherdauer; das Bestehen eines Rechts auf Berichtigung oder Löschung der Sie betreffenden personenbezogenen Daten oder auf Einschränkung der Verarbeitung durch den Verantwortlichen oder eines Widerspruchsrechts gegen diese Verarbeitung; das Bestehen eines Beschwerderechts bei einer Aufsichtsbehörde; wenn die personenbezogenen Daten nicht bei Ihnen erhoben werden, alle verfügbaren Informationen über die Herkunft der Daten; das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling gem. Art. 22 Abs. 1, 4 DSGVO und – zumindest in diesen Fällen – aussagekräftige Informationen über die involvierte Logik sowie die Tragweite und die angestrebten Auswirkungen einer derartigen Verarbeitung für die betroffene Person; die Übermittlung personenbezogener Daten in ein Drittland oder an eine internationale Organisation sowie über die in diesem Zusammengang geeigneten Garantien gem. Art. 46 DSGVO; Auskunft verlangen."
+          },
+          {
+            "title": "b. Recht auf Berichtigung (Art. 16 DSGVO)",
+            "content": "Sie haben ein Recht auf unverzügliche Berichtigung und/oder Vervollständigung ihrer personenbezogenen Daten gegenüber dem Verantwortlichen, wenn die Sie betreffenden verarbeiteten personenbezogenen Daten unrichtig oder unvollständig sind."
+          },
+          {
+            "title": "c. Recht auf Löschung (Art. 17 DSGVO)",
+            "content": "Sie können die Löschung Ihrer bei uns gespeicherten Daten verlangen, wenn die Daten für die Zwecke, für die sie erhoben oder verarbeitet wurden, nicht mehr notwendig sind; Sie Ihre Einwilligung widerrufen und es keine anderweitige Rechtsgrundlage für die Verarbeitung gibt; Sie Widerspruch gem. Art. 21 Abs. 1 DSGVO einlegen und keine vorrangigen berechtigten Gründe für die Verarbeitung vorliegen oder Sie gem. gem. Art. 21 Abs. 2 DSGVO Widerspruch einlegen; die personenbezogenen Daten unrechtmäßig verarbeitet wurden; die Löschung zur Erfüllung einer gesetzlichen Verpflichtung erforderlich ist; oder die personenbezogenen Daten in Bezug auf angebotene Dienste der Informationsgesellschaft gem. Art. 8 Abs. 1 DSGVO erhoben wurden. Dieses Recht auf Löschung gilt nicht, soweit die Verarbeitung zur Ausübung des Rechts auf freie Meinungsäußerung und Information; zur Erfüllung einer rechtlichen Verpflichtung; aus Gründen des öffentlichen Interesses; oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist."
+          },
+          {
+            "title": "d. Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)",
+            "content": "Sie können die Einschränkung der Verarbeitung der Sie betreffenden personenbezogenen Daten verlangen, wenn die Richtigkeit der personenbezogenen Daten von Ihnen bestritten wird für die Dauer der Überprüfung der Richtigkeit durch den Verantwortlichen; die Verarbeitung unrechtmäßig ist und Sie statt der Löschung die Einschränkung der Verarbeitung verlangen; der Verantwortliche die Daten nicht länger benötigt, Sie diese jedoch zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigen; oder Sie Widerspruch gegen die Verarbeitung gem. Art. 21 Abs. 1 DSGVO eingelegt haben und noch nicht feststeht, ob berechtigte Gründe des Verantwortlichen gegenüber Ihren Gründen überwiegen. Wurde die Verarbeitung der Sie betreffenden personenbezogenen Daten eingeschränkt, dürfen diese Daten – von ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der Union oder eines Mitgliedstaats verarbeitet werden. Wurde die Einschränkung der Verarbeitung nach den o.g. Voraussetzungen eingeschränkt, werden Sie von dem Verantwortlichen unterrichtet bevor die Einschränkung aufgehoben wird."
+          },
+          {
+            "title": "e. Recht auf Datenübertragbarkeit (Art. 20 DSGVO)",
+            "content": "Sie haben das Recht, Ihre personenbezogenen Daten, die Sie uns bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten oder die Übermittlung an einen anderen Verantwortlichen zu verlangen."
+          },
+          {
+            "title": "f. Recht auf Widerspruch",
+            "content": "Sofern Ihre personenbezogenen Daten auf Grundlage von berechtigten Interessen gem. Art. 6 Abs. 1 S. 1 lit. f DSGVO verarbeitet werden, haben Sie das Recht Widerspruch gegen die Verarbeitung Ihrer personenbezogenen Daten einzulegen, soweit dafür Gründe vorliegen, die sich aus Ihrer besonderen Situation ergeben. Richtet sich der Widerspruch gegen Direktwerbung, haben Sie ein generelles Widerspruchsrecht, das ohne Angabe einer besonderen Situation von uns umgesetzt wird."
+          },
+          {
+            "title": "g. Recht auf Widerruf einer Einwilligung (Art. 7 Abs. 3 DSGVO)",
+            "content": "Sie haben das Recht Ihre einmal erteilte Einwilligung jederzeit uns gegenüber zu widerrufen mit der Folge, dass wir die auf dieser Einwilligung beruhende Datenverarbeitung für die Zukunft nicht mehr fortführen dürfen."
+          },
+          {
+            "title": "h. Beschwerderecht (Art. 77 DSGVO)",
+            "content": "Sie haben das Recht sich bei einer Aufsichtsbehörde zu beschweren. Sie können sich dafür an die Aufsichtsbehörde Ihres Aufenthaltsortes oder Arbeitsplatzes wenden oder an die für uns zuständige Aufsichtsbehörde."
+          }
+        ]
+      },
+      {
+        "title": "12. Datensicherheit",
+        "content": "Um Ihre Daten bestmöglich zu schützen, verwenden wir auf unserer Website das SSL-Verfahren (Secure Socket Layer) in Verbindung mit der jeweils höchsten Verschlüsselungsstufe, die von Ihrem Browser unterstützt wird. Ob eine einzelne Seite unseres Internetauftrittes verschlüsselt übertragen wird, erkennen Sie an der geschlossenen Darstellung des Schüssel- beziehungsweise Schloss-Symbols in der Statusleiste Ihres Browsers. Wir bedienen uns im Übrigen geeigneter technischer und organisatorischer Sicherheitsmaßnahmen, um Ihre Daten gegen Manipulationen, Verlust, Zerstörung oder gegen den unbefugten Zugriff Dritter zu schützen."
+      }
+    ]
+  }
 }

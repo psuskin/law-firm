@@ -25,10 +25,9 @@ export const metadata: Metadata = {
     template: "%s | Anwaltskanzlei Gür",
   },
   description:
-    "Expert legal counsel in gastronomy and criminal law matters. Professional representation with years of experience in Hamburg.",
+    "Expert legal counsel in criminal law matters. Professional representation with years of experience in Hamburg.",
   keywords: [
     "law firm",
-    "gastronomy law",
     "criminal law",
     "Hamburg",
     "legal counsel",
@@ -52,7 +51,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://anwaltskanzlei.de",
     title: "Anwaltskanzlei Gür Law Firm",
-    description: "Expert legal counsel in gastronomy and criminal law matters.",
+    description: "Expert legal counsel in criminal law matters.",
     siteName: "Anwaltskanzlei Gür",
     images: [
       {
@@ -72,7 +71,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Anwaltskanzlei Gür Law Firm",
-    description: "Expert legal counsel in gastronomy and criminal law matters.",
+    description: "Expert legal counsel in criminal law matters.",
     images: ["/Anwaltskanzlei_Guer.png"],
   },
 };

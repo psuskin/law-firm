@@ -50,17 +50,6 @@ const LegalAreas = () => {
     // },
     {
       id: 1,
-      key: "gastronomy_law",
-      icon: ScaleIcon,
-      items: [
-        "business_startup",
-        "contract_review",
-        "dispute_resolution",
-        "compliance_advice",
-      ],
-    },
-    {
-      id: 2,
       key: "general_criminal_law",
       icon: UserGroupIcon,
       items: [
@@ -71,7 +60,7 @@ const LegalAreas = () => {
       ],
     },
     {
-      id: 3,
+      id: 2,
       key: "fines_administrative",
       icon: CameraIcon,
       items: ["fines", "points_bans", "license_revocation", "mpu", "logbook"],
@@ -121,39 +110,39 @@ const LegalAreas = () => {
             >
               {/* Area Header */}
               <div className="flex items-center gap-4 mb-4 relative">
-          <div className="p-3 bg-marine/5 rounded-lg">
-            <area.icon className="w-8 h-8 text-gold" />
-          </div>
-          <h3 className="text-2xl font-semibold text-marine capitalize">
-            {t(`areas.${area.key}.title`)}
-          </h3>
-          <span className="absolute -top-4 right-0 text-[120px] font-bold text-marine/5">
-            0{index + 1}
-          </span>
+                <div className="p-3 bg-marine/5 rounded-lg">
+                  <area.icon className="w-8 h-8 text-gold" />
+                </div>
+                <h3 className="text-2xl font-semibold text-marine capitalize">
+                  {t(`areas.${area.key}.title`)}
+                </h3>
+                <span className="absolute -top-4 right-0 text-[120px] font-bold text-marine/5">
+                  0{index + 1}
+                </span>
               </div>
 
               {/* Area Content */}
               <div className="grid gap-4">
-          {area.items.map((itemKey, idx) => (
-            <motion.div
-              key={itemKey}
-              className="group relative bg-white p-6 rounded-md shadow-sm hover:shadow-md transition-all duration-300"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.2 + idx * 0.1 }}
-            >
-              <h4 className="text-marine font-medium mb-2 text-lg">
-                {t(`areas.${area.key}.items.${itemKey}.title`)}
-              </h4>
-              <p className="text-marine/70 leading-relaxed">
-                {t(`areas.${area.key}.items.${itemKey}.description`)}
-              </p>
+                {area.items.map((itemKey, idx) => (
+                  <motion.div
+                    key={itemKey}
+                    className="group relative bg-white p-6 rounded-md shadow-sm hover:shadow-md transition-all duration-300"
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 0.2 + idx * 0.1 }}
+                  >
+                    <h4 className="text-marine font-medium mb-2 text-lg">
+                      {t(`areas.${area.key}.items.${itemKey}.title`)}
+                    </h4>
+                    <p className="text-marine/70 leading-relaxed">
+                      {t(`areas.${area.key}.items.${itemKey}.description`)}
+                    </p>
 
-              {/* Hover accent */}
-              <div className="absolute left-0 top-0 w-1 h-0 bg-gold transition-all duration-300 rounded-l-md group-hover:h-full" />
-            </motion.div>
-          ))}
+                    {/* Hover accent */}
+                    <div className="absolute left-0 top-0 w-1 h-0 bg-gold transition-all duration-300 rounded-l-md group-hover:h-full" />
+                  </motion.div>
+                ))}
               </div>
 
               {/* Background Decoration */}

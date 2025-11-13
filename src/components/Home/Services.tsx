@@ -18,13 +18,6 @@ const Services = () => {
     //     "/book-min.jpg",
     //   href: "/questionnaire/accident",
     // },
-    {
-      id: 1,
-      key: "gastronomy_law",
-      image:
-        "/hammer-min.jpg",
-      href: "#gastronomy-law",
-    },
     // {
     //   id: 2,
     //   key: "fine_notice",
@@ -33,10 +26,9 @@ const Services = () => {
     //   href: "#contact",
     // },
     {
-      id: 3,
+      id: 1,
       key: "criminal_proceedings",
-      image:
-        "/court-min.jpg",
+      image: "/court-min.jpg",
       href: "#contact",
     },
   ];
