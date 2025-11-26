@@ -7,6 +7,7 @@ import CookieConsent from "@/components/CookieConsent";
 import GoogleAnalyticsWrapper from "@/components/GoogleAnalyticsWrapper";
 import GoogleTagManager from "@/components/GoogleTagManager";
 import StructuredData from "@/components/StructuredData";
+import Chatbot from "@/components/Chatbot";
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { locales } from "@/config/i18n.config";
@@ -112,6 +113,7 @@ export default async function LocaleLayout({
           <main className="pt-20">{children}</main>
           <Footer />
           <CookieConsent />
+          <Chatbot />
         </NextIntlClientProvider>
       </body>
     </html>
